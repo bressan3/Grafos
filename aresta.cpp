@@ -18,3 +18,7 @@ Aresta::Aresta(){
 Aresta::Aresta(int peso){
     this->peso = peso;
 }
+
+int Aresta::getPeso(){
+    return this->peso;
+}

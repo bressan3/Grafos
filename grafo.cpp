@@ -68,7 +68,7 @@ void Grafo::criaLista(string nomeArquivo){
         
         int valor1;
         int valor2;
-        int peso = 0;
+        int pesoAresta = 0;
         
         if (spacesCount >= 1){
             valor1 = stoi(string(str).substr(0, spacesPos[0] + 1));
@@ -78,10 +78,10 @@ void Grafo::criaLista(string nomeArquivo){
             }
             else if (spacesCount == 2){
                 valor2 = stoi(string(str).substr(spacesPos[0] + 1, spacesPos[1] - 1));
-                peso = stoi(string(str).substr(spacesPos[1] + 1, string(str).length() - 1));
+                pesoAresta = stoi(string(str).substr(spacesPos[1] + 1, string(str).length() - 1));
             }
             
-            l->addNo(valor1, valor2);
+            l->addNo(valor1, valor2, pesoAresta);
             
             // cout << valor1 << " " << valor2 << " " << peso << endl;
         }

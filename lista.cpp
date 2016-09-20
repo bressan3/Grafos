@@ -20,12 +20,12 @@ Lista::Lista(){
  Busca um no na vertical dado um id. Caso este no já exista a funcão retorna um ponteiro
  para ele. Caso não a função retornará NULL.
  */
-NoLista* Lista::buscarNoVertical(int valor){
+NoLista* Lista::buscarNoVertical(int id){
     
     NoLista *aux = start;
     
     while (aux != NULL){
-        if (aux->getValor() == valor)
+        if (aux->getId() == id)
             return aux;
         aux = aux->getProxVertical();
     }
@@ -36,9 +36,9 @@ NoLista* Lista::buscarNoVertical(int valor){
 /*
  Adiciona um novo nó na coluna da lista de adjacência
  */
-void Lista::addNoVertical(int valor){
+void Lista::addNoVertical(int id){
     
-    NoLista *novoNo = new NoLista(valor);
+    NoLista *novoNo = new NoLista(id);
     
     if (start == NULL){
         start = novoNo;
@@ -52,47 +52,46 @@ void Lista::addNoVertical(int valor){
 }
 
 /*
- Dado um valor na coluna, esta funcão adiciona um valor à lista
+ Dado um valor na coluna, esta função adiciona um valor à lista
  horizontal daquele item da coluna
  */
-void Lista::addNoHorizontal(int valorVertical, int valor){
+void Lista::addNoHorizontal(int idVertical, int id, Aresta *a){
     
-    NoLista *aux = buscarNoVertical(valorVertical);
-    NoLista *novo = new NoLista(valor);
+    NoLista *aux = buscarNoVertical(idVertical);
+    NoLista *novo = new NoLista(id);
     
-    while (aux->getProxHorizontal() != NULL)
+    novo->setAresta(a);
+    
+    while (aux->getProxHorizontal() != NULL){
         aux = aux->getProxHorizontal();
+    }
     
     aux->setProxHorizontal(novo);
     
-    NoLista *auxVertical = buscarNoVertical(valor);
+    NoLista *auxVertical = buscarNoVertical(id);
     novo->setNoVertical(auxVertical);
 }
 
 /*
- Arquivo valor1 valor2
+ Arquivo: valor1 valor2
  */
-void Lista::addNo(int valor1, int valor2){
-    NoLista *aux1 = buscarNoVertical(valor1);
-    NoLista *aux2 = buscarNoVertical(valor2);
+void Lista::addNo(int id1, int id2, int pesoAresta){
+    NoLista *aux1 = buscarNoVertical(id1);
+    NoLista *aux2 = buscarNoVertical(id2);
     
     if (aux1 == NULL){
-        addNoVertical(valor1);
+        addNoVertical(id1);
     }
     
     if (aux2 == NULL){
-        addNoVertical(valor2);
+        addNoVertical(id2);
     }
     
-    addNoHorizontal(valor1, valor2);
-    addNoHorizontal(valor2, valor1);
-}
-
-/*
- Inicio do arquivo só possui um vertice
- */
-void Lista::addNo(int valor1){
-    addNoVertical(valor1);
+    // Cria a aresta que conectará id1 à id2
+    Aresta *a = new Aresta(pesoAresta);
+    
+    addNoHorizontal(id1, id2, a);
+    addNoHorizontal(id2, id1, a);
 }
 
 /*
@@ -109,10 +108,10 @@ void Lista::print(){
     NoLista *auxHorizontal = start;
     
     while (auxVertical != NULL){
-        cout<<auxVertical->getValor();
+        cout<<auxVertical->getId();
         while (auxHorizontal->getProxHorizontal() != NULL){
             auxHorizontal = auxHorizontal->getProxHorizontal();
-            cout<< "-" << auxHorizontal->getValor();
+            cout<< "-(" << auxHorizontal->getPesoAresta() << ")-" << auxHorizontal->getId();
         }
         cout<<endl;
         

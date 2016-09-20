@@ -13,20 +13,23 @@ private:
     
     NoLista *proxHorizontal;
     NoLista *proxVertical;
-    NoLista *noVertical; // Caso um nó esteja na lista de adjacência de outro, este no apontará para o seu identico na lista vertical
-    // Teste
-    int valor;
+    NoLista *noVertical; // Caso um nó esteja na lista de adjacência de outro (horizontal), este no apontará para o seu identico na lista vertical
+    
+    Vertice *v;
+    Aresta *a; // Somente um nó na lista horizontal apontará para uma aresta
     
 public:
 
-    NoLista(int valor);
+    NoLista(int id);
     NoLista* getProxHorizontal();
     NoLista* getProxVertical();
     NoLista* getVertical();
-    int getValor();
+    int getId();
+    int getPesoAresta();
     void setProxVertical(NoLista *proxVertical);
     void setProxHorizontal(NoLista *proxHorizontal);
     void setNoVertical(NoLista *noVertical);
+    void setAresta(Aresta *a);
     ~NoLista();
 
 };

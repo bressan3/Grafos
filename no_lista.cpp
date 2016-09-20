@@ -8,14 +8,19 @@
 
 #include <iostream>
 #include "no_lista.h"
+#include "vertice.h"
 
 using namespace std;
 
-NoLista::NoLista(int valor){
+NoLista::NoLista(int id){
     this->proxVertical = NULL;
     this->proxVertical = NULL;
     this->noVertical = NULL;
-    this->valor = valor;
+    
+    // Cria um novo vertice com o Id passado e o guarda no nó
+    this->v = new Vertice(id);
+    
+    this->a = NULL;
 }
 
 NoLista* NoLista::getProxHorizontal(){
@@ -30,8 +35,12 @@ NoLista* NoLista::getVertical(){
     return this->noVertical;
 }
 
-int NoLista::getValor(){
-    return this->valor;
+int NoLista::getId(){
+    return (this->v)->getId();
+}
+
+int NoLista::getPesoAresta(){
+    return (this->a)->getPeso();
 }
 
 void NoLista::setProxVertical(NoLista *proxVertical){
@@ -44,6 +53,10 @@ void NoLista::setProxHorizontal(NoLista *proxHorizontal){
 
 void NoLista::setNoVertical(NoLista *noVertical){
     this->noVertical = noVertical;
+}
+
+void NoLista::setAresta(Aresta *a){
+    this->a = a;
 }
 
 NoLista::~NoLista(){

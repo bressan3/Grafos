@@ -21,7 +21,8 @@ private:
 public:
     Aresta();
     Aresta(int peso);
-    
+    int getPeso();
+
 };
 
 

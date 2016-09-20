@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "no_lista.h"
+#include "aresta.h"
 
 using namespace std;
 
@@ -11,15 +12,14 @@ private:
     
     NoLista *start;
     
-    void addNoVertical(int valor);
-    void addNoHorizontal(int valorVertical, int valor);
+    void addNoVertical(int id);
+    void addNoHorizontal(int idVertical, int id, Aresta *a);
 
 public:
 
     Lista();
-    NoLista* buscarNoVertical(int valor);
-    void addNo(int valor1, int valor2);
-    void addNo(int valor1);
+    NoLista* buscarNoVertical(int id);
+    void addNo(int id1, int id2, int pesoAresta);
     void print();
     ~Lista();
 };
