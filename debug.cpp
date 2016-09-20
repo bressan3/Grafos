@@ -17,6 +17,6 @@ int main(int argc, char const *argv[])
     Grafo *g = new Grafo();
     
     g->criaLista(nomeArquivo);
-     
+    
     return 0;
 }

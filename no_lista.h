@@ -26,6 +26,7 @@ public:
     NoLista* getVertical();
     int getId();
     int getPesoAresta();
+    Vertice* getVertice();
     void setProxVertical(NoLista *proxVertical);
     void setProxHorizontal(NoLista *proxHorizontal);
     void setNoVertical(NoLista *noVertical);

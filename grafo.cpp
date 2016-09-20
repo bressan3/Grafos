@@ -9,6 +9,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <algorithm>
+#include <functional>
+
 #include "grafo.h"
 #include "lista.h"
 
@@ -20,6 +23,10 @@ Grafo::Grafo(){
     this->flagDir = false;
     this->grauGrafo = 0;
     this->l = new Lista();
+}
+
+int Grafo::getNumNos(){
+    return this->numNos;
 }
 
 void Grafo::setNumNos(int numNos){
@@ -68,7 +75,7 @@ void Grafo::criaLista(string nomeArquivo){
         
         int valor1;
         int valor2;
-        int pesoAresta = 0;
+        int pesoAresta = 1;
         
         if (spacesCount >= 1){
             valor1 = stoi(string(str).substr(0, spacesPos[0] + 1));
@@ -94,6 +101,66 @@ void Grafo::criaLista(string nomeArquivo){
     l->print();
 }
 
+/*
+    Retorna um array contendo a sequencia de graus do grafo
+ */
+int* Grafo::getSequenciaGraus(){
+    
+    int *array = new int[this->numNos];
+    
+    NoLista *aux = l->getStart();
+    
+    int contVertice = 0;
+    
+    while (aux != NULL){
+        array[contVertice] = (aux->getVertice())->getGrau();
+        
+        aux = aux->getProxVertical();
+        contVertice++;
+    }
+    
+    // Ordena array de forma decrescente
+    sort(array, array+this->numNos, std::greater<int>());
+    
+    return array;
+}
+
+/*
+    Retorna verdadeiro se o grafo é completo e falso caso contrário
+ */
+bool Grafo::verificaCompleto(){
+    
+    NoLista *aux = l->getStart();
+    Vertice *vAtual = aux->getVertice();
+    
+    while (aux != NULL){
+        if (vAtual->getGrau() < numNos - 1){
+            return false;
+        }
+    }
+    
+    return true;
+}
+
+/*
+    Retorna verdadeiro se dois vértices (v1 e v2 com id1 e id2) são adjacentes e falso caso contrário
+ */
+bool Grafo::verificaAdjacente(int id1, int id2){
+    
+    NoLista *aux1 = l->buscarNoVertical(id1);
+    NoLista *aux2 = l->buscarNoVertical(id2);
+    
+    if (aux1 == NULL || aux2 == NULL){
+        return false;
+    }
+    
+    // Verifica se aux1 tem aux2 como seu adjacente
+    if (l->buscarNoHorizontal(aux1, id2) != NULL && l->buscarNoHorizontal(aux2, id1) != NULL){
+        return true;
+    }
+    
+    return false;
+}
 
 Grafo::~Grafo(){
     cout<<"Done!"<<endl;

@@ -43,6 +43,10 @@ int NoLista::getPesoAresta(){
     return (this->a)->getPeso();
 }
 
+Vertice* NoLista::getVertice(){
+    return this->v;
+}
+
 void NoLista::setProxVertical(NoLista *proxVertical){
     this->proxVertical = proxVertical;
 }

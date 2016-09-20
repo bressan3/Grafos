@@ -16,6 +16,10 @@ Lista::Lista(){
     this->start = NULL;
 }
 
+NoLista* Lista::getStart(){
+    return this->start;
+}
+
 /*
  Busca um no na vertical dado um id. Caso este no já exista a funcão retorna um ponteiro
  para ele. Caso não a função retornará NULL.
@@ -34,9 +38,24 @@ NoLista* Lista::buscarNoVertical(int id){
 }
 
 /*
+    Busca um nó na lista horizontal de adjacentes de "inicioListaHorizontal" e o retorna caso encontrado
+ */
+NoLista* Lista::buscarNoHorizontal(NoLista *inicioListaHorizontal, int id){
+    NoLista* aux = inicioListaHorizontal;
+    
+    while (aux != NULL) {
+        if(aux->getId() == id)
+            return aux;
+        aux = aux->getProxHorizontal();
+    }
+    
+    return NULL;
+}
+
+/*
  Adiciona um novo nó na coluna da lista de adjacência
  */
-void Lista::addNoVertical(int id){
+NoLista* Lista::addNoVertical(int id){
     
     NoLista *novoNo = new NoLista(id);
     
@@ -49,6 +68,8 @@ void Lista::addNoVertical(int id){
             aux = aux->getProxVertical();
         aux->setProxVertical(novoNo);
     }
+    
+    return novoNo;
 }
 
 /*
@@ -80,18 +101,25 @@ void Lista::addNo(int id1, int id2, int pesoAresta){
     NoLista *aux2 = buscarNoVertical(id2);
     
     if (aux1 == NULL){
-        addNoVertical(id1);
+        aux1 = addNoVertical(id1);
     }
     
     if (aux2 == NULL){
-        addNoVertical(id2);
+        aux2 = addNoVertical(id2);
     }
     
     // Cria a aresta que conectará id1 à id2
     Aresta *a = new Aresta(pesoAresta);
     
     addNoHorizontal(id1, id2, a);
+    
+    Vertice *vAux1 = aux1->getVertice();
+    vAux1->incrementaGrau();
+    
     addNoHorizontal(id2, id1, a);
+    
+    Vertice *vAux2 = aux2->getVertice();
+    vAux2->incrementaGrau();
 }
 
 /*
@@ -108,7 +136,7 @@ void Lista::print(){
     NoLista *auxHorizontal = start;
     
     while (auxVertical != NULL){
-        cout<<auxVertical->getId();
+        cout<< "[" << auxVertical->getId() << " G=" << (auxVertical->getVertice())->getGrau() << "]";
         while (auxHorizontal->getProxHorizontal() != NULL){
             auxHorizontal = auxHorizontal->getProxHorizontal();
             cout<< "-(" << auxHorizontal->getPesoAresta() << ")-" << auxHorizontal->getId();
