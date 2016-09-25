@@ -220,6 +220,47 @@ bool Grafo::verificaAdjacente(int id1, int id2){
     return false;
 }
 
+/*
+ Dado o id de um nó, esta funcao retorna um vetor contendo sua vizinhança aberta (os Ids dos seus vizinhos)
+ */
+int* Grafo::getVizinhancaAberta(int id){
+    
+    NoLista *aux = (l->buscarNoVertical(id))->getProxHorizontal();
+    
+    int *vizinhancaAberta = new int[ (aux->getVertice())->getGrau() ];
+    
+    int i = 0;
+    
+    while (aux != NULL){
+        vizinhancaAberta[i] = aux->getId();
+        aux = aux->getProxHorizontal();
+        i++;
+    }
+    
+    return vizinhancaAberta;
+}
+
+/*
+ Dado o id de um nó, esta funcao retorna um vetor contendo sua vizinhança fechada (os Ids dos seus vizinhos)
+ */
+int* Grafo::getVizinhancaFechada(int id){
+    
+    NoLista *aux = l->buscarNoVertical(id);
+    
+    int *vizinhancaFechada = new int[ (aux->getVertice())->getGrau() + 1 ];
+    
+    int i = 0;
+    
+    while (aux != NULL){
+        vizinhancaFechada[i] = aux->getId();
+        aux = aux->getProxHorizontal();
+        i++;
+    }
+    
+    return vizinhancaFechada;
+
+}
+
 void Grafo::print(){
     l->print();
 }

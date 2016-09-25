@@ -20,11 +20,11 @@ int main(int argc, char const *argv[])
     
     g->print();
     
-    cout << "----------------" << endl;
+    int *i0 = g->getVizinhancaFechada(5);
     
-    g->deletaVertice(5);
-    
-    g->print();
+    for (int i = 0; i < 5; i++){
+        cout << i0[i] << ", ";
+    } cout << endl;
     
     return 0;
 }

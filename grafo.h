@@ -34,6 +34,9 @@ public:
     
     bool verificaAdjacente(int id1, int id2);
     
+    int* getVizinhancaAberta(int id);
+    int* getVizinhancaFechada(int id);
+    
     void print();
     ~Grafo();
 
