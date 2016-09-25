@@ -64,5 +64,9 @@ void NoLista::setAresta(Aresta *a){
 }
 
 NoLista::~NoLista(){
-    cout << "Deleted" << endl;
+    this->proxVertical = NULL;
+    this->proxVertical = NULL;
+    this->noVertical = NULL;
+    this->v = NULL;
+    this->a = NULL;
 }

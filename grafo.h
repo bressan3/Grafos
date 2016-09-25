@@ -22,10 +22,19 @@ public:
     Grafo();
     int getNumNos();
     void setNumNos(int numNos);
+    
+    void deletaVertice(int id);
+    void deletaAresta(int id1, int id2);
+    
     void criaLista(string nomeArquivo);
+    
     int* getSequenciaGraus();
+    
     bool verificaCompleto();
+    
     bool verificaAdjacente(int id1, int id2);
+    
+    void print();
     ~Grafo();
 
 };

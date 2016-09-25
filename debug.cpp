@@ -18,5 +18,13 @@ int main(int argc, char const *argv[])
     
     g->criaLista(nomeArquivo);
     
+    g->print();
+    
+    cout << "----------------" << endl;
+    
+    g->deletaVertice(5);
+    
+    g->print();
+    
     return 0;
 }

@@ -34,6 +34,66 @@ void Grafo::setNumNos(int numNos){
 }
 
 /*
+ Dado um Id de vertice a função o deletará do grafo juntamente com todas as suas arestas.
+ */
+void Grafo::deletaVertice(int id){
+    
+    NoLista *auxVertical = l->getStart();
+    
+    while (auxVertical != NULL){
+        if (verificaAdjacente(auxVertical->getId(), id) && auxVertical->getId() != id){
+            deletaAresta(auxVertical->getId(), id);
+        }
+        auxVertical = auxVertical->getProxVertical();
+    }
+    
+    NoLista *anterior = l->getStart();
+    NoLista *atual = anterior->getProxVertical();
+    NoLista *prox = atual->getProxVertical();
+    
+    while (atual->getProxVertical() != NULL && atual->getId() != id){
+        anterior = anterior->getProxVertical();
+        atual = atual->getProxVertical();
+        prox = prox->getProxVertical();
+    }
+    
+    anterior->setProxVertical(prox);
+    delete(atual);
+}
+
+/*
+ Dado os IDs de dois vertices, esta função deleta a aresta entre os dois. ACHO QUE FUNCIONA -> ERRO DEVE ESTAR NA FUNCAO DE CIMA
+ */
+void Grafo::deletaAresta(int id1, int id2){
+    
+    for (int i = 0; i < 2; i++) {
+        
+        int idVertical = id1;
+        int idHorizontal = id2;
+        
+        if (i == 1){
+            idVertical = id2;
+            idHorizontal = id1;
+        }
+        
+        NoLista *startId = l->buscarNoVertical(idVertical);
+        
+        NoLista *anterior = startId;
+        NoLista *atual = anterior->getProxHorizontal();
+        NoLista *prox = atual->getProxHorizontal();
+    
+        while (atual->getProxHorizontal() != NULL && atual->getId() != idHorizontal){
+            anterior = anterior->getProxHorizontal();
+            atual = atual->getProxHorizontal();
+            prox = prox->getProxHorizontal();
+        }
+    
+        anterior->setProxHorizontal(prox);
+        delete(atual);
+    }
+}
+
+/*
  Dado um arquivo e uma lista, esta função popula a lista de adjacência dada
  com as informações obtidas a aprtir da leitura deste arquivo
  */
@@ -97,8 +157,6 @@ void Grafo::criaLista(string nomeArquivo){
     }
     
     arquivo.close();
-    
-    l->print();
 }
 
 /*
@@ -160,6 +218,10 @@ bool Grafo::verificaAdjacente(int id1, int id2){
     }
     
     return false;
+}
+
+void Grafo::print(){
+    l->print();
 }
 
 Grafo::~Grafo(){
