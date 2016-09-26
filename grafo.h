@@ -11,8 +11,8 @@ class Grafo {
 
 private:
     
-    int numNos;
-    int numAresta;
+    int numVertices;
+    int numArestas;
     bool flagDir;
     int grauGrafo;
     Lista *l;
@@ -20,8 +20,11 @@ private:
 public:
     
     Grafo();
-    int getNumNos();
-    void setNumNos(int numNos);
+    int getNumVertices();
+    void setNumVertices(int numNos);
+    
+    int getNumArestas();
+    void setNumArestas(int numArestas);
     
     void deletaVertice(int id);
     void deletaAresta(int id1, int id2);

@@ -1,5 +1,6 @@
 /*
     * Arquivo de testes
+    * COMIPLAR USANDO C++ 11: g++ -std=c++11 *.cpp -o bin
 */
 
 #include <iostream>

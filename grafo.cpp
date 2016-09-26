@@ -18,19 +18,27 @@
 using namespace std;
 
 Grafo::Grafo(){
-    this->numNos = 0;
-    this->numAresta = 0;
+    this->numVertices = 0;
+    this->numArestas = 0;
     this->flagDir = false;
     this->grauGrafo = 0;
     this->l = new Lista();
 }
 
-int Grafo::getNumNos(){
-    return this->numNos;
+int Grafo::getNumVertices(){
+    return this->numVertices;
 }
 
-void Grafo::setNumNos(int numNos){
-    this->numNos = numNos;
+void Grafo::setNumVertices(int numVertices){
+    this->numVertices = numVertices;
+}
+
+int Grafo::getNumArestas(){
+    return this->numArestas;
+}
+
+void Grafo::setNumArestas(int numArestas){
+    this->numArestas = numArestas;
 }
 
 /*
@@ -59,6 +67,7 @@ void Grafo::deletaVertice(int id){
     
     anterior->setProxVertical(prox);
     delete(atual);
+    setNumVertices(getNumVertices() - 1);
 }
 
 /*
@@ -91,6 +100,7 @@ void Grafo::deletaAresta(int id1, int id2){
         anterior->setProxHorizontal(prox);
         delete(atual);
     }
+    setNumArestas(getNumArestas() - 1);
 }
 
 /*
@@ -98,7 +108,7 @@ void Grafo::deletaAresta(int id1, int id2){
  com as informações obtidas a aprtir da leitura deste arquivo
  */
 void Grafo::criaLista(string nomeArquivo){
-    ifstream arquivo(nomeArquivo);
+    ifstream arquivo(nomeArquivo.c_str());
     char str[255];
     
     bool primeiraLinha = true;
@@ -109,7 +119,7 @@ void Grafo::criaLista(string nomeArquivo){
     
         // Atribui o valor da primeira linha ao parametro numNos
         if (primeiraLinha){
-            setNumNos(stoi(str));
+            setNumVertices(stoi(str));
             primeiraLinha = false;
         }
         
@@ -149,6 +159,7 @@ void Grafo::criaLista(string nomeArquivo){
             }
             
             l->addNo(valor1, valor2, pesoAresta);
+            this->numArestas++;
             
             // cout << valor1 << " " << valor2 << " " << peso << endl;
         }
@@ -164,7 +175,7 @@ void Grafo::criaLista(string nomeArquivo){
  */
 int* Grafo::getSequenciaGraus(){
     
-    int *array = new int[this->numNos];
+    int *array = new int[this->numVertices];
     
     NoLista *aux = l->getStart();
     
@@ -178,7 +189,7 @@ int* Grafo::getSequenciaGraus(){
     }
     
     // Ordena array de forma decrescente
-    sort(array, array+this->numNos, std::greater<int>());
+    sort(array, array+this->numVertices, std::greater<int>());
     
     return array;
 }
@@ -192,7 +203,7 @@ bool Grafo::verificaCompleto(){
     Vertice *vAtual = aux->getVertice();
     
     while (aux != NULL){
-        if (vAtual->getGrau() < numNos - 1){
+        if (vAtual->getGrau() < numVertices - 1){
             return false;
         }
     }
@@ -246,6 +257,10 @@ int* Grafo::getVizinhancaAberta(int id){
 int* Grafo::getVizinhancaFechada(int id){
     
     NoLista *aux = l->buscarNoVertical(id);
+    
+    if (aux == NULL){
+        exit(-1);
+    }
     
     int *vizinhancaFechada = new int[ (aux->getVertice())->getGrau() + 1 ];
     
