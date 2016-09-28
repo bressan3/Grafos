@@ -33,6 +33,8 @@ public:
     
     int* getSequenciaGraus();
     
+    int verificaKRegular();
+    
     bool verificaCompleto();
     
     bool verificaAdjacente(int id1, int id2);

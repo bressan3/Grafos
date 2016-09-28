@@ -10,7 +10,7 @@
 
 using namespace std;
 
-string nomeArquivo = "/Users/Lucas/Documents/Github/Grafos/Grafos/list_debugging_file";
+string nomeArquivo = "list_debugging_file";
 
 int main(int argc, char const *argv[])
 {
@@ -26,6 +26,8 @@ int main(int argc, char const *argv[])
     for (int i = 0; i < 5; i++){
         cout << i0[i] << ", ";
     } cout << endl;
+    
+    cout << g->verificaKRegular() << endl;
     
     return 0;
 }

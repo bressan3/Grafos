@@ -111,17 +111,12 @@ void Grafo::criaLista(string nomeArquivo){
     ifstream arquivo(nomeArquivo.c_str());
     char str[255];
     
-    bool primeiraLinha = true;
+    // Atribui o valor da primeira linha ao parametro numNos
+    arquivo.getline(str, 255);
+    setNumVertices(stoi(str));
     
     while (arquivo) {
         arquivo.getline(str, 255);
-        // cout << str << endl;
-    
-        // Atribui o valor da primeira linha ao parametro numNos
-        if (primeiraLinha){
-            setNumVertices(stoi(str));
-            primeiraLinha = false;
-        }
         
         int spacesCount = 0;
         
@@ -141,8 +136,6 @@ void Grafo::criaLista(string nomeArquivo){
             }
         }
         
-        // cout << spacesCount << " " << spacesPos[0] << endl;
-        
         int valor1;
         int valor2;
         int pesoAresta = 1;
@@ -161,7 +154,6 @@ void Grafo::criaLista(string nomeArquivo){
             l->addNo(valor1, valor2, pesoAresta); // SEGMENTATION FAULT
             this->numArestas++;
             
-            // cout << valor1 << " " << valor2 << " " << peso << endl;
         }
         
         delete[] spacesPos;
@@ -192,6 +184,25 @@ int* Grafo::getSequenciaGraus(){
     sort(array, array+this->numVertices, std::greater<int>());
     
     return array;
+}
+
+/*
+    Retorna 0 caso o grafo não seja k-regular. Retorna k caso o grafo seja k-regular.
+ */
+int Grafo::verificaKRegular(){
+    
+    NoLista *aux = l->getStart();
+    
+    int grauStart = (aux->getVertice())->getGrau();
+    
+    while (aux != NULL){
+        aux = aux->getProxVertical();
+        if (grauStart != (aux->getVertice())->getGrau()){
+            return 0;
+        }
+    }
+    
+    return grauStart;
 }
 
 /*
