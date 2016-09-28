@@ -19,7 +19,8 @@ private:
     Aresta *a; // Somente um nó na lista horizontal apontará para uma aresta
     
 public:
-
+    
+    NoLista();
     NoLista(int id);
     NoLista* getProxHorizontal();
     NoLista* getProxVertical();

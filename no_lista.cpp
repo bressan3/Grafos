@@ -12,15 +12,26 @@
 
 using namespace std;
 
-NoLista::NoLista(int id){
+NoLista::NoLista(){
+    this->proxHorizontal = NULL;
     this->proxVertical = NULL;
+    this->noVertical = NULL;
+    
+    // Cria um novo vertice com o Id passado e o guarda no nó
+    this->v = NULL;
+    
+    this->a = NULL;
+}
+
+NoLista::NoLista(int id){
+    this->proxHorizontal = NULL;
     this->proxVertical = NULL;
     this->noVertical = NULL;
     
     // Cria um novo vertice com o Id passado e o guarda no nó
     this->v = new Vertice(id);
     
-    this->a = NULL;
+    this->a = new Aresta(1);
 }
 
 NoLista* NoLista::getProxHorizontal(){

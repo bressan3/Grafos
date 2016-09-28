@@ -158,7 +158,7 @@ void Grafo::criaLista(string nomeArquivo){
                 pesoAresta = stoi(string(str).substr(spacesPos[1] + 1, string(str).length() - 1));
             }
             
-            l->addNo(valor1, valor2, pesoAresta);
+            l->addNo(valor1, valor2, pesoAresta); // SEGMENTATION FAULT
             this->numArestas++;
             
             // cout << valor1 << " " << valor2 << " " << peso << endl;
