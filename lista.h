@@ -12,13 +12,14 @@ private:
     
     NoLista *start;
     
-    NoLista* addNoVertical(int id);
     void addNoHorizontal(int idVertical, int id, Aresta *a);
 
 public:
 
     Lista();
     NoLista* getStart();
+    int getContVertical();
+    NoLista* addNoVertical(int id);
     NoLista* buscarNoVertical(int id);
     NoLista* buscarNoHorizontal(NoLista *inicioListaHorizontal, int id);
     void addNo(int id1, int id2, int pesoAresta);

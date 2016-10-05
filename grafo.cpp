@@ -115,6 +115,10 @@ void Grafo::criaLista(string nomeArquivo){
     arquivo.getline(str, 255);
     setNumVertices(stoi(str));
     
+    for (int i = 1; i <= numVertices; i++) {
+        l->addNoVertical(i);
+    }
+    
     while (arquivo) {
         arquivo.getline(str, 255);
         
@@ -151,7 +155,7 @@ void Grafo::criaLista(string nomeArquivo){
                 pesoAresta = stoi(string(str).substr(spacesPos[1] + 1, string(str).length() - 1));
             }
             
-            l->addNo(valor1, valor2, pesoAresta); // SEGMENTATION FAULT
+            l->addNo(valor1, valor2, pesoAresta);
             this->numArestas++;
             
         }

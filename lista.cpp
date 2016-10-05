@@ -94,7 +94,7 @@ void Lista::addNoHorizontal(int idVertical, int id, Aresta *a){
 }
 
 /*
- Arquivo: valor1 valor2
+ Arquivo: valor1 valor2 pesoAresta
  */
 void Lista::addNo(int id1, int id2, int pesoAresta){
     NoLista *aux1 = buscarNoVertical(id1);
