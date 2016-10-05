@@ -18,7 +18,6 @@ public:
 
     Lista();
     NoLista* getStart();
-    int getContVertical();
     NoLista* addNoVertical(int id);
     NoLista* buscarNoVertical(int id);
     NoLista* buscarNoHorizontal(NoLista *inicioListaHorizontal, int id);
