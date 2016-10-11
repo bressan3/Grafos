@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+
 #include "lista.h"
 
 using namespace std;
@@ -26,6 +28,8 @@ public:
     int getNumArestas();
     void setNumArestas(int numArestas);
     
+    void addVertice(int id);
+    void addAresta(int id1, int id2, int peso);
     void deletaVertice(int id);
     void deletaAresta(int id1, int id2);
     
@@ -42,7 +46,16 @@ public:
     int* getVizinhancaAberta(int id);
     int* getVizinhancaFechada(int id);
     
+    void buscaEmLargura (int id);
+    vector<int> auxBuscaEmLargura (NoLista *aux, vector<int> lista);
+    
+    void buscaEmProfundidade(int id);
+    vector<int> auxBuscaEmProfundidade(NoLista *aux, vector<int> lista);
+    
+    // Debugging functions
+    void printBusca(vector<int> lista);
     void print();
+    
     ~Grafo();
 
 };

@@ -11,6 +11,7 @@
 #include <string>
 #include <algorithm>
 #include <functional>
+#include <vector>
 
 #include "grafo.h"
 #include "lista.h"
@@ -39,6 +40,23 @@ int Grafo::getNumArestas(){
 
 void Grafo::setNumArestas(int numArestas){
     this->numArestas = numArestas;
+}
+
+/*
+ Dado um Id a função cria um novo vertice com o Id passado como parametro
+ */
+void Grafo::addVertice(int id){
+    l->addNoVertical(id);
+    this->numVertices++;
+}
+
+/*
+ Dado o id de dois vertices, esta função cria uma aresta entre o vertice id1 e id2 com peso pesoAresta
+ Caso um dos vertices dados não exista, esta função o cria.
+ */
+void Grafo::addAresta(int id1, int id2, int pesoAresta){
+    l->addNo(id1, id2, pesoAresta);
+    this->numArestas++;
 }
 
 /*
@@ -113,10 +131,10 @@ void Grafo::criaLista(string nomeArquivo){
     
     // Atribui o valor da primeira linha ao parametro numNos
     arquivo.getline(str, 255);
-    setNumVertices(stoi(str));
+    // setNumVertices(stoi(str));
     
     for (int i = 1; i <= numVertices; i++) {
-        l->addNoVertical(i);
+        addVertice(i);
     }
     
     while (arquivo) {
@@ -155,8 +173,7 @@ void Grafo::criaLista(string nomeArquivo){
                 pesoAresta = stoi(string(str).substr(spacesPos[1] + 1, string(str).length() - 1));
             }
             
-            l->addNo(valor1, valor2, pesoAresta);
-            this->numArestas++;
+            addAresta(valor1, valor2, pesoAresta);
             
         }
         
@@ -289,6 +306,77 @@ int* Grafo::getVizinhancaFechada(int id){
     
     return vizinhancaFechada;
 
+}
+
+void Grafo::buscaEmProfundidade(int id){
+    NoLista *aux = l->buscarNoVertical(id);
+    vector<int> lista;
+    lista.push_back(aux->getId());
+    if(aux->getProxHorizontal() != NULL){
+        lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal()->getVertical(),lista);
+        lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
+    }
+    this->printBusca(lista);
+}
+
+vector<int> Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> lista){
+    for(int i=0;i<lista.size();i++)
+    {
+        cout << aux->getId() << " == "<<lista.at(i) << " " << i << endl;
+        if(lista.at(i) == aux->getId()){
+            if(aux->getProxHorizontal() == NULL)
+                break;
+            aux = aux->getProxHorizontal();
+            i = -1;
+        }
+        if(i == lista.size()-1){
+            lista.push_back(aux->getId());
+            if(aux->getProxHorizontal() != NULL){
+                lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal()->getVertical(),lista);
+                lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
+            }
+        }
+    }
+    return lista;
+}
+
+
+void Grafo::buscaEmLargura(int id){
+    NoLista *aux = l->buscarNoVertical(id);
+    vector<int> lista;
+    lista.push_back(aux->getId());
+    if(aux->getProxHorizontal() != NULL){
+        lista = this->auxBuscaEmLargura(aux->getProxHorizontal(),lista);
+        lista = this->auxBuscaEmLargura(aux->getProxHorizontal()->getVertical(),lista);
+    }
+    this->printBusca(lista);
+}
+
+vector<int> Grafo::auxBuscaEmLargura(NoLista *aux, vector<int> lista){
+    for(int i=0;i<lista.size();i++)
+    {
+        if(lista.at(i) == aux->getId()){
+            if(aux->getProxHorizontal() == NULL)
+                break;
+            aux = aux->getProxHorizontal();
+            i = -1;
+        }
+        if(i == lista.size()-1){
+            lista.push_back(aux->getId());
+            if(aux->getProxHorizontal() != NULL){
+                lista = this->auxBuscaEmLargura(aux->getProxHorizontal(),lista);
+                lista = this->auxBuscaEmLargura(aux->getProxHorizontal()->getVertical(),lista);
+            }
+        }
+    }
+    return lista;
+}
+
+void Grafo::printBusca(vector<int> lista){
+    for(int i=0;i<lista.size();i++){
+        cout << lista.at(i) << " ";
+    }
+    cout << endl;
 }
 
 void Grafo::print(){
