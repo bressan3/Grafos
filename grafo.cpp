@@ -308,7 +308,8 @@ int* Grafo::getVizinhancaFechada(int id){
 
 }
 
-void Grafo::buscaEmProfundidade(int id){
+/* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em profundidade*/
+vector<int> Grafo::buscaEmProfundidade(int id){
     NoLista *aux = l->buscarNoVertical(id);
     vector<int> lista;
     lista.push_back(aux->getId());
@@ -317,8 +318,10 @@ void Grafo::buscaEmProfundidade(int id){
         lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
     }
     this->printBusca(lista);
+    return lista;
 }
 
+/* Função auxiliar da buscaEmProfundidade*/
 vector<int> Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> lista){
     for(int i=0;i<lista.size();i++)
     {
@@ -340,8 +343,8 @@ vector<int> Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> lista){
     return lista;
 }
 
-
-void Grafo::buscaEmLargura(int id){
+/* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em largura*/
+vector<int> Grafo::buscaEmLargura(int id){
     NoLista *aux = l->buscarNoVertical(id);
     vector<int> lista;
     lista.push_back(aux->getId());
@@ -350,8 +353,10 @@ void Grafo::buscaEmLargura(int id){
         lista = this->auxBuscaEmLargura(aux->getProxHorizontal()->getVertical(),lista);
     }
     this->printBusca(lista);
+    return lista;
 }
 
+/* Função auxiliar da buscaEmLargura*/
 vector<int> Grafo::auxBuscaEmLargura(NoLista *aux, vector<int> lista){
     for(int i=0;i<lista.size();i++)
     {
@@ -372,11 +377,31 @@ vector<int> Grafo::auxBuscaEmLargura(NoLista *aux, vector<int> lista){
     return lista;
 }
 
+/*Dado um vetor de inteiros imprime a mesma*/
 void Grafo::printBusca(vector<int> lista){
     for(int i=0;i<lista.size();i++){
         cout << lista.at(i) << " ";
     }
     cout << endl;
+}
+
+/*Verifica se o grafo é conexo retorna um bool */
+bool Grafo::verificaConexo(){
+    vector<int> vetor = this->buscaEmLargura(5);
+    cout << this->numVertices << endl;
+    if(vetor.size() == this->numVertices){
+        return true;
+    }
+    else return false;
+}
+
+bool Grafo::verificaMesmaComponenteConexa(int id1, int id2){
+    vector<int> vetor = this->buscaEmLargura(5);
+    vector<int>::iterator it1 = find(vetor.begin(), vetor.end(), id1);
+    vector<int>::iterator it2 = find(vetor.begin(), vetor.end(), id2);
+    if((it1 != vetor.end()) && (it2 != vetor.end()))
+        return true;
+    else return false;
 }
 
 void Grafo::print(){

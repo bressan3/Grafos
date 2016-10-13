@@ -14,13 +14,15 @@ string nomeArquivo = "list_debugging_file";
 
 int main(int argc, char const *argv[])
 {
-    bool digrafo = true;
+    bool digrafo = false;
     
     Grafo *g = new Grafo(digrafo);
     
     g->criaLista(nomeArquivo);
     
     g->print();
+    
+    cout << g->verificaMesmaComponenteConexa(1,2) << endl;
     
     return 0;
 }
