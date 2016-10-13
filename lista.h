@@ -21,7 +21,7 @@ public:
     NoLista* addNoVertical(int id);
     NoLista* buscarNoVertical(int id);
     NoLista* buscarNoHorizontal(NoLista *inicioListaHorizontal, int id);
-    void addNo(int id1, int id2, int pesoAresta);
+    void addNo(int id1, int id2, int pesoAresta, bool digrafo);
     void print();
     ~Lista();
 };

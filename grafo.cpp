@@ -18,10 +18,10 @@
 
 using namespace std;
 
-Grafo::Grafo(){
+Grafo::Grafo(bool flagDir){
     this->numVertices = 0;
     this->numArestas = 0;
-    this->flagDir = false;
+    this->flagDir = flagDir;
     this->grauGrafo = 0;
     this->l = new Lista();
 }
@@ -52,10 +52,10 @@ void Grafo::addVertice(int id){
 
 /*
  Dado o id de dois vertices, esta função cria uma aresta entre o vertice id1 e id2 com peso pesoAresta
- Caso um dos vertices dados não exista, esta função o cria.
+ Caso um dos vertices dados não exista (e o grafo nao seja direcionado), esta função o cria.
  */
 void Grafo::addAresta(int id1, int id2, int pesoAresta){
-    l->addNo(id1, id2, pesoAresta);
+    l->addNo(id1, id2, pesoAresta, this->flagDir);
     this->numArestas++;
 }
 
@@ -129,11 +129,11 @@ void Grafo::criaLista(string nomeArquivo){
     ifstream arquivo(nomeArquivo.c_str());
     char str[255];
     
-    // Atribui o valor da primeira linha ao parametro numNos
+    // Adiciona o numero de vertices descrito no arquivo no grafo
     arquivo.getline(str, 255);
-    // setNumVertices(stoi(str));
+    int numVerticesArquivo = stoi(str);
     
-    for (int i = 1; i <= numVertices; i++) {
+    for (int i = 1; i <= numVerticesArquivo; i++) {
         addVertice(i);
     }
     

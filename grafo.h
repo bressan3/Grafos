@@ -21,7 +21,7 @@ private:
 
 public:
     
-    Grafo();
+    Grafo(bool flagDir);
     int getNumVertices();
     void setNumVertices(int numNos);
     

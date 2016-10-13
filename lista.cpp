@@ -96,7 +96,7 @@ void Lista::addNoHorizontal(int idVertical, int id, Aresta *a){
 /*
  Arquivo: valor1 valor2 pesoAresta
  */
-void Lista::addNo(int id1, int id2, int pesoAresta){
+void Lista::addNo(int id1, int id2, int pesoAresta, bool digrafo){
     NoLista *aux1 = buscarNoVertical(id1);
     NoLista *aux2 = buscarNoVertical(id2);
     
@@ -116,10 +116,12 @@ void Lista::addNo(int id1, int id2, int pesoAresta){
     Vertice *vAux1 = aux1->getVertice();
     vAux1->incrementaGrau();
     
-    addNoHorizontal(id2, id1, a);
+    if (!digrafo){
+        addNoHorizontal(id2, id1, a);
     
-    Vertice *vAux2 = aux2->getVertice();
-    vAux2->incrementaGrau();
+        Vertice *vAux2 = aux2->getVertice();
+        vAux2->incrementaGrau();
+    }
 }
 
 /*

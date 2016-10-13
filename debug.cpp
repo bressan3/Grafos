@@ -14,20 +14,13 @@ string nomeArquivo = "list_debugging_file";
 
 int main(int argc, char const *argv[])
 {
+    bool digrafo = true;
     
-    Grafo *g = new Grafo();
+    Grafo *g = new Grafo(digrafo);
     
     g->criaLista(nomeArquivo);
     
     g->print();
-    
-    int *i0 = g->getVizinhancaFechada(5);
-    
-    for (int i = 0; i < 5; i++){
-        cout << i0[i] << ", ";
-    } cout << endl;
-    
-    cout << g->verificaKRegular() << endl;
     
     return 0;
 }
