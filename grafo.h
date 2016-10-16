@@ -55,6 +55,14 @@ public:
     bool verificaConexo();
     bool verificaMesmaComponenteConexa(int id1, int id2);
     
+    int buscaNoFonte();
+    
+    Lista* copiaLista(Grafo *g);
+    Grafo* copiaGrafo(Grafo *g);
+    
+    bool verificaArestaPonte(int id1, int id2);
+    bool verificaNoArticulacao(int id);
+    
     // Debugging functions
     void printBusca(vector<int> lista);
     void print();

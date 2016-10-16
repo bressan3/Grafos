@@ -89,7 +89,7 @@ void Grafo::deletaVertice(int id){
 }
 
 /*
- Dado os IDs de dois vertices, esta função deleta a aresta entre os dois. ACHO QUE FUNCIONA -> ERRO DEVE ESTAR NA FUNCAO DE CIMA
+ Dado os IDs de dois vertices, esta função deleta a aresta entre os dois
  */
 void Grafo::deletaAresta(int id1, int id2){
     
@@ -317,7 +317,7 @@ vector<int> Grafo::buscaEmProfundidade(int id){
         lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal()->getVertical(),lista);
         lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
     }
-    this->printBusca(lista);
+    // this->printBusca(lista);
     return lista;
 }
 
@@ -325,7 +325,7 @@ vector<int> Grafo::buscaEmProfundidade(int id){
 vector<int> Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> lista){
     for(int i=0;i<lista.size();i++)
     {
-        cout << aux->getId() << " == "<<lista.at(i) << " " << i << endl;
+        // cout << aux->getId() << " == "<<lista.at(i) << " " << i << endl;
         if(lista.at(i) == aux->getId()){
             if(aux->getProxHorizontal() == NULL)
                 break;
@@ -395,6 +395,9 @@ bool Grafo::verificaConexo(){
     else return false;
 }
 
+/*
+ Dado dois nos esta funcao verifica se ambos pertencem a mesma componente conexa
+ */
 bool Grafo::verificaMesmaComponenteConexa(int id1, int id2){
     vector<int> vetor = this->buscaEmLargura(5);
     vector<int>::iterator it1 = find(vetor.begin(), vetor.end(), id1);
@@ -402,6 +405,152 @@ bool Grafo::verificaMesmaComponenteConexa(int id1, int id2){
     if((it1 != vetor.end()) && (it2 != vetor.end()))
         return true;
     else return false;
+}
+
+/*
+ Faz uma busca no grafo e caso encontre um no fonte, retorna seu id (retorna sempre o primeiro nó fonte encontrado). Caso não encontre nenhum, retorna -1.
+ Caso o grafo não seja direcionado, esta funcao retorna o primeiro vertice que possua adjacentes encontrado.
+ */
+int Grafo::buscaNoFonte(){
+    
+    if (!this->flagDir){
+        NoLista* verticalAux = l->getStart();
+        
+        while (verticalAux != NULL){
+            if (verticalAux->getProxHorizontal() != NULL){
+                return verticalAux->getId();
+            }
+            verticalAux = verticalAux->getProxVertical();
+        }
+        return -1;
+    }
+    
+    vector<int> nosNaoFonte;
+    NoLista* verticalAux = l->getStart();
+    
+    for (int i = 0; i < this->numVertices; i++){
+        
+        NoLista* horizontalAux = verticalAux->getProxHorizontal();
+        
+        while (horizontalAux != NULL){
+            
+            vector<int>::iterator it = find(nosNaoFonte.begin(), nosNaoFonte.end(), horizontalAux->getId());
+            
+            if (it == nosNaoFonte.end()){
+                nosNaoFonte.push_back(horizontalAux->getId());
+            }
+            
+            horizontalAux = horizontalAux->getProxHorizontal();
+        }
+        
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    verticalAux = l->getStart();
+    
+    for (int i = 0; i < this->numVertices; i++){
+        
+        vector<int>::iterator it = find(nosNaoFonte.begin(), nosNaoFonte.end(), verticalAux->getId());
+        if ((it == nosNaoFonte.end()) && (verticalAux->getProxHorizontal() != NULL)) {
+            return verticalAux->getId();
+        }
+        
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    return -1;
+}
+
+/*
+ Dado um grafo g, esta funcão recria uma nova lista identica a lista de g e a retorna para que esta seja usada em um novo grafo. Funcao usada por copiaGrafo()
+ */
+Lista* Grafo::copiaLista(Grafo *g){
+    Lista *nova = new Lista();
+    
+    NoLista* verticalAux = (g->l)->getStart();
+    NoLista* horizontalAux;
+    
+    while (verticalAux != NULL){
+        nova->addNoVertical(verticalAux->getId());
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    verticalAux = (g->l)->getStart();
+    
+    while (verticalAux != NULL){
+        
+        horizontalAux = verticalAux->getProxHorizontal();
+        
+        while (horizontalAux != NULL){
+            nova->addNoHorizontal(verticalAux->getId(), horizontalAux->getId(), new Aresta(horizontalAux->getPesoAresta()));
+            horizontalAux = horizontalAux->getProxHorizontal();
+        }
+        
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    return nova;
+}
+
+/*
+ Retorna um novo grafo identico ao grafo g passado como parametro
+ */
+Grafo* Grafo::copiaGrafo(Grafo* g){
+    Grafo* novo = new Grafo(g->flagDir);
+    
+    novo->l = novo->copiaLista(g);
+    novo->numVertices = g->numVertices;
+    novo->numArestas = g->numArestas;
+    novo->grauGrafo = g->grauGrafo;
+    
+    return novo;
+}
+
+/*
+ Dado um id de um no, esta função retorna se o nó passado como parametro é de articulacao ou não (retorna true caso o vertice seja de articulacao)
+ */
+bool Grafo::verificaNoArticulacao(int id){
+    
+    // Cria grafo auxiliar identico ao nosso grafo original
+    Grafo *aux = copiaGrafo(this);
+    
+    // Encontra um nó que seja fonte
+    NoLista *verticeAux = (aux->l)->buscarNoVertical(aux->buscaNoFonte());
+    
+    vector<int> antes = aux->buscaEmProfundidade(verticeAux->getId());
+    
+    aux->deletaVertice(id);
+    verticeAux = (aux->l)->buscarNoVertical(aux->buscaNoFonte());
+    vector<int> depois = aux->buscaEmProfundidade(verticeAux->getId());
+    
+    if(antes.size() == depois.size() + 1)
+        return false;
+    
+    else return true;
+}
+
+/*
+ Dado dois nós com uma aresta entre eles, esta funcao retorna se a aresta é ponte ou não (retorna true caso a aresta seja ponte)
+ */
+bool Grafo::verificaArestaPonte(int id1, int id2){
+    
+    // Cria grafo auxiliar identico ao nosso grafo original
+    Grafo *aux = copiaGrafo(this);
+    
+    // Encontra um nó que seja fonte
+    NoLista *verticeAux = (aux->l)->buscarNoVertical(aux->buscaNoFonte());
+    
+    vector<int> antes = aux->buscaEmProfundidade(verticeAux->getId());
+    
+    
+    aux->deletaAresta(id1, id2);
+    verticeAux = (aux->l)->buscarNoVertical(aux->buscaNoFonte());
+    vector<int> depois = aux->buscaEmProfundidade(verticeAux->getId());
+    
+    if(antes.size() == depois.size())
+        return false;
+    
+    else return true;
 }
 
 void Grafo::print(){

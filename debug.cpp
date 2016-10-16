@@ -22,7 +22,11 @@ int main(int argc, char const *argv[])
     
     g->print();
     
-    cout << g->verificaMesmaComponenteConexa(1,2) << endl;
+    // cout << g->buscaNoFonte() << endl;
+    
+    cout << "É de articulação? " << g->verificaNoArticulacao(2) << endl;
+    
+    cout << "É ponte? " << g->verificaArestaPonte(2, 6) << endl;
     
     return 0;
 }
