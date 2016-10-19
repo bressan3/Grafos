@@ -47,10 +47,9 @@ public:
     int* getVizinhancaFechada(int id);
     
     vector<int> buscaEmLargura (int id);
-    vector<int> auxBuscaEmLargura (NoLista *aux, vector<int> lista);
     
+    void auxBuscaEmProfundidade(NoLista *aux, vector<int> lista, vector<int> *busca);
     vector<int> buscaEmProfundidade(int id);
-    vector<int> auxBuscaEmProfundidade(NoLista *aux, vector<int> lista);
     
     bool verificaConexo();
     bool verificaMesmaComponenteConexa(int id1, int id2);
@@ -62,6 +61,8 @@ public:
     
     bool verificaArestaPonte(int id1, int id2);
     bool verificaNoArticulacao(int id);
+    
+    vector<vector<int>> getComponentesConexas();
     
     // Debugging functions
     void printBusca(vector<int> lista);

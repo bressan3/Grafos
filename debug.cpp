@@ -22,11 +22,24 @@ int main(int argc, char const *argv[])
     
     g->print();
     
+    cout << endl;
+    
     // cout << g->buscaNoFonte() << endl;
     
-    cout << "É de articulação? " << g->verificaNoArticulacao(2) << endl;
+    //cout << "É de articulação? " << g->verificaNoArticulacao(2) << endl;
     
-    cout << "É ponte? " << g->verificaArestaPonte(2, 6) << endl;
+    //cout << "É ponte? " << g->verificaArestaPonte(2, 6) << endl;
+    
+    vector<vector<int>> componentesConexas = g->getComponentesConexas();
+    
+    for (int i = 0; i < componentesConexas.size(); i++) {
+        g->printBusca(componentesConexas[i]);
+    } cout << endl;
+    
+    //cout << g->verificaConexo() << endl;
+    
+    vector<int> busca = g->buscaEmProfundidade(8);
+    g->printBusca(busca);
     
     return 0;
 }

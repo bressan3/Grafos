@@ -308,73 +308,63 @@ int* Grafo::getVizinhancaFechada(int id){
 
 }
 
+/* Função auxiliar da buscaEmProfundidade*/
+void Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> visitados, vector<int> *busca){
+    
+    while (aux != NULL){
+        vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
+        if (it == visitados.end()){
+            visitados.push_back(aux->getId());
+            busca->push_back(aux->getId());
+            auxBuscaEmProfundidade(aux->getVertical(), visitados, busca);
+        }
+        aux = aux->getProxHorizontal();
+    }
+}
+
 /* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em profundidade*/
 vector<int> Grafo::buscaEmProfundidade(int id){
-    NoLista *aux = l->buscarNoVertical(id);
-    vector<int> lista;
-    lista.push_back(aux->getId());
-    if(aux->getProxHorizontal() != NULL){
-        lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal()->getVertical(),lista);
-        lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
-    }
-    // this->printBusca(lista);
-    return lista;
+    NoLista *aux = (this->l)->buscarNoVertical(id);
+    vector<int> visitados;
+    vector<int> *lista = new vector<int>;
+    
+    auxBuscaEmProfundidade(aux, visitados, lista);
+    
+    return *lista;
 }
 
-/* Função auxiliar da buscaEmProfundidade*/
-vector<int> Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> lista){
-    for(int i=0;i<lista.size();i++)
-    {
-        // cout << aux->getId() << " == "<<lista.at(i) << " " << i << endl;
-        if(lista.at(i) == aux->getId()){
-            if(aux->getProxHorizontal() == NULL)
-                break;
-            aux = aux->getProxHorizontal();
-            i = -1;
-        }
-        if(i == lista.size()-1){
-            lista.push_back(aux->getId());
-            if(aux->getProxHorizontal() != NULL){
-                lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal()->getVertical(),lista);
-                lista = this->auxBuscaEmProfundidade(aux->getProxHorizontal(),lista);
-            }
-        }
-    }
-    return lista;
-}
-
-/* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em largura*/
+/* 
+ Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em largura
+*/
 vector<int> Grafo::buscaEmLargura(int id){
-    NoLista *aux = l->buscarNoVertical(id);
-    vector<int> lista;
-    lista.push_back(aux->getId());
-    if(aux->getProxHorizontal() != NULL){
-        lista = this->auxBuscaEmLargura(aux->getProxHorizontal(),lista);
-        lista = this->auxBuscaEmLargura(aux->getProxHorizontal()->getVertical(),lista);
-    }
-    this->printBusca(lista);
-    return lista;
-}
-
-/* Função auxiliar da buscaEmLargura*/
-vector<int> Grafo::auxBuscaEmLargura(NoLista *aux, vector<int> lista){
-    for(int i=0;i<lista.size();i++)
-    {
-        if(lista.at(i) == aux->getId()){
-            if(aux->getProxHorizontal() == NULL)
-                break;
-            aux = aux->getProxHorizontal();
-            i = -1;
-        }
-        if(i == lista.size()-1){
-            lista.push_back(aux->getId());
-            if(aux->getProxHorizontal() != NULL){
-                lista = this->auxBuscaEmLargura(aux->getProxHorizontal(),lista);
-                lista = this->auxBuscaEmLargura(aux->getProxHorizontal()->getVertical(),lista);
+    vector<int> sequencia;
+    vector<int> visitados;
+    
+    vector<int> fila;
+    visitados.push_back(id);
+    fila.push_back(id);
+    
+    NoLista* aux = (this->l)->buscarNoVertical(id)->getProxHorizontal();
+    
+    while (fila.size() != 0){
+        sequencia.push_back(fila[0]);
+        fila.erase(fila.begin());
+        
+        while (aux != NULL){
+            vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
+            
+            if (it == visitados.end()){
+                visitados.push_back(aux->getId());
+                fila.push_back(aux->getId());
             }
+            
+            aux = aux->getProxHorizontal();
         }
+        
+        aux = this->l->buscarNoVertical(fila[0]);
     }
-    return lista;
+    
+    return sequencia;
 }
 
 /*Dado um vetor de inteiros imprime a mesma*/
@@ -399,7 +389,7 @@ bool Grafo::verificaConexo(){
  Dado dois nos esta funcao verifica se ambos pertencem a mesma componente conexa
  */
 bool Grafo::verificaMesmaComponenteConexa(int id1, int id2){
-    vector<int> vetor = this->buscaEmLargura(5);
+    vector<int> vetor = this->buscaEmLargura((this->l)->getStart()->getId());
     vector<int>::iterator it1 = find(vetor.begin(), vetor.end(), id1);
     vector<int>::iterator it2 = find(vetor.begin(), vetor.end(), id2);
     if((it1 != vetor.end()) && (it2 != vetor.end()))
@@ -551,6 +541,45 @@ bool Grafo::verificaArestaPonte(int id1, int id2){
         return false;
     
     else return true;
+}
+
+/*
+ Retorna um vector bi-dimensional contendo todas as componentes conexas do grafo.
+ */
+vector<vector<int>> Grafo::getComponentesConexas(){
+    vector<vector<int>> componentesConexas;
+    int numComponentesConexas = 0;
+    
+    vector<int> caminhoAtual;
+    
+    NoLista *aux = (this->l)->getStart();
+    
+    caminhoAtual = this->buscaEmLargura(aux->getId());
+    componentesConexas.push_back(vector<int>());
+    componentesConexas[0] = caminhoAtual;
+    numComponentesConexas++;
+    aux = aux->getProxVertical();
+    
+    while (aux != NULL){
+        caminhoAtual = this->buscaEmLargura(aux->getId());
+        
+        int j = 0;
+        for (j = 0; j < numComponentesConexas; j++) {
+            if (is_permutation(componentesConexas[j].begin(), componentesConexas[j].end(), caminhoAtual.begin())){
+                break;
+            }
+        }
+        
+        if (j == numComponentesConexas){
+            componentesConexas.push_back(vector<int>());
+            componentesConexas[numComponentesConexas] = caminhoAtual;
+            numComponentesConexas++;
+        }
+        
+        aux = aux->getProxVertical();
+    }
+    
+    return componentesConexas;
 }
 
 void Grafo::print(){
