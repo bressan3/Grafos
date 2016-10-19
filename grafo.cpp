@@ -105,6 +105,10 @@ void Grafo::deletaAresta(int id1, int id2){
         
         NoLista *startId = l->buscarNoVertical(idVertical);
         
+        if (startId->getProxHorizontal() == NULL){
+            continue;
+        }
+        
         NoLista *anterior = startId;
         NoLista *atual = anterior->getProxHorizontal();
         NoLista *prox = atual->getProxHorizontal();
@@ -117,6 +121,7 @@ void Grafo::deletaAresta(int id1, int id2){
     
         anterior->setProxHorizontal(prox);
         delete(atual);
+        startId->getVertice()->diminuiGrau();
     }
     setNumArestas(getNumArestas() - 1);
 }
@@ -377,8 +382,7 @@ void Grafo::printBusca(vector<int> lista){
 
 /*Verifica se o grafo é conexo retorna um bool */
 bool Grafo::verificaConexo(){
-    vector<int> vetor = this->buscaEmLargura(5);
-    cout << this->numVertices << endl;
+    vector<int> vetor = this->buscaEmLargura((this->l->getStart())->getId());
     if(vetor.size() == this->numVertices){
         return true;
     }
@@ -544,6 +548,20 @@ bool Grafo::verificaArestaPonte(int id1, int id2){
 }
 
 /*
+ Retorna um vector contendo o caminho minimo entre id1 e id2.
+ */
+vector<int> Grafo::dijkstra(int id1, int id2){
+    vector<int> caminho;
+    vector<int> visitado;
+    
+    visitado.push_back(id1);
+    
+    NoLista *aux = (this->l)->getStart();
+    
+    return caminho;
+}
+
+/*
  Retorna um vector bi-dimensional contendo todas as componentes conexas do grafo.
  */
 vector<vector<int>> Grafo::getComponentesConexas(){
@@ -580,6 +598,26 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     }
     
     return componentesConexas;
+}
+
+/*
+ Verifica se o grafo é Euleriano (verifica se o grafo é conexo e se todos os graus de seus vertices são pares)
+ */
+bool Grafo::verificaEuleriano(){
+    NoLista *aux = (this->l)->getStart();
+    
+    if (!this->verificaConexo()){
+        return false;
+    }
+    
+    while (aux != NULL){
+        if ((aux->getVertice())->getGrau() % 2 != 0){
+            return false;
+        }
+        aux = aux->getProxVertical();
+    }
+    
+    return true;
 }
 
 void Grafo::print(){

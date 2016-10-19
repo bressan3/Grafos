@@ -62,7 +62,11 @@ public:
     bool verificaArestaPonte(int id1, int id2);
     bool verificaNoArticulacao(int id);
     
+    vector<int> dijkstra(int id1, int id2);
+    
     vector<vector<int>> getComponentesConexas();
+    
+    bool verificaEuleriano();
     
     // Debugging functions
     void printBusca(vector<int> lista);

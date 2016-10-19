@@ -30,16 +30,18 @@ int main(int argc, char const *argv[])
     
     //cout << "É ponte? " << g->verificaArestaPonte(2, 6) << endl;
     
-    vector<vector<int>> componentesConexas = g->getComponentesConexas();
+    /*vector<vector<int>> componentesConexas = g->getComponentesConexas();
     
     for (int i = 0; i < componentesConexas.size(); i++) {
         g->printBusca(componentesConexas[i]);
-    } cout << endl;
+    } cout << endl;*/
     
     //cout << g->verificaConexo() << endl;
     
-    vector<int> busca = g->buscaEmProfundidade(8);
-    g->printBusca(busca);
+    //vector<int> busca = g->buscaEmProfundidade(9);
+    //g->printBusca(busca);
+    
+    cout << endl << g->verificaEuleriano() << endl;
     
     return 0;
 }
