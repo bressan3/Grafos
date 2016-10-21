@@ -41,7 +41,7 @@ NoLista* Lista::buscarNoVertical(int id){
     Busca um nó na lista horizontal de adjacentes de "inicioListaHorizontal" e o retorna caso encontrado
  */
 NoLista* Lista::buscarNoHorizontal(NoLista *inicioListaHorizontal, int id){
-    NoLista* aux = inicioListaHorizontal;
+    NoLista* aux = inicioListaHorizontal->getProxHorizontal();
     
     while (aux != NULL) {
         if(aux->getId() == id)

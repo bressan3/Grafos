@@ -14,7 +14,7 @@ string nomeArquivo = "list_debugging_file";
 
 int main(int argc, char const *argv[])
 {
-    bool digrafo = false;
+    bool digrafo = true;
     
     Grafo *g = new Grafo(digrafo);
     
@@ -41,7 +41,13 @@ int main(int argc, char const *argv[])
     //vector<int> busca = g->buscaEmProfundidade(9);
     //g->printBusca(busca);
     
-    cout << endl << g->verificaEuleriano() << endl;
+    // cout << endl << g->verificaEuleriano() << endl;
+    
+    g->printBusca(g->getOrdenacaoTopologicaDAG());
+    
+    /*g->deletaAresta(6, 2);
+    cout << g->getNumArestas() << endl;
+    g->print();*/
     
     return 0;
 }

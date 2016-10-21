@@ -93,37 +93,55 @@ void Grafo::deletaVertice(int id){
  */
 void Grafo::deletaAresta(int id1, int id2){
     
-    for (int i = 0; i < 2; i++) {
-        
-        int idVertical = id1;
+    if (!this->flagDir){
+        for (int i = 0; i < 2; i++) {
+            
+            int idVertical = id1;
+            int idHorizontal = id2;
+            
+            if (i == 1){
+                idVertical = id2;
+                idHorizontal = id1;
+            }
+            
+            NoLista *startId = l->buscarNoVertical(idVertical);
+            
+            if (startId->getProxHorizontal() == NULL){
+                continue;
+            }
+            
+            NoLista *anterior = startId;
+            NoLista *atual = anterior->getProxHorizontal();
+            NoLista *prox = atual->getProxHorizontal();
+            
+            while (atual->getProxHorizontal() != NULL && atual->getId() != idHorizontal){
+                anterior = anterior->getProxHorizontal();
+                atual = atual->getProxHorizontal();
+                prox = prox->getProxHorizontal();
+            }
+            
+            anterior->setProxHorizontal(prox);
+            delete(atual);
+            startId->getVertice()->diminuiGrau();
+        }
+    } else {
         int idHorizontal = id2;
         
-        if (i == 1){
-            idVertical = id2;
-            idHorizontal = id1;
-        }
-        
-        NoLista *startId = l->buscarNoVertical(idVertical);
-        
-        if (startId->getProxHorizontal() == NULL){
-            continue;
-        }
+        NoLista *startId = l->buscarNoVertical(id1);
         
         NoLista *anterior = startId;
         NoLista *atual = anterior->getProxHorizontal();
         NoLista *prox = atual->getProxHorizontal();
-    
+        
         while (atual->getProxHorizontal() != NULL && atual->getId() != idHorizontal){
             anterior = anterior->getProxHorizontal();
             atual = atual->getProxHorizontal();
             prox = prox->getProxHorizontal();
         }
-    
+        
         anterior->setProxHorizontal(prox);
         delete(atual);
-        startId->getVertice()->diminuiGrau();
-    }
-    setNumArestas(getNumArestas() - 1);
+    } setNumArestas(getNumArestas() - 1);
 }
 
 /*
@@ -268,6 +286,65 @@ bool Grafo::verificaAdjacente(int id1, int id2){
     return false;
 }
 
+/* Função auxiliar da buscaEmProfundidade*/
+void Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> visitados, vector<int> *busca){
+    
+    while (aux != NULL){
+        vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
+        if (it == visitados.end()){
+            visitados.push_back(aux->getId());
+            busca->push_back(aux->getId());
+            auxBuscaEmProfundidade(aux->getVertical(), visitados, busca);
+        }
+        aux = aux->getProxHorizontal();
+    }
+}
+
+/* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em profundidade*/
+vector<int> Grafo::buscaEmProfundidade(int id){
+    NoLista *aux = (this->l)->buscarNoVertical(id);
+    vector<int> visitados;
+    vector<int> *lista = new vector<int>;
+    
+    auxBuscaEmProfundidade(aux, visitados, lista);
+    
+    return *lista;
+}
+
+/*
+ Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em largura
+ */
+vector<int> Grafo::buscaEmLargura(int id){
+    vector<int> sequencia;
+    vector<int> visitados;
+    
+    vector<int> fila;
+    visitados.push_back(id);
+    fila.push_back(id);
+    
+    NoLista* aux = (this->l)->buscarNoVertical(id)->getProxHorizontal();
+    
+    while (fila.size() != 0){
+        sequencia.push_back(fila[0]);
+        fila.erase(fila.begin());
+        
+        while (aux != NULL){
+            vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
+            
+            if (it == visitados.end()){
+                visitados.push_back(aux->getId());
+                fila.push_back(aux->getId());
+            }
+            
+            aux = aux->getProxHorizontal();
+        }
+        
+        aux = this->l->buscarNoVertical(fila[0]);
+    }
+    
+    return sequencia;
+}
+
 /*
  Dado o id de um nó, esta funcao retorna um vetor contendo sua vizinhança aberta (os Ids dos seus vizinhos)
  */
@@ -313,71 +390,81 @@ int* Grafo::getVizinhancaFechada(int id){
 
 }
 
-/* Função auxiliar da buscaEmProfundidade*/
-void Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> visitados, vector<int> *busca){
+/*
+ Dado um vertice, esta função verifica se ele é fonte ou não (digrafo)
+ */
+bool Grafo::verificaFonte(int id){
     
-    while (aux != NULL){
-        vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
-        if (it == visitados.end()){
-            visitados.push_back(aux->getId());
-            busca->push_back(aux->getId());
-            auxBuscaEmProfundidade(aux->getVertical(), visitados, busca);
-        }
-        aux = aux->getProxHorizontal();
+    if (!this->flagDir){
+        return false;
     }
+    
+    NoLista* aux = (this->l)->getStart();
+
+    
+    while (aux != NULL) {
+        if((this->l)->buscarNoHorizontal(aux, id) != NULL){
+            return false;
+        }
+        aux = aux->getProxVertical();
+    }
+    
+    return true;
 }
 
-/* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em profundidade*/
-vector<int> Grafo::buscaEmProfundidade(int id){
-    NoLista *aux = (this->l)->buscarNoVertical(id);
-    vector<int> visitados;
-    vector<int> *lista = new vector<int>;
+/*
+ Dado um grafo direcionado esta função retorna um vecotor<int> contendo
+ a ordenação topologica do grafo caso este seja um DAG. Caso contrário, a função retorna um vecotor<int> com um único
+ elemento com o valor de -1.
+ */
+vector<int> Grafo::getOrdenacaoTopologicaDAG(){
     
-    auxBuscaEmProfundidade(aux, visitados, lista);
+    vector<int> dag;
+    vector<int> nosFonte;
+    vector<int> retornaNaoDAG;
     
-    return *lista;
-}
-
-/* 
- Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em largura
-*/
-vector<int> Grafo::buscaEmLargura(int id){
-    vector<int> sequencia;
-    vector<int> visitados;
+    retornaNaoDAG.push_back(-1);
     
-    vector<int> fila;
-    visitados.push_back(id);
-    fila.push_back(id);
+    if (!this->flagDir){
+        return retornaNaoDAG;
+    }
     
-    NoLista* aux = (this->l)->buscarNoVertical(id)->getProxHorizontal();
+    Grafo *gAux = copiaGrafo(this);
+    NoLista *auxVertical = (gAux->l)->getStart();
     
-    while (fila.size() != 0){
-        sequencia.push_back(fila[0]);
-        fila.erase(fila.begin());
+    while (auxVertical != NULL){
+        if (gAux->verificaFonte(auxVertical->getId())){
+            nosFonte.push_back(auxVertical->getId());
+        }
+        auxVertical = auxVertical->getProxVertical();
+    }
+    
+    while (!nosFonte.empty()){
+        int noAtual = nosFonte[0];
+        dag.push_back(nosFonte[0]);
+        nosFonte.erase(nosFonte.begin());
         
-        while (aux != NULL){
-            vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
-            
-            if (it == visitados.end()){
-                visitados.push_back(aux->getId());
-                fila.push_back(aux->getId());
+        auxVertical = gAux->l->buscarNoVertical(noAtual);
+        NoLista *auxHorizontal = auxVertical->getProxHorizontal();
+        
+        while (auxHorizontal != NULL){
+            int idHorizontalAtual = auxHorizontal->getId();
+            gAux->deletaAresta(noAtual, idHorizontalAtual);
+            if (gAux->verificaFonte(idHorizontalAtual)){
+                nosFonte.push_back(idHorizontalAtual);
             }
-            
-            aux = aux->getProxHorizontal();
+            auxHorizontal = auxHorizontal->getProxHorizontal();
         }
-        
-        aux = this->l->buscarNoVertical(fila[0]);
     }
     
-    return sequencia;
-}
-
-/*Dado um vetor de inteiros imprime a mesma*/
-void Grafo::printBusca(vector<int> lista){
-    for(int i=0;i<lista.size();i++){
-        cout << lista.at(i) << " ";
+    // cout << gAux->getNumArestas() << endl;
+    // gAux->print();
+    
+    if (gAux->numArestas > 0){
+        return retornaNaoDAG;
+    } else {
+        return dag;
     }
-    cout << endl;
 }
 
 /*Verifica se o grafo é conexo retorna um bool */
@@ -556,8 +643,6 @@ vector<int> Grafo::dijkstra(int id1, int id2){
     
     visitado.push_back(id1);
     
-    NoLista *aux = (this->l)->getStart();
-    
     return caminho;
 }
 
@@ -578,17 +663,19 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     numComponentesConexas++;
     aux = aux->getProxVertical();
     
+    vector<int>::iterator it;
+    
     while (aux != NULL){
-        caminhoAtual = this->buscaEmLargura(aux->getId());
-        
         int j = 0;
-        for (j = 0; j < numComponentesConexas; j++) {
-            if (is_permutation(componentesConexas[j].begin(), componentesConexas[j].end(), caminhoAtual.begin())){
+        for (j = 0; j < numComponentesConexas; j++){
+            it = find(componentesConexas[j].begin(), componentesConexas[j].end(), aux->getId());
+            if (it != componentesConexas[j].end()){
                 break;
             }
         }
         
         if (j == numComponentesConexas){
+            caminhoAtual = this->buscaEmLargura(aux->getId());
             componentesConexas.push_back(vector<int>());
             componentesConexas[numComponentesConexas] = caminhoAtual;
             numComponentesConexas++;
@@ -618,6 +705,14 @@ bool Grafo::verificaEuleriano(){
     }
     
     return true;
+}
+
+/*Dado um vetor de inteiros imprime a mesma*/
+void Grafo::printBusca(vector<int> lista){
+    for(int i=0;i<lista.size();i++){
+        cout << lista.at(i) << " ";
+    }
+    cout << endl;
 }
 
 void Grafo::print(){

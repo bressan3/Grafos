@@ -43,13 +43,17 @@ public:
     
     bool verificaAdjacente(int id1, int id2);
     
-    int* getVizinhancaAberta(int id);
-    int* getVizinhancaFechada(int id);
-    
-    vector<int> buscaEmLargura (int id);
+    vector<int> buscaEmLargura(int id);
     
     void auxBuscaEmProfundidade(NoLista *aux, vector<int> lista, vector<int> *busca);
     vector<int> buscaEmProfundidade(int id);
+    
+    int* getVizinhancaAberta(int id);
+    int* getVizinhancaFechada(int id);
+    
+    bool verificaFonte(int id);
+    
+    vector<int> getOrdenacaoTopologicaDAG();
     
     bool verificaConexo();
     bool verificaMesmaComponenteConexa(int id1, int id2);
