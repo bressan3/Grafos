@@ -647,6 +647,48 @@ vector<int> Grafo::dijkstra(int id1, int id2){
 }
 
 /*
+ Dado um subconjunto de vertices de um grafo, esta função retorna
+ */
+Grafo* Grafo::getSubgrafo(vector<int> vertices){
+    Grafo *novo = new Grafo(!this->flagDir);
+    
+    NoLista* auxVertical = (this->l)->getStart();
+    // NoLista* auxHorizontal = auxVertical->getProxHorizontal();
+    
+    vector<int>::iterator it;
+    
+    while (auxVertical != NULL){
+        it = find(vertices.begin(), vertices.end(), auxVertical->getId());
+        
+        if (it == vertices.end()){
+            auxVertical = auxVertical->getProxVertical();
+            continue;
+        }
+        
+        NoLista* auxHorizontal = auxVertical->getProxHorizontal();
+        
+        if (auxHorizontal == NULL){
+            novo->addVertice(auxVertical->getId());
+            auxVertical = auxVertical->getProxVertical();
+            continue;
+        }
+        
+        while (auxHorizontal != NULL){
+            it = find(vertices.begin(), vertices.end(), auxHorizontal->getId());
+            
+            if (it != vertices.end()){
+                (novo->l)->addNo(auxVertical->getId(), auxHorizontal->getId(), auxHorizontal->getPesoAresta(), novo->flagDir);
+            }
+            
+            auxHorizontal = auxHorizontal->getProxHorizontal();
+        }
+        auxVertical = auxVertical->getProxVertical();
+    }
+    
+    return novo;
+}
+
+/*
  Retorna um vector bi-dimensional contendo todas as componentes conexas do grafo.
  */
 vector<vector<int>> Grafo::getComponentesConexas(){

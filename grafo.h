@@ -68,6 +68,8 @@ public:
     
     vector<int> dijkstra(int id1, int id2);
     
+    Grafo* getSubgrafo(vector<int> vertices);
+    
     vector<vector<int>> getComponentesConexas();
     
     bool verificaEuleriano();
