@@ -20,6 +20,10 @@ NoLista* Lista::getStart(){
     return this->start;
 }
 
+void Lista::setStart(NoLista *no){
+    this->start = no;
+}
+
 /*
  Busca um no na vertical dado um id. Caso este no já exista a funcão retorna um ponteiro
  para ele. Caso não a função retornará NULL.

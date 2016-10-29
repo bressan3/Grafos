@@ -60,13 +60,14 @@ public:
     
     int buscaNoFonte();
     
-    Lista* copiaLista(Grafo *g);
     Grafo* copiaGrafo(Grafo *g);
     
     bool verificaArestaPonte(int id1, int id2);
     bool verificaNoArticulacao(int id);
     
     vector<int> dijkstra(int id1, int id2);
+    
+    vector<vector<int>> floyd();
     
     Grafo* getSubgrafo(vector<int> vertices);
     

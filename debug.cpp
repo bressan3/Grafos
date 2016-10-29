@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
     cout << g->getNumArestas() << endl;
     g->print();*/
     
-    g->getSubgrafo({1, 2, 3, 4, 5, 6, 7})->print();
+    g->getSubgrafo({3, 4, 5})->print();
     
     return 0;
 }

@@ -12,6 +12,7 @@
 #include <algorithm>
 #include <functional>
 #include <vector>
+#include <limits>
 
 #include "grafo.h"
 #include "lista.h"
@@ -74,17 +75,22 @@ void Grafo::deletaVertice(int id){
     }
     
     NoLista *anterior = l->getStart();
-    NoLista *atual = anterior->getProxVertical();
-    NoLista *prox = atual->getProxVertical();
-    
-    while (atual->getProxVertical() != NULL && atual->getId() != id){
-        anterior = anterior->getProxVertical();
-        atual = atual->getProxVertical();
-        prox = prox->getProxVertical();
+    if (anterior->getId() == id){
+        l->setStart(anterior->getProxVertical());
+        delete(anterior);
+    } else {
+        NoLista *atual = anterior->getProxVertical();
+        NoLista *prox = atual->getProxVertical();
+        
+        while (atual->getProxVertical() != NULL && atual->getId() != id){
+            anterior = anterior->getProxVertical();
+            atual = atual->getProxVertical();
+            prox = prox->getProxVertical();
+        }
+        
+        anterior->setProxVertical(prox);
+        delete(atual);
     }
-    
-    anterior->setProxVertical(prox);
-    delete(atual);
     setNumVertices(getNumVertices() - 1);
 }
 
@@ -543,16 +549,18 @@ int Grafo::buscaNoFonte(){
 }
 
 /*
- Dado um grafo g, esta funcão recria uma nova lista identica a lista de g e a retorna para que esta seja usada em um novo grafo. Funcao usada por copiaGrafo()
+ Retorna um novo grafo identico ao grafo g passado como parametro
  */
-Lista* Grafo::copiaLista(Grafo *g){
-    Lista *nova = new Lista();
+Grafo* Grafo::copiaGrafo(Grafo* g){
+    Grafo* novo = new Grafo(g->flagDir);
+    
+    novo->l = new Lista();
     
     NoLista* verticalAux = (g->l)->getStart();
     NoLista* horizontalAux;
     
     while (verticalAux != NULL){
-        nova->addNoVertical(verticalAux->getId());
+        (novo->l)->addNoVertical(verticalAux->getId());
         verticalAux = verticalAux->getProxVertical();
     }
     
@@ -563,23 +571,15 @@ Lista* Grafo::copiaLista(Grafo *g){
         horizontalAux = verticalAux->getProxHorizontal();
         
         while (horizontalAux != NULL){
-            nova->addNoHorizontal(verticalAux->getId(), horizontalAux->getId(), new Aresta(horizontalAux->getPesoAresta()));
+            if (!(novo->verificaAdjacente(verticalAux->getId(), horizontalAux->getId()))){
+                novo->addAresta(verticalAux->getId(), horizontalAux->getId(), horizontalAux->getPesoAresta());
+            }
             horizontalAux = horizontalAux->getProxHorizontal();
         }
         
         verticalAux = verticalAux->getProxVertical();
     }
     
-    return nova;
-}
-
-/*
- Retorna um novo grafo identico ao grafo g passado como parametro
- */
-Grafo* Grafo::copiaGrafo(Grafo* g){
-    Grafo* novo = new Grafo(g->flagDir);
-    
-    novo->l = novo->copiaLista(g);
     novo->numVertices = g->numVertices;
     novo->numArestas = g->numArestas;
     novo->grauGrafo = g->grauGrafo;
@@ -647,42 +647,66 @@ vector<int> Grafo::dijkstra(int id1, int id2){
 }
 
 /*
- Dado um subconjunto de vertices de um grafo, esta função retorna
+ Retorna uma matriz de vectors contendo o caminho minimo entre todos os pares de vertices do grafo. O valor 100000 na matriz corresponde a infinito.
+ */
+vector<vector<int>> Grafo::floyd(){
+    vector<vector<int>> dist(numVertices, vector<int> (numVertices, 100000));
+    
+    for (int i = 0; i < this->numVertices; i++){
+        dist[i][i] = 0;
+    }
+    
+    NoLista *verticalAux = (this->l)->getStart();
+    NoLista *horizontalAux;
+    
+    while (verticalAux != NULL){
+        horizontalAux = verticalAux->getProxHorizontal();
+        while (horizontalAux != NULL){
+            dist[verticalAux->getId() - 1][horizontalAux->getId() - 1] = horizontalAux->getPesoAresta();
+            horizontalAux = horizontalAux->getProxHorizontal();
+        }
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    for (int k = 0; k < this->numVertices; k++){
+        for (int i = 0; i < this->numVertices; i++){
+            for (int j = 0; j < this->numVertices; j++){
+                if (dist[i][j] > dist[i][k] + dist[k][j] && i != j){
+                    dist[i][j] = dist[i][k] + dist[k][j];
+                }
+            }
+        }
+    }
+    
+    return dist;
+}
+
+/*
+ Dado um subconjunto de vertices de um grafo, esta função retorna o subgrafo induzido pelo conjunto passado.
  */
 Grafo* Grafo::getSubgrafo(vector<int> vertices){
-    Grafo *novo = new Grafo(!this->flagDir);
+    Grafo *novo = new Grafo(this->flagDir);
+    novo = novo->copiaGrafo(this);
     
-    NoLista* auxVertical = (this->l)->getStart();
-    // NoLista* auxHorizontal = auxVertical->getProxHorizontal();
+    vector<int> verticesParaRemover;
     
+    NoLista *auxVertical = (novo->l)->getStart();
     vector<int>::iterator it;
     
     while (auxVertical != NULL){
         it = find(vertices.begin(), vertices.end(), auxVertical->getId());
         
         if (it == vertices.end()){
-            auxVertical = auxVertical->getProxVertical();
-            continue;
+            verticesParaRemover.push_back(auxVertical->getId());
         }
         
-        NoLista* auxHorizontal = auxVertical->getProxHorizontal();
-        
-        if (auxHorizontal == NULL){
-            novo->addVertice(auxVertical->getId());
-            auxVertical = auxVertical->getProxVertical();
-            continue;
-        }
-        
-        while (auxHorizontal != NULL){
-            it = find(vertices.begin(), vertices.end(), auxHorizontal->getId());
-            
-            if (it != vertices.end()){
-                (novo->l)->addNo(auxVertical->getId(), auxHorizontal->getId(), auxHorizontal->getPesoAresta(), novo->flagDir);
-            }
-            
-            auxHorizontal = auxHorizontal->getProxHorizontal();
-        }
         auxVertical = auxVertical->getProxVertical();
+    }
+    
+    printBusca(verticesParaRemover);
+    
+    for (int i = 0; i < verticesParaRemover.size(); i++){
+        novo->deletaVertice(verticesParaRemover[i]);
     }
     
     return novo;
