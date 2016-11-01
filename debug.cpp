@@ -36,10 +36,10 @@ int main(int argc, char const *argv[])
         g->printBusca(componentesConexas[i]);
     } cout << endl;*/
     
-    //cout << g->verificaConexo() << endl;
+    // cout << g->verificaConexo() << endl;
     
-    //vector<int> busca = g->buscaEmProfundidade(9);
-    //g->printBusca(busca);
+    // vector<int> busca = g->buscaEmProfundidade(1);
+    // g->printBusca(busca);
     
     // cout << endl << g->verificaEuleriano() << endl;
     
@@ -49,7 +49,10 @@ int main(int argc, char const *argv[])
     cout << g->getNumArestas() << endl;
     g->print();*/
     
-    g->getSubgrafo({3, 4, 5})->print();
+    /*Grafo *sub = g->getSubgrafo({3, 4, 5});
+    sub->print();*/
+    
+    (g->kruskal())->print();
     
     return 0;
 }

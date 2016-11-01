@@ -44,6 +44,27 @@ void Grafo::setNumArestas(int numArestas){
 }
 
 /*
+ Busca no grafo o vertice de maior grau e seta este valor como o grau do grafo.
+ */
+void Grafo::setGrauGrafo(){
+    NoLista *aux = (this->l)->getStart();
+    
+    int maior = 0;
+    while (aux != NULL){
+        if (((aux->getVertice())->getGrau()) > maior){
+            maior = (aux->getVertice())->getGrau();
+        }
+        aux = aux->getProxVertical();
+    }
+    
+    this->grauGrafo = maior;
+}
+
+int Grafo::getGrauGrafo(){
+    return this->grauGrafo;
+}
+
+/*
  Dado um Id a função cria um novo vertice com o Id passado como parametro
  */
 void Grafo::addVertice(int id){
@@ -56,8 +77,15 @@ void Grafo::addVertice(int id){
  Caso um dos vertices dados não exista (e o grafo nao seja direcionado), esta função o cria.
  */
 void Grafo::addAresta(int id1, int id2, int pesoAresta){
+    if(this->l->buscarNoVertical(id1) == NULL){
+        this->setNumVertices(this->getNumVertices() + 1);
+    }
+    if(this->l->buscarNoVertical(id2) == NULL){
+        this->setNumVertices(this->getNumVertices() + 1);
+    }
     l->addNo(id1, id2, pesoAresta, this->flagDir);
     this->numArestas++;
+    this->setGrauGrafo();
 }
 
 /*
@@ -92,6 +120,7 @@ void Grafo::deletaVertice(int id){
         delete(atual);
     }
     setNumVertices(getNumVertices() - 1);
+    this->setGrauGrafo();
 }
 
 /*
@@ -148,6 +177,7 @@ void Grafo::deletaAresta(int id1, int id2){
         anterior->setProxHorizontal(prox);
         delete(atual);
     } setNumArestas(getNumArestas() - 1);
+    this->setGrauGrafo();
 }
 
 /*
@@ -210,6 +240,7 @@ void Grafo::criaLista(string nomeArquivo){
     }
     
     arquivo.close();
+    this->setGrauGrafo();
 }
 
 /*
@@ -292,29 +323,41 @@ bool Grafo::verificaAdjacente(int id1, int id2){
     return false;
 }
 
-/* Função auxiliar da buscaEmProfundidade*/
-void Grafo::auxBuscaEmProfundidade(NoLista *aux, vector<int> visitados, vector<int> *busca){
-    
-    while (aux != NULL){
-        vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
-        if (it == visitados.end()){
-            visitados.push_back(aux->getId());
-            busca->push_back(aux->getId());
-            auxBuscaEmProfundidade(aux->getVertical(), visitados, busca);
-        }
-        aux = aux->getProxHorizontal();
-    }
-}
-
 /* Dado o id de um nó, função chama uma função auxiliar para retornar um vetor de id's fazendo uma busca em profundidade*/
 vector<int> Grafo::buscaEmProfundidade(int id){
-    NoLista *aux = (this->l)->buscarNoVertical(id);
+    vector<int> busca;
+    vector<int> pilha;
     vector<int> visitados;
-    vector<int> *lista = new vector<int>;
     
-    auxBuscaEmProfundidade(aux, visitados, lista);
+    pilha.push_back(id);
     
-    return *lista;
+    NoLista *aux;
+    
+    vector<int>::iterator it;
+    int atual;
+    
+    while (!pilha.empty()){
+        atual = pilha[pilha.size() - 1];
+        pilha.pop_back();
+        
+        it = find(visitados.begin(), visitados.end(), atual);
+        if (it != visitados.end()){
+            continue;
+        }
+        
+        visitados.push_back(atual);
+        busca.push_back(atual);
+        
+        aux = (this->l)->buscarNoVertical(atual)->getProxHorizontal();
+        
+        while (aux != NULL){
+            pilha.push_back(aux->getId());
+            aux = aux->getProxHorizontal();
+        }
+        
+    }
+    
+    return busca;
 }
 
 /*
@@ -703,8 +746,6 @@ Grafo* Grafo::getSubgrafo(vector<int> vertices){
         auxVertical = auxVertical->getProxVertical();
     }
     
-    printBusca(verticesParaRemover);
-    
     for (int i = 0; i < verticesParaRemover.size(); i++){
         novo->deletaVertice(verticesParaRemover[i]);
     }
@@ -752,6 +793,99 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     
     return componentesConexas;
 }
+
+Grafo* Grafo::prim(){
+    // O grafo não pode ser digrafo
+    if (this->flagDir){
+        exit(-1);
+    }
+    
+    Grafo* novo = new Grafo(this->flagDir);
+    
+    vector<int> fila;
+    
+    NoLista* auxVertical = (this->l)->getStart();
+    
+    while (auxVertical != NULL){
+        
+        auxVertical = auxVertical->getProxVertical();
+    }
+    
+    return novo;
+}
+
+
+// Kruskal --------------------------------------------------------------------------------------------------
+
+typedef struct infoArestaS{
+    int v1, v2, peso;
+} infoAresta;
+
+bool ordenaParam (const infoAresta &a, const infoAresta &b){
+    return a.peso < b.peso;
+}
+
+/*
+ Retorna a arvore geradora minima de um grafo usando o algoritimo de Kruskal.
+ */
+Grafo* Grafo::kruskal(){
+    // O grafo não pode ser digrafo
+    if (this->flagDir){
+        exit(-1);
+    }
+    
+    Grafo* novo = new Grafo(this->flagDir);
+    
+    vector<infoAresta> arestas;
+    
+    NoLista* verticalAux = (this->l)->getStart();
+    NoLista* horizontalAux;
+    
+    while (verticalAux != NULL){
+        horizontalAux = verticalAux->getProxHorizontal();
+        while (horizontalAux != NULL) {
+            infoAresta infoArestaAux;
+            infoArestaAux.v1 = verticalAux->getId();
+            infoArestaAux.v2 = horizontalAux->getId();
+            infoArestaAux.peso = horizontalAux->getPesoAresta();
+            
+            // Verifica se a aresta v1-v2 já está na lista
+            bool naLista = false;
+            for (int i = 0; i < arestas.size(); i++){
+                if (arestas[i].v1 == infoArestaAux.v2 && arestas[i].v2 == infoArestaAux.v1){
+                    naLista = true;
+                    break;
+                }
+            }
+            
+            if (!naLista){
+                arestas.push_back(infoArestaAux);
+            }
+            
+            horizontalAux = horizontalAux->getProxHorizontal();
+        }
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    sort(arestas.begin(), arestas.end(), ordenaParam);
+    
+    // Debug...
+    /*for (int i = 0; i < arestas.size(); i++){
+        cout << arestas[i].v1 << ", " << arestas[i].v2 << ", " << arestas[i].peso << endl;
+    } cout << endl;*/
+    
+    for (int i = 0; i < arestas.size(); i++){
+        novo->addAresta(arestas[i].v1, arestas[i].v2, arestas[i].peso);
+        // Verifica se após adicionado a aresta, a estrutura continua sendo uma arvore. Caso não a aresta recem adicionada é excluida.
+        if ((novo->getNumArestas() != novo->getNumVertices() - 1) && novo->verificaConexo()){
+            novo->deletaAresta(arestas[i].v1, arestas[i].v2);
+        }
+    }
+    
+    return novo;
+}
+
+// ---------------------------------------------------------------------------------------------------------
 
 /*
  Verifica se o grafo é Euleriano (verifica se o grafo é conexo e se todos os graus de seus vertices são pares)

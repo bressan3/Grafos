@@ -28,6 +28,9 @@ public:
     int getNumArestas();
     void setNumArestas(int numArestas);
     
+    void setGrauGrafo();
+    int getGrauGrafo();
+    
     void addVertice(int id);
     void addAresta(int id1, int id2, int peso);
     void deletaVertice(int id);
@@ -72,6 +75,10 @@ public:
     Grafo* getSubgrafo(vector<int> vertices);
     
     vector<vector<int>> getComponentesConexas();
+    
+    Grafo* prim();
+    
+    Grafo* kruskal();
     
     bool verificaEuleriano();
     
