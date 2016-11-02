@@ -52,7 +52,9 @@ int main(int argc, char const *argv[])
     /*Grafo *sub = g->getSubgrafo({3, 4, 5});
     sub->print();*/
     
-    (g->kruskal())->print();
+    // (g->kruskal())->print();
+    // (g->prim())->print();
+    g->printBusca(g->dijkstra(1, 3));
     
     return 0;
 }

@@ -681,10 +681,52 @@ bool Grafo::verificaArestaPonte(int id1, int id2){
  Retorna um vector contendo o caminho minimo entre id1 e id2.
  */
 vector<int> Grafo::dijkstra(int id1, int id2){
-    vector<int> caminho;
-    vector<int> visitado;
+    // Caso ID1 e ID2 estejam em componentes conexas diferentes, não haverá caminho minimo entre eles
+    if (!this->verificaMesmaComponenteConexa(id1, id2)){
+        exit(-1);
+    }
     
-    visitado.push_back(id1);
+    vector<int> caminho;
+    vector<vector<int>> naoVisitados;
+    
+    NoLista* verticalAux = (this->l)->getStart();
+    NoLista* horizontalAux;
+    
+    naoVisitados.push_back({id1, 0});
+    
+    while (verticalAux != NULL){
+        if (verticalAux->getId() != id1){
+            naoVisitados.push_back({verticalAux->getId(), 1000000});
+        }
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    while (!naoVisitados.empty()){
+        sort(naoVisitados.begin(), naoVisitados.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] < b[1];});
+        vector<int> atual = naoVisitados[0];
+        caminho.push_back(atual[0]);
+        naoVisitados.erase(naoVisitados.begin());
+        
+        verticalAux = (this->l)->buscarNoVertical(atual[0]);
+        horizontalAux = verticalAux->getProxHorizontal();
+        
+        while (horizontalAux != NULL){
+            int pos = -1;
+            for (int i = 0; i < naoVisitados.size(); i++){
+                if (naoVisitados[i][0] == horizontalAux->getId()){
+                    pos = i;
+                }
+            }
+            if (pos != -1 && atual[1] + horizontalAux->getPesoAresta() < naoVisitados[pos][1]){
+                naoVisitados[pos][1] = atual[1] + horizontalAux->getPesoAresta();
+                if (naoVisitados[pos][0] == id2){
+                    caminho.push_back(naoVisitados[pos][0]);
+                    return caminho;
+                }
+            }
+            horizontalAux = horizontalAux->getProxHorizontal();
+        }
+    }
     
     return caminho;
 }
@@ -794,6 +836,9 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     return componentesConexas;
 }
 
+/*
+ Retorna a arvore geradora minima de um grafo usando o algoritimo de PRIM.
+ */
 Grafo* Grafo::prim(){
     // O grafo não pode ser digrafo
     if (this->flagDir){
@@ -802,15 +847,56 @@ Grafo* Grafo::prim(){
     
     Grafo* novo = new Grafo(this->flagDir);
     
-    vector<int> fila;
+    // vector de ids dos vertices e suas "chaves"
+    vector<vector<int>> fila;
     
     NoLista* auxVertical = (this->l)->getStart();
     
     while (auxVertical != NULL){
-        
+        // ID, KEY, PAI, PESO_ARESTA
+        fila.push_back({auxVertical->getId(), 10000000, -1, 0});
         auxVertical = auxVertical->getProxVertical();
     }
     
+    fila[0][1] = 0;
+    NoLista* auxHorizontal;
+    vector<int>::iterator it;
+    
+    while (!fila.empty()){
+        sort(fila.begin(), fila.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] < b[1];});
+        int atual = fila[0][0];
+        
+        // Caso o vertice atual da fila possua um pai, adicionar a aresta entre o vertice atual
+        // e seu pai no grafo.
+        if (fila[0][2] != -1){
+            novo->addAresta(atual, fila[0][2], fila[0][3]);
+        }
+        
+        fila.erase(fila.begin());
+        
+        auxVertical = (this->l)->buscarNoVertical(atual);
+        auxHorizontal = auxVertical->getProxHorizontal();
+        
+        while (auxHorizontal != NULL){
+            bool naFila = false;
+            int pos = 0;
+            for (int i = 0;  i < fila.size(); i++){
+                if (fila[i][0] == auxHorizontal->getId()){
+                    naFila = true;
+                    pos = i;
+                    break;
+                }
+            }
+            // Se v é adjacente a atual e o peso da aresta entre atual e v é menor que a KEY,
+            // atualizamos a KEY para o peso da aresta e setamos o pai de v para atual.
+            if (naFila && (auxHorizontal->getPesoAresta() <= fila[pos][1])){
+                fila[pos][1] = auxHorizontal->getPesoAresta();
+                fila[pos][2] = atual;
+                fila[pos][3] = auxHorizontal->getPesoAresta();
+            }
+            auxHorizontal = auxHorizontal->getProxHorizontal();
+        }
+    }
     return novo;
 }
 
