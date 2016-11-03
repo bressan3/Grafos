@@ -735,10 +735,11 @@ vector<int> Grafo::dijkstra(int id1, int id2){
  Retorna uma matriz de vectors contendo o caminho minimo entre todos os pares de vertices do grafo. O valor 100000 na matriz corresponde a infinito.
  */
 vector<vector<int>> Grafo::floyd(){
-    vector<vector<int>> dist(numVertices, vector<int> (numVertices, 100000));
+    vector<vector<int>> dist(numVertices + 1, vector<int> (numVertices + 1, 100000));
     
     for (int i = 0; i < this->numVertices; i++){
         dist[i][i] = 0;
+        
     }
     
     NoLista *verticalAux = (this->l)->getStart();
@@ -972,6 +973,57 @@ Grafo* Grafo::kruskal(){
 }
 
 // ---------------------------------------------------------------------------------------------------------
+
+
+/*
+ Verifica se of grafo é k-vertice-conexo (sendo k um inteiro passado por parametro).
+ */
+bool Grafo::verificaKConexo(int k){
+    vector<int> vertices;
+    
+    NoLista *verticalAux = (this->l)->getStart();
+    
+    while (verticalAux != NULL){
+        vertices.push_back(verticalAux->getId());
+        verticalAux = verticalAux->getProxVertical();
+    }
+    
+    vector<bool> v(vertices.size());
+    fill(v.end() - k, v.end(), true);
+    
+    vector<vector<int>> permutacoes;
+    
+    // Cria um vector com todas as permutações de tamanho k possiveis dentre os vertices do grafo.
+    do {
+        vector<int> aux;
+        for (int i = 0; i < vertices.size(); ++i) {
+            if (v[i]) {
+                aux.push_back(vertices[i]);
+            }
+        }
+        permutacoes.push_back(aux);
+    } while (std::next_permutation(v.begin(), v.end()));
+    
+    // Debug...
+    /*for (int i = 0; i < permutacoes.size(); i++){
+        printBusca(permutacoes[i]);
+    }*/
+    
+    Grafo *aux;
+    
+    // Remove de k em k vertices (do vetor permutações) e checa se o grafo continua conexo. Caso nao retorna false.
+    for (int i = 0; i < permutacoes.size(); i++){
+        aux = copiaGrafo(this);
+        for (int j = 0; j < permutacoes[i].size(); j++){
+            aux->deletaVertice(permutacoes[i][j]);
+        }
+        if (!aux->verificaConexo()){
+            return false;
+        }
+    }
+    
+    return true;
+}
 
 /*
  Verifica se o grafo é Euleriano (verifica se o grafo é conexo e se todos os graus de seus vertices são pares)

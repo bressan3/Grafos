@@ -80,6 +80,8 @@ public:
     
     Grafo* kruskal();
     
+    bool verificaKConexo(int k);
+    
     bool verificaEuleriano();
     
     // Debugging functions
