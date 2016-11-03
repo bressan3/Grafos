@@ -14,7 +14,7 @@ string nomeArquivo = "list_debugging_file";
 
 int main(int argc, char const *argv[])
 {
-    bool digrafo = false;
+    bool digrafo = true;
     
     Grafo *g = new Grafo(digrafo);
     
@@ -56,15 +56,9 @@ int main(int argc, char const *argv[])
     // (g->prim())->print();
     // g->printBusca(g->dijkstra(1, 3));
     
-    /*vector<vector<int>> floyd = g->floyd();
+    // vector<vector<vector<int>>> floyd = g->floyd();
     
-    for (int i = 0; i < g->getNumVertices(); i++) {
-        for (int j = 0; j < g->getNumVertices(); j++) {
-            cout << floyd[i][j] << " ";
-        }cout << endl;
-    }*/
-    
-    cout << "É K conexo? " << g->verificaKConexo(1) << endl;
+    // cout << "É K conexo? " << g->verificaKConexo(1) << endl;
     
     return 0;
 }

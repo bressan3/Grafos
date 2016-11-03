@@ -732,10 +732,49 @@ vector<int> Grafo::dijkstra(int id1, int id2){
 }
 
 /*
- Retorna uma matriz de vectors contendo o caminho minimo entre todos os pares de vertices do grafo. O valor 100000 na matriz corresponde a infinito.
+ Dado o id de um vertice, esta funcao retorna sua posição na lista vertical da lista de adjacencia do grafo.
  */
-vector<vector<int>> Grafo::floyd(){
-    vector<vector<int>> dist(numVertices + 1, vector<int> (numVertices + 1, 100000));
+int Grafo::getPosicao(int id){
+    NoLista *aux = (this->l)->getStart();
+    int pos = 0;
+    
+    while (aux != NULL){
+        if (aux->getId() == id){
+            return pos;
+        }
+        aux = aux->getProxVertical();
+        pos++;
+    }
+    
+    return -1;
+}
+
+/*
+ Dado uma posiçao na lista de adjacencia (ou da matriz de floyd), esta função retorna o ID do vertice naquela posição.
+ */
+int Grafo::getIdLista(int pos){
+    NoLista* aux = (this->l)->getStart();
+    
+    if (pos >= this->getNumVertices()){
+        return -1;
+    }
+    
+    int i = 0;
+    while (i <= pos){
+        aux = aux->getProxVertical();
+        i++;
+    }
+    
+    return i;
+}
+
+/*
+ Retorna uma matriz tridimensional de vectors contendo o caminho minimo entre todos os pares de vertices do grafo.
+ */
+vector<vector<vector<int>>> Grafo::floyd(){
+    // O valor 100000 na matriz corresponde a infinito.
+    vector<vector<int>> dist(numVertices, vector<int> (numVertices, 100000));
+    vector<vector<vector<int>>> caminho(numVertices,vector<vector<int>>(numVertices,vector<int>(0,0)));
     
     for (int i = 0; i < this->numVertices; i++){
         dist[i][i] = 0;
@@ -747,8 +786,11 @@ vector<vector<int>> Grafo::floyd(){
     
     while (verticalAux != NULL){
         horizontalAux = verticalAux->getProxHorizontal();
+        int verticalAuxPos = this->getPosicao(verticalAux->getId());
+        int horizontalAuxPos;
         while (horizontalAux != NULL){
-            dist[verticalAux->getId() - 1][horizontalAux->getId() - 1] = horizontalAux->getPesoAresta();
+            horizontalAuxPos = this->getPosicao(horizontalAux->getId());
+            dist[verticalAuxPos][horizontalAuxPos] = horizontalAux->getPesoAresta();
             horizontalAux = horizontalAux->getProxHorizontal();
         }
         verticalAux = verticalAux->getProxVertical();
@@ -759,12 +801,22 @@ vector<vector<int>> Grafo::floyd(){
             for (int j = 0; j < this->numVertices; j++){
                 if (dist[i][j] > dist[i][k] + dist[k][j] && i != j){
                     dist[i][j] = dist[i][k] + dist[k][j];
+                    caminho[i][j].push_back(getIdLista(k));
                 }
             }
         }
     }
     
-    return dist;
+    for (int i = 0; i < this->numVertices; i++){
+        for (int j = 0; j < this->numVertices; j++){
+            if (dist[i][j] != 100000 && dist[i][j] != 0){
+                caminho[i][j].insert(caminho[i][j].begin(), getIdLista(i));
+                caminho[i][j].push_back(getIdLista(j));
+            }
+        }
+    }
+    
+    return caminho;
 }
 
 /*
@@ -835,6 +887,15 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     }
     
     return componentesConexas;
+}
+
+/*
+ Retorna o produto cartesiano entre 'this' e 'g'.
+ */
+Grafo* Grafo::produtoCartesiano(Grafo *g){
+    Grafo* novo;
+    
+    return novo;
 }
 
 /*

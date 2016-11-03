@@ -70,11 +70,15 @@ public:
     
     vector<int> dijkstra(int id1, int id2);
     
-    vector<vector<int>> floyd();
+    int getPosicao(int id);
+    int getIdLista(int pos);
+    vector<vector<vector<int>>> floyd();
     
     Grafo* getSubgrafo(vector<int> vertices);
     
     vector<vector<int>> getComponentesConexas();
+    
+    Grafo* produtoCartesiano(Grafo* g);
     
     Grafo* prim();
     
