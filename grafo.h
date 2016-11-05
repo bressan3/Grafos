@@ -78,6 +78,7 @@ public:
     
     vector<vector<int>> getComponentesConexas();
     
+    void auxProduto(Lista* l1, Lista* l2);
     Grafo* produtoCartesiano(Grafo* g);
     
     Grafo* prim();

@@ -892,8 +892,77 @@ vector<vector<int>> Grafo::getComponentesConexas(){
 /*
  Retorna o produto cartesiano entre 'this' e 'g'.
  */
+
+void Grafo::auxProduto(Lista* l1, Lista* l2){
+    NoLista* auxThis = l1->getStart();
+    NoLista* auxG = l2->getStart();
+    NoLista *horizontalThisAux;
+    
+    while (auxThis != NULL){
+        horizontalThisAux = auxThis->getProxHorizontal();
+        while (horizontalThisAux != NULL){
+            // 10[thisID]xxx - 10[horizontalThisAux]xxx
+            while (auxG != NULL){
+                int id1 = 100000 + (auxThis->getId() * 1000) + 200 + auxG->getId();
+                int id2 = 100000 + (horizontalThisAux->getId() * 1000) + 200 + auxG->getId();
+                if (!this->verificaAdjacente(id1, id2)){
+                    cout << "IF = " << id1 << ", " << id2 << endl;
+                    this->addAresta(id1, id2, horizontalThisAux->getPesoAresta());
+                }
+                auxG = auxG->getProxVertical();
+            }
+            horizontalThisAux = horizontalThisAux->getProxHorizontal();
+        }
+        auxThis = auxThis->getProxVertical();
+    }
+}
+
 Grafo* Grafo::produtoCartesiano(Grafo *g){
-    Grafo* novo;
+    Grafo* novo = new Grafo(this->flagDir);
+    
+    /*NoLista *auxThis = (this->l)->getStart();
+    NoLista *auxG = (g->l)->getStart();
+    
+    while (auxThis != NULL){
+        while (auxG != NULL){
+            novo->addVertice(100000 + (auxThis->getId() * 1000) + 200 + auxG->getId()); // 1[ID_VERTICE_THIS]2[ID_VERTICE_G]
+            auxG = auxG->getProxVertical();
+        }
+        auxThis = auxThis->getProxVertical();
+        auxG = (g->l)->getStart();
+    }*/
+    
+    NoLista *auxThis = (this->l)->getStart();
+    NoLista *auxG = (g->l)->getStart();
+    NoLista *horizontalThisAux;
+    NoLista *horizontalGAux;
+    
+    while (auxThis != NULL){
+        horizontalThisAux = auxThis->getProxHorizontal();
+        while (horizontalThisAux != NULL){
+            while (auxG != NULL){
+                horizontalGAux = auxG->getProxHorizontal();
+                int id1 = 100000 + (auxThis->getId() * 1000) + 200 + auxG->getId();
+                int id2 = 100000 + (horizontalThisAux->getId() * 1000) + 200 + auxG->getId();
+                if (!novo->verificaAdjacente(id1, id2)){
+                    novo->addAresta(id1, id2, horizontalThisAux->getPesoAresta());
+                }
+                
+                while (horizontalGAux != NULL){
+                    int id3 = 100000 + (auxThis->getId() * 1000) + 200 + horizontalGAux->getId();
+                    if (!novo->verificaAdjacente(id1, id3)){
+                        novo->addAresta(id1, id3, horizontalThisAux->getPesoAresta());
+                    }
+                    horizontalGAux = horizontalGAux->getProxHorizontal();
+                }
+                
+                auxG = auxG->getProxVertical();
+            }
+            horizontalThisAux = horizontalThisAux->getProxHorizontal();
+        }
+        auxThis = auxThis->getProxVertical();
+        auxG = (g->l)->getStart();
+    }
     
     return novo;
 }
