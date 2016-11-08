@@ -820,6 +820,52 @@ vector<vector<vector<int>>> Grafo::floyd(){
 }
 
 /*
+ Dado o ID de um vertice, esta funcao retorna o fecho transitivo direto deste vertice em um vector.
+ */
+vector<int> Grafo::getFechoTransitivoDireto(int id){
+    // Deve ser digrafo para ter fecho
+    if (!this->flagDir){
+        exit(-1);
+    }
+    
+    vector<int> fecho;
+    
+    vector<vector<vector<int>>> matrizFloyd = this->floyd();
+    int idPos = this->getPosicao(id);
+    
+    for (int i = 0; i < matrizFloyd[0].size(); i++){
+        if(!matrizFloyd[idPos][i].empty()){
+            fecho.push_back(getIdLista(i));
+        }
+    }
+    
+    return fecho;
+}
+
+/*
+ Dado o ID de um vertice, esta funcao retorna o fecho transitivo indireto deste vertice em um vector.
+ */
+vector<int> Grafo::getFechoTransitivoIndireto(int id){
+    // Deve ser digrafo para ter fecho
+    if (!this->flagDir){
+        exit(-1);
+    }
+    
+    vector<int> fecho;
+    
+    vector<vector<vector<int>>> matrizFloyd = this->floyd();
+    int idPos = this->getPosicao(id);
+    
+    for (int i = 0; i < matrizFloyd[0].size(); i++){
+        if(!matrizFloyd[i][idPos].empty()){
+            fecho.push_back(getIdLista(i));
+        }
+    }
+    
+    return fecho;
+}
+
+/*
  Dado um subconjunto de vertices de um grafo, esta função retorna o subgrafo induzido pelo conjunto passado.
  */
 Grafo* Grafo::getSubgrafo(vector<int> vertices){
@@ -892,45 +938,8 @@ vector<vector<int>> Grafo::getComponentesConexas(){
 /*
  Retorna o produto cartesiano entre 'this' e 'g'.
  */
-
-void Grafo::auxProduto(Lista* l1, Lista* l2){
-    NoLista* auxThis = l1->getStart();
-    NoLista* auxG = l2->getStart();
-    NoLista *horizontalThisAux;
-    
-    while (auxThis != NULL){
-        horizontalThisAux = auxThis->getProxHorizontal();
-        while (horizontalThisAux != NULL){
-            // 10[thisID]xxx - 10[horizontalThisAux]xxx
-            while (auxG != NULL){
-                int id1 = 100000 + (auxThis->getId() * 1000) + 200 + auxG->getId();
-                int id2 = 100000 + (horizontalThisAux->getId() * 1000) + 200 + auxG->getId();
-                if (!this->verificaAdjacente(id1, id2)){
-                    cout << "IF = " << id1 << ", " << id2 << endl;
-                    this->addAresta(id1, id2, horizontalThisAux->getPesoAresta());
-                }
-                auxG = auxG->getProxVertical();
-            }
-            horizontalThisAux = horizontalThisAux->getProxHorizontal();
-        }
-        auxThis = auxThis->getProxVertical();
-    }
-}
-
 Grafo* Grafo::produtoCartesiano(Grafo *g){
     Grafo* novo = new Grafo(this->flagDir);
-    
-    /*NoLista *auxThis = (this->l)->getStart();
-    NoLista *auxG = (g->l)->getStart();
-    
-    while (auxThis != NULL){
-        while (auxG != NULL){
-            novo->addVertice(100000 + (auxThis->getId() * 1000) + 200 + auxG->getId()); // 1[ID_VERTICE_THIS]2[ID_VERTICE_G]
-            auxG = auxG->getProxVertical();
-        }
-        auxThis = auxThis->getProxVertical();
-        auxG = (g->l)->getStart();
-    }*/
     
     NoLista *auxThis = (this->l)->getStart();
     NoLista *auxG = (g->l)->getStart();

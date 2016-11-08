@@ -60,14 +60,17 @@ int main(int argc, char const *argv[])
     
     // cout << "É K conexo? " << g->verificaKConexo(1) << endl;
     
-    Grafo *g1 = new Grafo(false);
+    /*Grafo *g1 = new Grafo(false);
     Grafo *g2 = new Grafo(false);
     
     g1->addAresta(1, 2, 1);
     g2->addAresta(1, 2, 1);
     g2->addAresta(2, 3, 1);
     
-    g1->produtoCartesiano(g2)->print();
+    g1->produtoCartesiano(g2)->print();*/
+    
+    g->printBusca(g->getFechoTransitivoDireto(5));
+    g->printBusca(g->getFechoTransitivoIndireto(5));
     
     
     return 0;

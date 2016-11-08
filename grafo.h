@@ -74,11 +74,13 @@ public:
     int getIdLista(int pos);
     vector<vector<vector<int>>> floyd();
     
+    vector<int> getFechoTransitivoDireto(int id);
+    vector<int> getFechoTransitivoIndireto(int id);
+    
     Grafo* getSubgrafo(vector<int> vertices);
     
     vector<vector<int>> getComponentesConexas();
     
-    void auxProduto(Lista* l1, Lista* l2);
     Grafo* produtoCartesiano(Grafo* g);
     
     Grafo* prim();
