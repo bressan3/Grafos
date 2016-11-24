@@ -7,22 +7,25 @@
 #include <string>
 #include "grafo.h"
 #include "lista.h"
+#include "corte.h"
 
 using namespace std;
 
 string nomeArquivo = "list_debugging_file";
 
+// string nomeArquivo = "Instancias Grafos/grafo_1000_1.txt";
+
 int main(int argc, char const *argv[])
 {
-    bool digrafo = true;
+    bool digrafo = false;
     
     Grafo *g = new Grafo(digrafo);
     
     g->criaLista(nomeArquivo);
     
-    g->print();
+    // g->print();
     
-    cout << endl;
+    cout << "Lista criada!" << endl;
     
     // cout << g->buscaNoFonte() << endl;
     
@@ -69,9 +72,10 @@ int main(int argc, char const *argv[])
     
     g1->produtoCartesiano(g2)->print();*/
     
-    g->printBusca(g->getFechoTransitivoDireto(5));
-    g->printBusca(g->getFechoTransitivoIndireto(5));
+    // g->printBusca(g->getFechoTransitivoDireto(6));
+    // g->printBusca(g->getFechoTransitivoIndireto(5));
     
+    cout << corteVerticesGuloso(g) << endl;
     
     return 0;
 }

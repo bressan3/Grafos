@@ -64,6 +64,10 @@ int Grafo::getGrauGrafo(){
     return this->grauGrafo;
 }
 
+Lista* Grafo::getLista(){
+    return this->l;
+}
+
 /*
  Dado um Id a função cria um novo vertice com o Id passado como parametro
  */

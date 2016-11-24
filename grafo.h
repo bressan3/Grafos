@@ -31,6 +31,8 @@ public:
     void setGrauGrafo();
     int getGrauGrafo();
     
+    Lista* getLista();
+    
     void addVertice(int id);
     void addAresta(int id1, int id2, int peso);
     void deletaVertice(int id);
