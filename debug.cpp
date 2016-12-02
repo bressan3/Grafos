@@ -75,7 +75,9 @@ int main(int argc, char const *argv[])
     // g->printBusca(g->getFechoTransitivoDireto(6));
     // g->printBusca(g->getFechoTransitivoIndireto(5));
     
-    cout << corteVerticesGuloso(g) << endl;
+    // cout << corteVerticesGuloso(g, 1).size() << endl;
+    
+    cout << corteVerticesGulosoRandomizado(g, 0.05, 1000, nomeArquivo).size() << endl;
     
     return 0;
 }

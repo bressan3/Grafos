@@ -13,9 +13,9 @@
 #include <stdio.h>
 #include "grafo.h"
 
-vector<int> corteVerticesGuloso(Grafo *g);
+vector<int> corteVerticesGuloso(Grafo *g, int criterio);
 
-vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha);
+vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo);
 
 vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g);
 
