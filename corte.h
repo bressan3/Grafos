@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include "grafo.h"
 
-vector<int> corteVerticesGuloso(Grafo *g, int criterio);
+vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo);
 
 vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo);
 

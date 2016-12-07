@@ -12,7 +12,7 @@
 
 using namespace std;
 
-vector<int> corteVerticesGuloso(Grafo *g, int criterio){
+vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
     vector<int> verticesCorte; // Vector contendo os vertices de corte da solução.
     
     vector<vector<int>> vertices; // Vector de todos os vertices (contendo o id do vertice e seu grau) de g de grau maior que zero ordenados pelo seus graus (do menor para o maior).
@@ -82,81 +82,146 @@ vector<int> corteVerticesGuloso(Grafo *g, int criterio){
 }
 
 vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo){
-    vector<int> verticesCorte; // vetor solução
     
-    vector<vector<int>> vertices; // Vector de todos os vertices de g de grau maior que zero ordenados pelo seus graus (do menor para o maior).
+    /*
+     Inicialização de todas as variaveis utilizadas
+     */
+    vector<int> verticesCorte;
+    vector<vector<int>> vertices;
+    Lista *auxLista;
+    NoLista *aux, *aux2;
+    int verticeEscolhido;
+    vector<vector<int>> componentesInicial;
+    vector<int> buscaConexo;
+    vector<vector<int>> candidatos;
+    int candidatoEscolhido;
+    int randomId;
+    vector<int> best;
+    int numComponentesInicial;
+    
+    //determina quantas componentes g possui
+    componentesInicial = g->getComponentesConexas();
+    numComponentesInicial = (int)componentesInicial.size();
     
     //função para gerar aleatoriedade no rand()
     srand(time(NULL));
     
-    Lista* auxLista = g->getLista();
-    NoLista* aux = auxLista->getStart();
-    NoLista* aux2;
-    
-    // ordena os vertices do grafo
-    cout << "Cria vector de vertices" << endl;
-    while (aux != NULL){
-        if ((aux->getVertice()->getGrau()) != 0){
-            vertices.push_back({aux->getId(), (aux->getVertice())->getGrau()});
-        }
-        aux = aux->getProxVertical();
-    } sort(vertices.begin(), vertices.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] < b[1];});
-    cout << "Terminou criar vector de vertices" << endl;
-    
-    // escolhe um vertice baseado no alpha
-    int verticeEscolhido;
-    verticeEscolhido = vertices[(int)(rand() % (int)vertices.size()*alpha)][0];
-    // verticeEscolhido = vertices[0][0];
-    cout << "vertice selecionado para fazer o corte: " << verticeEscolhido << endl;
-    aux = auxLista->buscarNoVertical(verticeEscolhido);
-    
-    //faz busca em largura para ver quantos vertices existem
-    vector<int> buscaInicial = g->buscaEmLargura(verticeEscolhido);
-    vector<int> buscaConexo;
-    
-    //vetor onde irá ficar todos os candidatos
-    vector<vector<int>> candidatos;
-    
-    // ordena os vertices candidatos
-    cout << "Cria vector de vizinhos" << endl;
-    aux2 = aux->getProxHorizontal();
-    while (aux2 != NULL){
-        candidatos.push_back({aux2->getId(), (aux2->getVertice())->getGrau()});
-        aux2 = aux2->getProxHorizontal();
-    } sort(candidatos.begin(), candidatos.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] > b[1];});
-    cout << "Terminou de criar o vector de vizinhos" << endl;
-    
-    // faz a busca e o corte
-    int candidatoEscolhido;
-    int randomId;
-    vector<int> best;
-    cout << "Número de Candidatos = " << candidatos.size() << endl;
     for(int i=0; i<iteracoes; i++){
-        // escolhe um candidato aleatorio baseado no alpha e adiciona na solução e remove ele
-        if (candidatos.size() == 0) break;
-        randomId = rand() % (int)candidatos.size()*alpha;
-        cout << "Posição do candidato selecionado: " << randomId << endl;
-        candidatoEscolhido = candidatos[randomId][0];
-        verticesCorte.push_back(candidatoEscolhido);
-        g->deletaVertice(candidatoEscolhido);
-        candidatos.erase(candidatos.begin() + randomId);
-        buscaConexo = g->buscaEmLargura(verticeEscolhido);
+        cout << endl << "Iter: " << i + 1 << endl;
+
+        auxLista = g->getLista();
+        aux = auxLista->getStart();
         
-        //verifica se a componente ainda é conexa
-        if(buscaInicial.size() > buscaConexo.size()){
-            if ((verticesCorte.size() < best.size()) && best.size() == 0){
-                g->criaLista(nomeArquivo);
-                best.swap(verticesCorte);
+        // ordena os vertices do grafo
+        while (aux != NULL){
+            if ((aux->getVertice()->getGrau()) != 0){
+                vertices.push_back({aux->getId(), (aux->getVertice())->getGrau()});
+            }
+            aux = aux->getProxVertical();
+        } sort(vertices.begin(), vertices.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] < b[1];});
+        
+        // escolhe um vertice baseado no alpha
+        verticeEscolhido = vertices[(int)(rand() % (int)vertices.size()*alpha)][0];
+        
+        /* while (g->getLista()->buscarNoVertical(verticeEscolhido)->getVertice()->getGrau() == 0) {
+            verticeEscolhido = vertices[(int)(rand() % (int)vertices.size()*alpha)][0];
+        }*/
+        
+        aux = auxLista->buscarNoVertical(verticeEscolhido);
+        
+        // ordena os vertices candidatos
+        aux2 = aux->getProxHorizontal();
+        while (aux2 != NULL){
+            candidatos.push_back({aux2->getId(), (aux2->getVertice())->getGrau()});
+            aux2 = aux2->getProxHorizontal();
+        } sort(candidatos.begin(), candidatos.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] > b[1];});
+        
+        cout << "Número de Candidatos = " << candidatos.size() << endl;
+        while (!candidatos.empty()) {
+            // escolhe um candidato aleatorio baseado no alpha e adiciona na solução e remove ele do grafo
+            randomId = rand() % (int)candidatos.size()*alpha;
+            
+            //pega o candidato remove ele do grafo e do vetor, e faz uma busca em largura
+            candidatoEscolhido = candidatos[randomId][0];
+            verticesCorte.push_back(candidatoEscolhido);
+            
+            g->deletaVertice(candidatoEscolhido);
+            candidatos.erase(candidatos.begin() + randomId);
+            
+            int numComponentesAtual = (int)g->getComponentesConexas().size();
+            
+            // Verifica se o número de componentes aumentou após a remoção
+            if (numComponentesAtual > numComponentesInicial) {
+                // Caso tenha aumentado e a nova solução seja menor do que a anterior, a nova solução vira a melhor
+                cout << "Nova solução = " << verticesCorte.size() << endl;
+                // Caso o tamanho do conjunto de vertices de corte encontrado seja 1 (valor ótimo), o algoritimo já retorna o conjunto achado
+                // uma vez que não há um valor de corte melhor do que 1.
+                if (verticesCorte.size() == 1){
+                    return verticesCorte;
+                }
+                if ((verticesCorte.size() < best.size()) || best.size() == 0){
+                    cout << "Mudou a solucao" << endl;
+                    best = verticesCorte;
+                }
+                verticesCorte = {};
+                break;
             }
         }
+        g->criaLista(nomeArquivo);
     }
-    
     return best;
     
 }
 
-vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g){
+vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
+    cout << "iniciando a função corteVerticesGulosoRandomizadoReativo" << endl;
+    /*
+     Inicialização de todas as variaveis utilizadas
+     */
     vector<int> verticesCorte;
+    vector<vector<int>> melhoresSolucoes;
+    vector<double> alphas;
+    vector<int> iteracoes;
+    vector<int> randomizado;
+    int iteracao = g->getNumVertices();
+    int media=0;
     
+    //insere os valores de alpha e o numero de iterações por posição do vetor
+    for(int i=0; i<10; i++){
+        alphas.push_back(0.05*(i+1));
+        iteracoes.push_back(iteracao);
+    }
+    
+    //O algoritmo roda 30 vezes
+    for(int j=0; j<30; j++){
+        cout << "Iniciando o for - iteração: " << j << endl;
+        
+        //roda o algoritmo randomizado
+        for(int i=0; i<alphas.size(); i++){
+            cout << "rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
+            randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
+            
+            //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
+            if(randomizado.size() < melhoresSolucoes[i].size() && melhoresSolucoes[i].size() == 0)
+                melhoresSolucoes[i].swap(randomizado);
+        }
+        
+        //pega o tamanho das soluções e faz um somatório
+        for(int i=0; i<10; i++){
+            media += melhoresSolucoes[i].size();
+        }
+        
+        //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
+        for(int i=0; i<10; i++){
+            iteracoes.at(i) = (int) (1-(melhoresSolucoes[i].size()/media))*g->getNumVertices();
+        }
+    }
+    
+    //define a solução final como a menor solução entre as soluções encontradas usando os alphas
+    for(int i=0; i<10; i++){
+        if(verticesCorte.size() > melhoresSolucoes[i].size() || verticesCorte.size() == 0)
+            verticesCorte.swap(melhoresSolucoes[i]);
+    }
+    cout << "retornando melhor valor encontrado" << endl;
     return verticesCorte;
 }
