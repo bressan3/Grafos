@@ -17,6 +17,6 @@ vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo);
 
 vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo);
 
-vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g);
+vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo);
 
 #endif /* corte_h */

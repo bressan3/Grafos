@@ -24,7 +24,7 @@ Grafo::Grafo(bool flagDir){
     this->numArestas = 0;
     this->flagDir = flagDir;
     this->grauGrafo = 0;
-    this->l = new Lista();
+    this->l = NULL;
 }
 
 int Grafo::getNumVertices(){
@@ -189,6 +189,9 @@ void Grafo::deletaAresta(int id1, int id2){
  com as informações obtidas a aprtir da leitura deste arquivo
  */
 void Grafo::criaLista(string nomeArquivo){
+    
+    this->l = new Lista();
+    
     ifstream arquivo(nomeArquivo.c_str());
     char str[255];
     
@@ -1201,5 +1204,6 @@ void Grafo::print(){
 }
 
 Grafo::~Grafo(){
-    cout<<"Done!"<<endl;
+    delete l;
+    this->l = NULL;
 }

@@ -155,5 +155,22 @@ void Lista::print(){
 }
 
 Lista::~Lista(){
-    cout << "Deleted" << endl;
+    
+    NoLista *auxVertical = this->getStart();
+    NoLista *auxHorizontal;
+    
+    while (auxVertical != NULL){
+        auxHorizontal = auxVertical->getProxHorizontal();
+        while (auxHorizontal != NULL){
+            NoLista *aux = auxHorizontal->getProxHorizontal();
+            delete auxHorizontal;
+            auxHorizontal = aux;
+        }
+        NoLista *aux = auxVertical->getProxVertical();
+        delete auxVertical;
+        auxVertical = aux;
+    }
+    
+    
+    this->start = NULL;
 }
