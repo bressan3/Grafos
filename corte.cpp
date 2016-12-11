@@ -9,6 +9,9 @@
 //  para o problema de corte mínimo de vertices.
 
 #include <fstream>
+#include <fstream>
+#include <algorithm>
+#include <math.h>
 #include "corte.h"
 
 using namespace std;
@@ -191,8 +194,10 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
     vector<double> alphas;
     vector<int> iteracoes;
     vector<int> randomizado;
-    int iteracao = 25;
+    int iteracao = 10;
     int media=0;
+    
+    ofstream out("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
     
     //insere os valores de alpha e o numero de iterações por posição do vetor
     for(int i=0; i<10; i++){
@@ -200,25 +205,39 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
         iteracoes.push_back(iteracao);
         melhoresSolucoes.push_back({});
     }
-        
-    // roda o algoritmo randomizado
-    for(int i=0; i<alphas.size(); i++){
-        cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
-        randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
-        
-        //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
-        if(randomizado.size() < melhoresSolucoes[i].size() || melhoresSolucoes[i].size() == 0)
-            melhoresSolucoes[i].swap(randomizado);
-    }
     
-    //pega o tamanho das soluções e faz um somatório
-    for(int i=0; i<10; i++){
-        media += melhoresSolucoes[i].size();
-    }
-    
-    //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
-    for(int i=0; i<10; i++){
-        iteracoes.at(i) = (int) (1-(melhoresSolucoes[i].size()/media))*iteracao;
+    //O algoritmo roda 30 vezes
+    for(int j=0; j<30; j++){
+        cout << endl << "Iniciando iteração " << j << " de 30" << endl;
+        out << "    Iteração " << j + 1 << " de 30" << endl;
+        
+        clock_t start = clock();
+        
+        //roda o algoritmo randomizado
+        for(int i=0; i<5; i++){
+            
+            cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
+            randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
+            
+            
+            out << "        Corte: " << randomizado.size() << ", Alpha: " << alphas[i] << ", Iterações: " << iteracoes[i] << endl;
+            
+            //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
+            if(randomizado.size() < melhoresSolucoes[i].size() || melhoresSolucoes[i].size() == 0)
+                melhoresSolucoes[i].swap(randomizado);
+        }
+        
+        //pega o tamanho das soluções e faz um somatório
+        for(int i=0; i<10; i++){
+            media += melhoresSolucoes[i].size();
+        }
+        
+        //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
+        for(int i=0; i<10; i++){
+            iteracoes.at(i) = (int) ceil((10*(melhoresSolucoes[i].size()/media))*iteracao);
+        }
+        
+        out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
     }
     
     //define a solução final como a menor solução entre as soluções encontradas usando os alphas

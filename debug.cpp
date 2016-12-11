@@ -220,7 +220,7 @@ void rodar_guloso_rand_reativo(Grafo *g){
     cout << "RODANDO INSTANCIAS GRANDES:" << endl;
     
     for (int i = 0; i < 1; i++){
-        string instancia_atual = "Instancias Grafos/grafo_10000_2.txt";
+        string instancia_atual = "Instancias Grafos/grafo_10000_3.txt";
         
         out << endl;
         out << "    Instância: " << instancia_atual << endl;
@@ -230,14 +230,7 @@ void rodar_guloso_rand_reativo(Grafo *g){
         delete g->getLista();
         g->criaLista(instancia_atual);
         
-        for (int j = 0; j < 30; j++){
-            out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
-            
-            clock_t start = clock();
-            
-            out << "            Corte Mínimo: " << corteVerticesGulosoRandomizadoReativo(g, instancia_atual).size() << endl;
-            out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
-        }
+        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
     }
 }
 
