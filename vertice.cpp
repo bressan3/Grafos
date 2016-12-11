@@ -12,6 +12,7 @@ Vertice::Vertice(int id, int peso){
     this->id = id;
     this->peso = peso;
     this->grau = 0;
+    this->invisivel = false;
 }
 
 Vertice::Vertice(int id){
@@ -38,4 +39,12 @@ void Vertice::incrementaGrau(){
 
 void Vertice::diminuiGrau(){
     this->grau--;
+}
+
+void Vertice::setInvisivel(bool trueOrFalse){
+    this->invisivel = trueOrFalse;
+}
+
+bool Vertice::getInvisivel(){
+    return this->invisivel;
 }

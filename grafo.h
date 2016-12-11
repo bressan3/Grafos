@@ -93,6 +93,8 @@ public:
     
     bool verificaEuleriano();
     
+    void setInvisivel(int id, bool opcao);
+    
     // Debugging functions
     void printBusca(vector<int> lista);
     void print();

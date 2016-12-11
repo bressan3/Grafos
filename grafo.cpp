@@ -387,7 +387,7 @@ vector<int> Grafo::buscaEmLargura(int id){
         while (aux != NULL){
             vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
             
-            if (it == visitados.end()){
+            if (it == visitados.end() && !aux->getVertical()->getVertice()->getInvisivel()){
                 visitados.push_back(aux->getId());
                 fila.push_back(aux->getId());
             }
@@ -1189,6 +1189,11 @@ bool Grafo::verificaEuleriano(){
     }
     
     return true;
+}
+
+// Dado um nó, este nó e setado como invisivel ou nao dependendo da opção.
+void Grafo::setInvisivel(int id, bool opcao){
+    this->getLista()->buscarNoVertical(id)->getVertice()->setInvisivel(opcao);
 }
 
 /*Dado um vetor de inteiros imprime a mesma*/

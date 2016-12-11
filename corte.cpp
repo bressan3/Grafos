@@ -54,6 +54,10 @@ vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
     // bool corteEncontrado = false;
     vector<int> busca1 = g->buscaEmLargura(atual->getId());
     vector<int> busca2;
+    if (candidatos.size() == 1) {
+        verticesCorte.push_back(candidatos[0][0]);
+        return verticesCorte;
+    }
     while (!candidatos.empty()){
         // cout << "\r" << "Candidato " << i << ", ID = " << candidatos[0][0] << ", Grau = " << candidatos[0][1] << endl;
         
@@ -92,10 +96,6 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
     int candidatoEscolhido;
     int randomId;
     vector<int> best;
-    
-    // Cria um grafo do zero
-    delete g->getLista();
-    g->criaLista(nomeArquivo);
     
     //função para gerar aleatoriedade no rand()
     srand(time(NULL));
@@ -147,12 +147,12 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
             candidatoEscolhido = candidatos[randomId][0];
             verticesCorte.push_back(candidatoEscolhido);
             
-            g->deletaVertice(candidatoEscolhido);
+            // g->deletaVertice(candidatoEscolhido);
+            
+            g->setInvisivel(candidatoEscolhido, true);
             candidatos.erase(candidatos.begin() + randomId);
             
             // cout << "Vertice Deletado" << endl;
-            
-            // int numComponentesAtual = (int)g->getComponentesConexas().size();
             
             int caminhoAtual = (int)g->buscaEmLargura(verticeEscolhido).size();
             
@@ -168,13 +168,14 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
                     // cout << "Mudou a solucao" << endl;
                     best = verticesCorte;
                 }
+                for (int i = 0; i < verticesCorte.size(); i++){
+                    g->setInvisivel(verticesCorte[i], false);
+                }
                 verticesCorte = {};
                 break;
             }
         }
-        // Recria o grafo
-        delete g->getLista();
-        g->criaLista(nomeArquivo);
+        
     }
     return best;
     
@@ -199,30 +200,25 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
         iteracoes.push_back(iteracao);
         melhoresSolucoes.push_back({});
     }
+        
+    // roda o algoritmo randomizado
+    for(int i=0; i<alphas.size(); i++){
+        cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
+        randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
+        
+        //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
+        if(randomizado.size() < melhoresSolucoes[i].size() || melhoresSolucoes[i].size() == 0)
+            melhoresSolucoes[i].swap(randomizado);
+    }
     
-    //O algoritmo roda 30 vezes
-    for(int j=0; j<30; j++){
-        cout << endl << "Iniciando iteração " << j << " de 30" << endl;
-        
-        //roda o algoritmo randomizado
-        for(int i=0; i<alphas.size(); i++){
-            cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
-            randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
-            
-            //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
-            if(randomizado.size() < melhoresSolucoes[i].size() || melhoresSolucoes[i].size() == 0)
-                melhoresSolucoes[i].swap(randomizado);
-        }
-        
-        //pega o tamanho das soluções e faz um somatório
-        for(int i=0; i<10; i++){
-            media += melhoresSolucoes[i].size();
-        }
-        
-        //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
-        for(int i=0; i<10; i++){
-            iteracoes.at(i) = (int) (1-(melhoresSolucoes[i].size()/media))*iteracao;
-        }
+    //pega o tamanho das soluções e faz um somatório
+    for(int i=0; i<10; i++){
+        media += melhoresSolucoes[i].size();
+    }
+    
+    //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
+    for(int i=0; i<10; i++){
+        iteracoes.at(i) = (int) (1-(melhoresSolucoes[i].size()/media))*iteracao;
     }
     
     //define a solução final como a menor solução entre as soluções encontradas usando os alphas
@@ -230,6 +226,7 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
         if(verticesCorte.size() > melhoresSolucoes[i].size() || verticesCorte.size() == 0)
             verticesCorte.swap(melhoresSolucoes[i]);
     }
+    
     cout << "retornando melhor valor encontrado" << endl;
     return verticesCorte;
 }

@@ -20,6 +20,7 @@ private:
     int id;
     int peso;
     int grau;
+    bool invisivel;
 
 public:
 
@@ -30,6 +31,8 @@ public:
     int getGrau();
     void incrementaGrau();
     void diminuiGrau();
+    void setInvisivel(bool trueOrFalse);
+    bool getInvisivel();
     // ~Vertice();
 
 };
