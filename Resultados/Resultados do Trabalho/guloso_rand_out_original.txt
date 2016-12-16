@@ -1,0 +1,1526 @@
+INSTANCIAS PEQUENAS:
+
+    Instância: Instancias Grafos/grafo_1000_4.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.745644 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 1.95608 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 10
+            Tempo: 0.529279 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.43805 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 0.496497 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.904328 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.871555 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.896644 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.51142 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.82498 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 1.47113 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 1.2497 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 8
+            Tempo: 2.52454 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 1.46876 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 11
+            Tempo: 0.575195 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.89638 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.24727 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.70441 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 1.65268 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 2.00219 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 1.87013 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 2.35278 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.61803 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 1.62559 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 1.72908 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 8
+            Tempo: 2.20036 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 1.10956 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 1.42508 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 9
+            Tempo: 1.59876 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 2.10695 s
+
+
+    Instância: Instancias Grafos/grafo_1000_8.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 1.18055 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 1.11605 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 1.01528 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.042629 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000458 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000456 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000454 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000454 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000454 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000453 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000453 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000453 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000452 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000452 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000452 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00045 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000453 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000452 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00045 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000454 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000452 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00045 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000451 s
+
+
+    Instância: Instancias Grafos/grafo_10000_8.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00537 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005109 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005103 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005107 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005094 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005099 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005127 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005133 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005118 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005097 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005096 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009388 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.006733 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005119 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005109 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005103 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005097 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005099 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005097 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005107 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005101 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005109 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.0051 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005106 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005096 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005136 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.005278 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.007609 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009148 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.006184 s
+
+
+    Instância: Instancias Grafos/grafo_10000_4.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.651955 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 1.0981 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003637 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003452 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003485 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003483 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003595 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003453 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00348 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003453 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003451 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003447 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003452 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003455 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003553 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003451 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003475 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003444 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003452 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00345 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003452 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003475 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003451 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003445 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003564 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003448 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003448 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003532 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003451 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.003445 s
+
+
+INSTANCIAS MEDIAS:
+
+    Instância: Instancias Grafos/grafo_10000_3.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 33.5328 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 26.0032 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 26.7499 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 30.5698 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 26.9273 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 8
+            Tempo: 17.1681 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 2.37041 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 32.502 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 31.3552 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 24.6257 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 18.8894 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 1.17246 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 32.8261 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 34.2788 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 42.8246 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.66764 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 8.03561 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 7.02278 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 39.792 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 1.14184 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 41.1103 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 2.32276 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 2.40373 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 17.4522 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 35.9684 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 34.5401 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 32.9927 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 34.2795 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 37.7254 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 30.6668 s
+
+
+    Instância: Instancias Grafos/grafo_1000_3.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 12
+            Tempo: 57.0182 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 27
+            Tempo: 58.7154 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 48
+            Tempo: 65.0244 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 42
+            Tempo: 60.8299 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 51
+            Tempo: 69.3628 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 16
+            Tempo: 42.2805 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 54.9072 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 36
+            Tempo: 58.4847 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 11
+            Tempo: 52.2594 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 29
+            Tempo: 60.901 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 29
+            Tempo: 53.1847 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 22
+            Tempo: 56.1579 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 28
+            Tempo: 63.568 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 27
+            Tempo: 57.2851 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 27
+            Tempo: 45.2981 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 29
+            Tempo: 59.1145 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 33
+            Tempo: 64.4268 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 12
+            Tempo: 48.9038 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 29
+            Tempo: 60.2285 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 28
+            Tempo: 59.2561 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 11
+            Tempo: 46.2831 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 12
+            Tempo: 56.4953 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 31
+            Tempo: 60.2199 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 44
+            Tempo: 63.0088 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 47.6155 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 42
+            Tempo: 63.6433 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 20
+            Tempo: 52.5432 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 40
+            Tempo: 65.7073 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 36
+            Tempo: 56.7117 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 28
+            Tempo: 47.9639 s
+
+
+    Instância: Instancias Grafos/grafo_10000_7.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 7.23507 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 19.1601 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 26.9266 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.883447 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 8.55139 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 22.0088 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 33.4576 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 26.3012 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 18.5205 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 23.4943 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 14.3008 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.882383 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 20.1614 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 27.7235 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 21.3654 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 20.869 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 24.5533 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 25.7022 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 21.2206 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 14.1786 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 19.4319 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 24.5314 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 14.2462 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 27.8591 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 23.2825 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 20.4202 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 25.0846 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 29.2402 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 25.5433 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 23.5747 s
+
+
+INSTANCIAS GRANDES:
+
+
+    Instância: Instancias Grafos/grafo_1000_6.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 71
+            Tempo: 308.838 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 52
+            Tempo: 298.391 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 82
+            Tempo: 323.906 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 67
+            Tempo: 323.755 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 132
+            Tempo: 392.977 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 125
+            Tempo: 363.774 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 131
+            Tempo: 355.551 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 106
+            Tempo: 344.977 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 95
+            Tempo: 329.438 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 36
+            Tempo: 334.482 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 67
+            Tempo: 317.321 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 71
+            Tempo: 313.977 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 72
+            Tempo: 324.858 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 77
+            Tempo: 321.463 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 106
+            Tempo: 363.742 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 131
+            Tempo: 386.535 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 63
+            Tempo: 326.058 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 103
+            Tempo: 354.678 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 110
+            Tempo: 356.007 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 106
+            Tempo: 351.867 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 113
+            Tempo: 341.181 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 82
+            Tempo: 283.779 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 119
+            Tempo: 354.695 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 77
+            Tempo: 302.44 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 107
+            Tempo: 350.669 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 150
+            Tempo: 411.023 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 122
+            Tempo: 375.229 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 114
+            Tempo: 366.712 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 131
+            Tempo: 392.235 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 52
+            Tempo: 289.443 s
+
+
+    Instância: Instancias Grafos/grafo_10000_6.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 175.358 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 9
+            Tempo: 225.834 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 171.367 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 75.5097 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 8
+            Tempo: 206.137 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 206.717 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 196.637 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 191.384 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 224.09 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 195.196 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 168.96 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 191.731 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 9
+            Tempo: 223.469 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 119.959 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 194.482 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 205.084 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 181.338 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 191.096 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 127.188 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 204.969 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 163.903 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 189.623 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 5
+            Tempo: 204.704 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 211.144 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 179.835 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.10848 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 168.578 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 103.772 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 7
+            Tempo: 182.589 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 8
+            Tempo: 191.269 s
+
+
+    Instância: Instancias Grafos/grafo_10000_2.txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 6
+            Tempo: 263.772 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 219.877 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 235.238 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 192.792 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004035 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004041 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004024 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004014 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004024 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004023 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004024 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004018 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004049 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004076 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004192 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004022 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004019 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004023 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004019 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004019 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00402 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004022 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004017 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004023 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004018 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004054 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004022 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004021 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00404 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.004015 s
+

@@ -3,18 +3,25 @@
 //  Grafos
 //
 //  Created by Lucas Bressan on 11/21/16.
-//  Copyright © 2016 Lucas Bressan. All rights reserved.
+//  Copyright © 2016 Lucas Bressan, Gabriell Lucas, Bruno Almeida, Claudio Lopes. All rights reserved.
 //
 //  Arquivo que implementa os algorítimos guloso, guloso randomizado e guloso randomizado reativo
 //  para o problema de corte mínimo de vertices.
 
 #include <fstream>
-#include <fstream>
 #include <algorithm>
 #include <math.h>
+#include <ctime>
+
 #include "corte.h"
 
 using namespace std;
+
+vector<string> instancias_pequenas = {"Instancias Grafos/grafo_1000_4.txt", "Instancias Grafos/grafo_1000_8.txt", "Instancias Grafos/grafo_10000_8.txt", "Instancias Grafos/grafo_10000_4.txt"};
+vector<string> instancias_medias = {"Instancias Grafos/grafo_10000_3.txt", "Instancias Grafos/grafo_1000_3.txt", "Instancias Grafos/grafo_10000_7.txt"};
+vector<string> instancias_grandes = {"Instancias Grafos/grafo_1000_6.txt", "Instancias Grafos/grafo_10000_6.txt", "Instancias Grafos/grafo_10000_2.txt"};
+
+bool digrafo = false;
 
 vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
     vector<int> verticesCorte; // Vector contendo os vertices de corte da solução.
@@ -62,7 +69,6 @@ vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
         return verticesCorte;
     }
     while (!candidatos.empty()){
-        // cout << "\r" << "Candidato " << i << ", ID = " << candidatos[0][0] << ", Grau = " << candidatos[0][1] << endl;
         
         int candidatoAtual = candidatos[0][0];
         candidatos.erase(candidatos.begin());
@@ -104,7 +110,6 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
     srand(time(NULL));
     
     for(int i=0; i<iteracoes; i++){
-        // cout << endl << "Iter: " << i + 1 << endl;
         
         auxLista = g->getLista();
         aux = auxLista->getStart();
@@ -124,21 +129,17 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
         
         aux = auxLista->buscarNoVertical(verticeEscolhido);
         
-        // ordena os vertices candidatos
+        // ordena os vertices candidatos do vertice de maior grau para o de menor
         aux2 = aux->getProxHorizontal();
         while (aux2 != NULL){
             candidatos.push_back({aux2->getId(), (aux2->getVertice())->getGrau()});
             aux2 = aux2->getProxHorizontal();
         } sort(candidatos.begin(), candidatos.end(),[](const std::vector<int>& a, const std::vector<int>& b) {return a[1] > b[1];});
         
-        // cout << "Número de Candidatos = " << candidatos.size() << endl;
-        
         // Caso o tamanho do conjunto de vertices de corte encontrado seja 1 (valor ótimo), o algoritimo já retorna o conjunto achado
         // uma vez que não há um valor de corte melhor do que 1.
         if (candidatos.size() == 1){
-            // cout << "Nova solução = " << candidatos.size() << endl;
             best.push_back(candidatos[0][0]);
-            // cout << "Mudou a solucao" << endl;
             return best;
         }
         
@@ -146,29 +147,22 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
             // escolhe um candidato aleatorio baseado no alpha e adiciona na solução e remove ele do grafo
             randomId = rand() % (int)candidatos.size()*alpha;
             
-            //pega o candidato remove ele do grafo e do vetor, e faz uma busca em largura
+            //pega o candidato "remove" ele do grafo e do vetor, e faz uma busca em largura
             candidatoEscolhido = candidatos[randomId][0];
             verticesCorte.push_back(candidatoEscolhido);
             
-            // g->deletaVertice(candidatoEscolhido);
-            
             g->setInvisivel(candidatoEscolhido, true);
             candidatos.erase(candidatos.begin() + randomId);
-            
-            // cout << "Vertice Deletado" << endl;
             
             int caminhoAtual = (int)g->buscaEmLargura(verticeEscolhido).size();
             
             // Verifica se o número de componentes aumentou após a remoção
             if (candidatos.empty() || (caminhoInicial - verticesCorte.size() != caminhoAtual)){
                 // Caso tenha aumentado e a nova solução seja menor do que a anterior, a nova solução vira a melhor
-                // cout << "Nova solução = " << verticesCorte.size() << endl;
                 if (verticesCorte.size() == 1){
-                    // cout << "Mudou a solucao" << endl;
                     return verticesCorte;
                 }
                 if ((verticesCorte.size() < best.size()) || best.size() == 0){
-                    // cout << "Mudou a solucao" << endl;
                     best = verticesCorte;
                 }
                 for (int i = 0; i < verticesCorte.size(); i++){
@@ -185,42 +179,46 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
 }
 
 vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
-    cout << "iniciando a função corteVerticesGulosoRandomizadoReativo" << endl;
     /*
      Inicialização de todas as variaveis utilizadas
      */
     vector<int> verticesCorte;
+    vector<vector<int>> resultadosIteracoes;
     vector<vector<int>> melhoresSolucoes;
     vector<double> alphas;
     vector<int> iteracoes;
     vector<int> randomizado;
+    int quantAlphas = 10;
     int iteracao = 10;
     int media=0;
     
     ofstream out("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
     
     //insere os valores de alpha e o numero de iterações por posição do vetor
-    for(int i=0; i<10; i++){
+    for(int i=0; i<quantAlphas; i++){
         alphas.push_back(0.05*(i+1));
         iteracoes.push_back(iteracao);
         melhoresSolucoes.push_back({});
+        resultadosIteracoes.push_back({});
     }
     
     //O algoritmo roda 30 vezes
     for(int j=0; j<30; j++){
+        media = 0;
         cout << endl << "Iniciando iteração " << j << " de 30" << endl;
         out << "    Iteração " << j + 1 << " de 30" << endl;
         
         clock_t start = clock();
         
         //roda o algoritmo randomizado
-        for(int i=0; i<5; i++){
+        for(int i=0; i<quantAlphas; i++){
             
             cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
             randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
             
-            
             out << "        Corte: " << randomizado.size() << ", Alpha: " << alphas[i] << ", Iterações: " << iteracoes[i] << endl;
+            resultadosIteracoes[i].swap(randomizado);
+            
             
             //verifica se o tamanho do algoritmo randomizado é menor que a solução atual ou se a solução atual é nula
             if(randomizado.size() < melhoresSolucoes[i].size() || melhoresSolucoes[i].size() == 0)
@@ -228,24 +226,225 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
         }
         
         //pega o tamanho das soluções e faz um somatório
-        for(int i=0; i<10; i++){
-            media += melhoresSolucoes[i].size();
+        for(int i=0; i<quantAlphas; i++){
+            media += resultadosIteracoes[i].size();
         }
         
         //refaz o número de iterações para cada alpha tendo como base, quanto menor o tamanho da solução maior o número de iterações
-        for(int i=0; i<10; i++){
-            iteracoes.at(i) = (int) ceil((10*(melhoresSolucoes[i].size()/media))*iteracao);
+        for(int i=0; i<quantAlphas; i++){
+            iteracoes.at(i) =  (int)ceil((float)((float)((float)(1-((float)resultadosIteracoes[i].size()/(float)media))/(float)(quantAlphas-1))*iteracao*quantAlphas));
         }
-        
+        media = 0;
         out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
     }
     
     //define a solução final como a menor solução entre as soluções encontradas usando os alphas
-    for(int i=0; i<10; i++){
+    for(int i=0; i<quantAlphas; i++){
         if(verticesCorte.size() > melhoresSolucoes[i].size() || verticesCorte.size() == 0)
             verticesCorte.swap(melhoresSolucoes[i]);
     }
     
     cout << "retornando melhor valor encontrado" << endl;
     return verticesCorte;
+}
+
+
+// Roda o algoritimo guloso para todas as instancias e escreve os resultados em um arquivo de texto
+void rodar_guloso(){
+    cout << "Rodando a abordagem gulosa. . ." << endl;
+    ofstream out("Resultados/guloso_out.txt");
+    
+    out << "INSTANCIAS PEQUENAS:" << endl;
+    
+    for (int i = 0; i < instancias_pequenas.size(); i++){
+        string instancia_atual = instancias_pequenas[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
+        
+        clock_t start = clock();
+        
+        Grafo *g = new Grafo(digrafo);
+        g->criaLista(instancia_atual);
+        
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
+        
+        delete g;
+    }
+    
+    out << endl << "INSTANCIAS MEDIAS:" << endl;
+    
+    for (int i = 0; i < instancias_medias.size(); i++){
+        string instancia_atual = instancias_medias[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
+        
+        clock_t start = clock();
+        
+        Grafo *g = new Grafo(digrafo);
+        g->criaLista(instancia_atual);
+        
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
+        
+        delete g;
+    }
+    
+    out << endl << "INSTANCIAS GRANDES:" << endl;
+    
+    for (int i = 0; i < instancias_grandes.size(); i++){
+        string instancia_atual = instancias_grandes[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
+        
+        clock_t start = clock();
+        
+        Grafo *g = new Grafo(digrafo);
+        g->criaLista(instancia_atual);
+        
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
+        
+        delete g;
+    }
+    
+}
+
+// Roda o algoritimo guloso randomizado para todas as intâncias 30 vezes cada uma com o alfa = 0.5 e 5 interações
+void rodar_guloso_rand(Grafo* g){
+    ofstream out("Resultados/guloso_rand_out.txt");
+    
+    out << "INSTANCIAS PEQUENAS:" << endl;
+    cout << "RODANDO INSTANCIAS PEQUENAS:" << endl;
+    
+    // Roda a abordagem gulosa randomica por 30 vezes para cada instância
+    for (int i = 0; i < instancias_pequenas.size(); i++){
+         string instancia_atual = instancias_pequenas[i];
+         
+         out << endl;
+         out << "    Instância: " << instancia_atual << endl;
+         
+         cout << "Instância: " << instancia_atual << endl;
+         
+         delete g->getLista();
+         g->criaLista(instancia_atual);
+         
+         for (int j = 0; j < 30; j++){
+             out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
+             
+             clock_t start = clock();
+             
+             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+             out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
+         }
+     }
+     
+     out << endl << "INSTANCIAS MEDIAS:" << endl;
+     cout << endl << "RODANDO INSTANCIAS MEDIAS:" << endl;
+    
+    // Roda a abordagem gulosa randomica por 30 vezes para cada instância
+    for (int i = 0; i < instancias_medias.size(); i++){
+        string instancia_atual = instancias_medias[i];
+         
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
+         
+         cout << "Instância: " << instancia_atual << endl;
+         
+         delete g->getLista();
+         g->criaLista(instancia_atual);
+         
+         for (int j = 0; j < 30; j++){
+             out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
+             
+             clock_t start = clock();
+             
+             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+             out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
+         }
+     }
+    
+    out << endl << "INSTANCIAS GRANDES:" << endl;
+    cout << endl << "RODANDO INSTANCIAS GRANDES:" << endl;
+    
+    // Roda a abordagem gulosa randomica por 30 vezes para cada instância
+    for (int i = 0; i < instancias_grandes.size(); i++){
+        string instancia_atual = instancias_grandes[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
+        
+        cout << "Instância: " << instancia_atual << endl;
+        
+        delete g;
+        Grafo *g = new Grafo(false);
+        g->criaLista(instancia_atual);
+        
+        for (int j = 0; j < 30; j++){
+            out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
+            
+            clock_t start = clock();
+            
+            out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+            out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
+        }
+    }
+}
+
+void rodar_guloso_rand_reativo(Grafo *g){
+    ofstream out("Resultados/guloso_rand_reativo_out.txt");
+    
+    out << "INSTANCIAS PEQUENAS:" << endl;
+    cout << "RODANDO INSTANCIAS PEQUENAS:" << endl;
+     
+    for (int i = 0; i < instancias_pequenas.size(); i++){
+        string instancia_atual = instancias_pequenas[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl << endl;
+        
+        cout << "Instância: " << instancia_atual << endl;
+        
+        delete g->getLista();
+        g->criaLista(instancia_atual);
+        
+        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+    }
+     
+    out << "INSTANCIAS MEDIAS:" << endl;
+    cout << "RODANDO INSTANCIAS MEDIAS:" << endl;
+     
+    for (int i = 0; i < instancias_medias.size(); i++){
+        string instancia_atual = instancias_medias[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl << endl;
+        
+        cout << "Instância: " << instancia_atual << endl;
+        
+        delete g->getLista();
+        g->criaLista(instancia_atual);
+        
+        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+    }
+    
+    out << "INSTANCIAS GRANDES:" << endl;
+    cout << "RODANDO INSTANCIAS GRANDES:" << endl;
+    
+    for (int i = 0; i < instancias_grandes.size(); i++){
+        string instancia_atual = instancias_grandes[i];
+        
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl << endl;
+        
+        cout << "Instância: " << instancia_atual << endl;
+        
+        delete g->getLista();
+        g->criaLista(instancia_atual);
+        
+        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+    }
 }

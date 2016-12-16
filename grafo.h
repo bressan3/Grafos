@@ -32,6 +32,7 @@ public:
     int getGrauGrafo();
     
     Lista* getLista();
+    void exportaLista(string nomeArquivo);
     
     void addVertice(int id);
     void addAresta(int id1, int id2, int peso);

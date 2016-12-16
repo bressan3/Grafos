@@ -1,0 +1,45 @@
+INSTANCIAS PEQUENAS:
+
+    Instância: Instancias Grafos/grafo_1000_4.txt
+        Corte Mínimo: 1
+        Tempo: 0.666977 s
+
+    Instância: Instancias Grafos/grafo_1000_8.txt
+        Corte Mínimo: 1
+        Tempo: 0.493089 s
+
+    Instância: Instancias Grafos/grafo_10000_8.txt
+        Corte Mínimo: 1
+        Tempo: 5.0656 s
+
+    Instância: Instancias Grafos/grafo_10000_4.txt
+        Corte Mínimo: 1
+        Tempo: 7.23214 s
+
+INSTANCIAS MEDIAS:
+
+    Instância: Instancias Grafos/grafo_10000_3.txt
+        Corte Mínimo: 1
+        Tempo: 24.9433 s
+
+    Instância: Instancias Grafos/grafo_1000_3.txt
+        Corte Mínimo: 2
+        Tempo: 3.13656 s
+
+    Instância: Instancias Grafos/grafo_10000_7.txt
+        Corte Mínimo: 1
+        Tempo: 20.9681 s
+
+INSTANCIAS GRANDES:
+
+    Instância: Instancias Grafos/grafo_1000_6.txt
+        Corte Mínimo: 36
+        Tempo: 25.4684 s
+
+    Instância: Instancias Grafos/grafo_10000_6.txt
+        Corte Mínimo: 1
+        Tempo: 85.235 s
+
+    Instância: Instancias Grafos/grafo_10000_2.txt
+        Corte Mínimo: 1
+        Tempo: 62.9625 s

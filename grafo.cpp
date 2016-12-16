@@ -250,6 +250,43 @@ void Grafo::criaLista(string nomeArquivo){
     this->setGrauGrafo();
 }
 
+/* Dado um grafo, esta função o escreve em um arquivo de texto */
+void Grafo::exportaLista(string nomeArquivo){
+    ofstream out(nomeArquivo);
+    vector<vector<int>> paresVisitados;
+    
+    out << this->numVertices << endl;
+    
+    NoLista *auxVertical = (this->l)->getStart();
+    NoLista *auxHorizontal = auxVertical->getProxHorizontal();
+    
+    while (auxVertical != NULL) {
+        paresVisitados.push_back({-1, -1});
+        auxHorizontal = auxVertical->getProxHorizontal();
+        while (auxHorizontal != NULL){
+            bool parJaExiste = false;
+            
+            for (int i = 0; i < paresVisitados.size(); i++){
+                if ((paresVisitados[i][0] == auxVertical->getId() && paresVisitados[i][1] == auxHorizontal->getId()) || (paresVisitados[i][0] == auxHorizontal->getId() && paresVisitados[i][1] == auxVertical->getId())){
+                    parJaExiste = true;
+                }
+            }
+            
+            if (!parJaExiste){
+                if (auxHorizontal->getPesoAresta() != 1){
+                    out << auxVertical->getId() << " " << auxHorizontal->getId() << " " << auxHorizontal->getPesoAresta() << endl;
+                } else {
+                    out << auxVertical->getId() << " " << auxHorizontal->getId() << endl;
+                }
+                paresVisitados.push_back({auxVertical->getId(), auxHorizontal->getId()});
+            }
+            
+            auxHorizontal = auxHorizontal->getProxHorizontal();
+        }
+        auxVertical = auxVertical->getProxVertical();
+    }
+}
+
 /*
     Retorna um array contendo a sequencia de graus do grafo
  */

@@ -19,4 +19,10 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
 
 vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo);
 
+void rodar_guloso();
+
+void rodar_guloso_rand(Grafo* g);
+
+void rodar_guloso_rand_reativo(Grafo *g);
+
 #endif /* corte_h */
