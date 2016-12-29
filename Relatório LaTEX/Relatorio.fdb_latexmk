@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1481586368 "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.tex" "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.pdf" "Relatorio" 1481586370
-  "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.aux" 1481586370 4448 6b022d5e48bbe6c59ff880e862a965f6 ""
-  "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.tex" 1481586367 28849 bc67c4ffdd506a11a7594b15ed19f9e8 ""
+["pdflatex"] 1483030947 "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.tex" "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.pdf" "Relatorio" 1483030950
+  "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.aux" 1483030949 4594 70e8e29793b214f87b9b72913e945d96 ""
+  "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.tex" 1483030945 31755 760fa9f96f70b4a3ff651922a6655852 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -145,16 +145,17 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1480945258 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Relatorio.aux" 1481586370 4448 6b022d5e48bbe6c59ff880e862a965f6 ""
-  "Relatorio.tex" 1481586367 28849 bc67c4ffdd506a11a7594b15ed19f9e8 ""
-  "Relatorio.toc" 1481586370 3563 c00c5ca08a48532abea963108963bf2a ""
+  "Relatorio.aux" 1483030949 4594 70e8e29793b214f87b9b72913e945d96 ""
+  "Relatorio.tex" 1483030945 31755 760fa9f96f70b4a3ff651922a6655852 ""
+  "Relatorio.toc" 1483030949 3563 cce2a111edaaf6956eecd13477212806 ""
   "TabelaResultados.png" 1481583612 383000 75a033c8ef402c98b81679d2c6dfd4d6 ""
+  "TabelaResultados2.png" 1482870383 829061 db8aa4f8c6bec9572ca9174ad9a139dc ""
   (generated)
+  "/Users/Lucas/Downloads/Relatório LaTEX/Relatorio.log"
   "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.pdf"
   "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/Relatorio.log"
-  "Relatorio.pdf"
   "Relatorio.log"
-  "/Users/Lucas/Downloads/Relatório LaTEX/Relatorio.log"
   "Relatorio.aux"
+  "Relatorio.pdf"
   "Relatorio.toc"
   "/Users/Lucas/Downloads/Relatório LaTEX/Relatorio.pdf"

@@ -1,0 +1,1525 @@
+INSTANCIAS PEQUENAS:
+
+    Instância: Instancias02/pequena01 (11,20).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000966 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000695 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000671 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000595 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000592 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000591 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000592 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000592 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000592 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000759 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000938 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000986 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000706 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000701 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.0006 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000599 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000597 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00064 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000667 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000882 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000666 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000774 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000619 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000605 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000601 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000762 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000842 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000733 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000698 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.000642 s
+
+
+    Instância: Instancias02/pequena02 (23,71).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002355 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002252 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002456 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002483 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002146 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002089 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002301 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002038 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002408 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002213 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002277 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002673 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002746 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002673 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.003142 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002351 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002343 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002467 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002431 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002355 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002485 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.00224 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002363 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002112 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002273 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002194 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002339 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002505 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002011 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.002305 s
+
+
+    Instância: Instancias02/pequena03 (37,72).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003004 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003443 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003316 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003747 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00308 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002883 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002917 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003425 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003029 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003023 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00302 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002639 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002821 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002566 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003091 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002824 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003129 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002997 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002876 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002949 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002973 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002555 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002897 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002774 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003119 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002755 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002883 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.002527 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.003082 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00263 s
+
+
+    Instância: Instancias02/pequena04 (20,20).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 7.2e-05 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.7e-05 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.5e-05 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000127 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.0001 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.8e-05 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.3e-05 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 6e-05 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.2e-05 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 5.1e-05 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 8.7e-05 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.9e-05 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.6e-05 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.7e-05 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.7e-05 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.6e-05 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.6e-05 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 4.7e-05 s
+
+
+INSTANCIAS MEDIAS:
+
+    Instância: Instancias02/media01 (100,166).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010801 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011347 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011171 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011126 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.012032 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011846 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.012254 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.012019 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.015387 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011812 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.0105 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011182 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010571 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011149 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.012772 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.0115 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011138 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010695 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011211 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011845 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011054 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010664 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010731 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011025 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010772 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010643 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.011209 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010914 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.010977 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.01121 s
+
+
+    Instância: Instancias02/media02 (88,146).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.010054 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009383 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008694 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008878 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008514 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009694 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008755 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.010203 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.010168 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009044 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.00888 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008517 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.011586 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009158 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008303 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009323 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.010151 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009362 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009239 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008287 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009101 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008258 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.00907 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009032 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008697 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.009164 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008676 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008731 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.008715 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.011079 s
+
+
+    Instância: Instancias02/media03 (79,156).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009924 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008157 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008899 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008753 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008382 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00869 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008283 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008377 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008557 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.007702 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008662 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008649 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008094 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008778 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008241 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008135 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008001 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.007915 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009368 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008515 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008802 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00774 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009141 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009647 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008351 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.007922 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.008497 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00822 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.009149 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 3
+            Tempo: 0.00834 s
+
+
+INSTANCIAS GRANDES:
+
+    Instância: Instancias02/grande01 (87,406).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001055 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014382 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000853 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015292 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000858 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015711 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001093 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015558 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000954 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.01611 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001287 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015057 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001012 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.01507 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001006 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014564 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001005 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014471 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000853 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014833 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.000854 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014007 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001085 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014608 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001056 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015862 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.00118 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.015398 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001046 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.014627 s
+
+
+    Instância: Instancias02/grande02 (138,493).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001836 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.026232 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001646 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.028381 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.002418 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.032025 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001774 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.028782 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001779 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.027091 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001552 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.026932 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001927 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.027151 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001596 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.026191 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001808 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.026321 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001933 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.027569 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001801 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.02778 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001557 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.027644 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001838 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.02713 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001683 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.028509 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 1
+            Tempo: 0.001648 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 2
+            Tempo: 0.029925 s
+
+
+    Instância: Instancias02/grande03 (149,541).txt
+
+        Rodando pela 1a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043422 s
+
+
+        Rodando pela 2a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.04451 s
+
+
+        Rodando pela 3a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.046569 s
+
+
+        Rodando pela 4a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.04735 s
+
+
+        Rodando pela 5a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043922 s
+
+
+        Rodando pela 6a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042796 s
+
+
+        Rodando pela 7a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043682 s
+
+
+        Rodando pela 8a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042426 s
+
+
+        Rodando pela 9a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045534 s
+
+
+        Rodando pela 10a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042411 s
+
+
+        Rodando pela 11a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044531 s
+
+
+        Rodando pela 12a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045605 s
+
+
+        Rodando pela 13a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042911 s
+
+
+        Rodando pela 14a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044063 s
+
+
+        Rodando pela 15a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045366 s
+
+
+        Rodando pela 16a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045107 s
+
+
+        Rodando pela 17a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.046232 s
+
+
+        Rodando pela 18a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044295 s
+
+
+        Rodando pela 19a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043505 s
+
+
+        Rodando pela 20a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043518 s
+
+
+        Rodando pela 21a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.043287 s
+
+
+        Rodando pela 22a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044599 s
+
+
+        Rodando pela 23a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.0414 s
+
+
+        Rodando pela 24a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044777 s
+
+
+        Rodando pela 25a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045438 s
+
+
+        Rodando pela 26a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.044205 s
+
+
+        Rodando pela 27a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042231 s
+
+
+        Rodando pela 28a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.0448 s
+
+
+        Rodando pela 29a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.042142 s
+
+
+        Rodando pela 30a vez de 30 vezes
+            Corte Mínimo: 4
+            Tempo: 0.045768 s
+

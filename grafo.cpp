@@ -423,8 +423,8 @@ vector<int> Grafo::buscaEmLargura(int id){
         
         while (aux != NULL){
             vector<int>::iterator it = find(visitados.begin(), visitados.end(), aux->getId());
-            
-            if (it == visitados.end() && !aux->getVertical()->getVertice()->getInvisivel()){
+
+            if ((it == visitados.end() && aux->getVertical()->getVertice() != NULL) && !(aux->getVertical()->getVertice()->getInvisivel())){
                 visitados.push_back(aux->getId());
                 fila.push_back(aux->getId());
             }
@@ -959,6 +959,12 @@ vector<vector<int>> Grafo::getComponentesConexas(){
     
     while (aux != NULL){
         int j = 0;
+        
+        if (aux->getVertice()->getInvisivel()){
+            aux = aux->getProxVertical();
+            continue;
+        }
+        
         for (j = 0; j < numComponentesConexas; j++){
             it = find(componentesConexas[j].begin(), componentesConexas[j].end(), aux->getId());
             if (it != componentesConexas[j].end()){

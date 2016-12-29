@@ -1,5 +1,4 @@
 /*
-    * Arquivo de testes
     * COMIPLAR USANDO C++ 11: g++ -std=c++11 *.cpp -o bin
 */
 
@@ -13,19 +12,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    Grafo *g = new Grafo(false);
-    
     rodar_guloso();
     
-    delete g;
-    g = new Grafo(false);
+    rodar_guloso_rand();
     
-    rodar_guloso_rand(g);
-    
-    delete g;
-    g = new Grafo(false);
-    
-    rodar_guloso_rand_reativo(g);
+    rodar_guloso_rand_reativo();
     
     return 0;
 }

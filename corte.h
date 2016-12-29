@@ -13,16 +13,16 @@
 #include <stdio.h>
 #include "grafo.h"
 
-vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo);
+vector<int> corteVerticesGuloso(Grafo *g);
 
-vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo);
+vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes);
 
-vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo);
+vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g);
 
 void rodar_guloso();
 
-void rodar_guloso_rand(Grafo* g);
+void rodar_guloso_rand();
 
-void rodar_guloso_rand_reativo(Grafo *g);
+void rodar_guloso_rand_reativo();
 
 #endif /* corte_h */

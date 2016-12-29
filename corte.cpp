@@ -17,13 +17,31 @@
 
 using namespace std;
 
-vector<string> instancias_pequenas = {"Instancias Grafos/grafo_1000_4.txt", "Instancias Grafos/grafo_1000_8.txt", "Instancias Grafos/grafo_10000_8.txt", "Instancias Grafos/grafo_10000_4.txt"};
+/*
+ 
+ *
+    INSTÂNCIAS - TESTE 1
+ *
+ 
+ */
+/*vector<string> instancias_pequenas = {"Instancias Grafos/grafo_1000_4.txt", "Instancias Grafos/grafo_1000_8.txt", "Instancias Grafos/grafo_10000_8.txt", "Instancias Grafos/grafo_10000_4.txt"};
 vector<string> instancias_medias = {"Instancias Grafos/grafo_10000_3.txt", "Instancias Grafos/grafo_1000_3.txt", "Instancias Grafos/grafo_10000_7.txt"};
-vector<string> instancias_grandes = {"Instancias Grafos/grafo_1000_6.txt", "Instancias Grafos/grafo_10000_6.txt", "Instancias Grafos/grafo_10000_2.txt"};
+vector<string> instancias_grandes = {"Instancias Grafos/grafo_1000_6.txt", "Instancias Grafos/grafo_10000_6.txt", "Instancias Grafos/grafo_10000_2.txt"};*/
+
+/*
+
+ *
+    INSTÂNCIAS - TESTE 2
+ *
+
+*/
+vector<string> instancias_pequenas = {"Instancias02/pequena01 (11,20).txt", "Instancias02/pequena02 (23,71).txt", "Instancias02/pequena03 (37,72).txt", "Instancias02/pequena04 (20,20).txt"};
+vector<string> instancias_medias = {"Instancias02/media01 (100,166).txt", "Instancias02/media02 (88,146).txt", "Instancias02/media03 (79,156).txt"};
+vector<string> instancias_grandes = {"Instancias02/grande01 (87,406).txt", "Instancias02/grande02 (138,493).txt", "Instancias02/grande03 (149,541).txt"};
 
 bool digrafo = false;
 
-vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
+vector<int> corteVerticesGuloso(Grafo *g){
     vector<int> verticesCorte; // Vector contendo os vertices de corte da solução.
     
     vector<vector<int>> vertices; // Vector de todos os vertices (contendo o id do vertice e seu grau) de g de grau maior que zero ordenados pelo seus graus (do menor para o maior).
@@ -59,11 +77,12 @@ vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
         Para cada vizinho de "NoLista* atual", deletamos seu vizinho com maior grau e checamos se o grafo ficou desconexo.
         Caso não tenha ficado, deletamos o vizinho com o segundo maior grau e assim por diante.
     */
-    cout << "Num Candidatos = " << candidatos.size() << endl;
+    // cout << "Num Candidatos = " << candidatos.size() << endl;
     int i = 0;
     // bool corteEncontrado = false;
-    vector<int> busca1 = g->buscaEmLargura(atual->getId());
-    vector<int> busca2;
+    int numComponentesOriginal = (int)(g->getComponentesConexas()).size();
+    int numComponentesAtual;
+    vector<int> invisiveis;
     if (candidatos.size() == 1) {
         verticesCorte.push_back(candidatos[0][0]);
         return verticesCorte;
@@ -73,23 +92,29 @@ vector<int> corteVerticesGuloso(Grafo *g, string nomeArquivo){
         int candidatoAtual = candidatos[0][0];
         candidatos.erase(candidatos.begin());
         
-        g->deletaVertice(candidatoAtual);
+        g->setInvisivel(candidatoAtual, true);
+        invisiveis.push_back(candidatoAtual);
         
-        busca2 = g->buscaEmLargura(atual->getId());
-
+        // busca2 = g->buscaEmLargura(atual->getId());
+        numComponentesAtual = (int)(g->getComponentesConexas()).size();
+        
         verticesCorte.push_back(candidatoAtual);
         
-        if (busca1.size() - verticesCorte.size() != busca2.size()){
+        // if (busca1.size() - verticesCorte.size() != busca2.size()){
+        if (numComponentesAtual > numComponentesOriginal){
             return verticesCorte;
         }
         i++;
     }
     
-    // Retorna uma lista vazia caso não tenha encontrado um corte no while
+    for (int i = 0; i < invisiveis.size(); i++){
+        g->setInvisivel(invisiveis[i], false);
+    }
+    
     return verticesCorte;
 }
 
-vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes, string nomeArquivo){
+vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes){
     
     /*
      Inicialização de todas as variaveis utilizadas
@@ -109,6 +134,8 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
     //função para gerar aleatoriedade no rand()
     srand(time(NULL));
     
+    int numComponentesOriginal = (int)(g->getComponentesConexas()).size();
+    
     for(int i=0; i<iteracoes; i++){
         
         auxLista = g->getLista();
@@ -125,7 +152,7 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
         // escolhe um vertice baseado no alpha
         verticeEscolhido = vertices[(int)(rand() % (int)vertices.size()*alpha)][0];
         
-        int caminhoInicial = (int)g->buscaEmLargura(verticeEscolhido).size();
+        // int caminhoInicial = (int)g->buscaEmLargura(verticeEscolhido).size();
         
         aux = auxLista->buscarNoVertical(verticeEscolhido);
         
@@ -142,6 +169,7 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
             best.push_back(candidatos[0][0]);
             return best;
         }
+        // cout << "Tam. candidatos = " << candidatos.size() << endl;
         
         while (!candidatos.empty()) {
             // escolhe um candidato aleatorio baseado no alpha e adiciona na solução e remove ele do grafo
@@ -154,10 +182,13 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
             g->setInvisivel(candidatoEscolhido, true);
             candidatos.erase(candidatos.begin() + randomId);
             
-            int caminhoAtual = (int)g->buscaEmLargura(verticeEscolhido).size();
+            // int caminhoAtual = (int)g->buscaEmLargura(verticeEscolhido).size();
+            
+            int numComponentesAtual = (int)g->getComponentesConexas().size();
             
             // Verifica se o número de componentes aumentou após a remoção
-            if (candidatos.empty() || (caminhoInicial - verticesCorte.size() != caminhoAtual)){
+            // if (candidatos.empty() || ((caminhoInicial - verticesCorte.size()) != caminhoAtual)){
+            if (candidatos.empty() || (numComponentesAtual > numComponentesOriginal)){
                 // Caso tenha aumentado e a nova solução seja menor do que a anterior, a nova solução vira a melhor
                 if (verticesCorte.size() == 1){
                     return verticesCorte;
@@ -178,7 +209,7 @@ vector<int> corteVerticesGulosoRandomizado(Grafo *g, float alpha, int iteracoes,
     
 }
 
-vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
+vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g){
     /*
      Inicialização de todas as variaveis utilizadas
      */
@@ -189,7 +220,7 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
     vector<int> iteracoes;
     vector<int> randomizado;
     int quantAlphas = 10;
-    int iteracao = 10;
+    int iteracao = 75;
     int media=0;
     
     ofstream out("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
@@ -205,7 +236,7 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
     //O algoritmo roda 30 vezes
     for(int j=0; j<30; j++){
         media = 0;
-        cout << endl << "Iniciando iteração " << j << " de 30" << endl;
+        // cout << endl << "Iniciando iteração " << j << " de 30" << endl;
         out << "    Iteração " << j + 1 << " de 30" << endl;
         
         clock_t start = clock();
@@ -213,8 +244,8 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
         //roda o algoritmo randomizado
         for(int i=0; i<quantAlphas; i++){
             
-            cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
-            randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i],nomeArquivo);
+            // cout << endl << "Rodando a função corte de vertices randomizado com alpha: " << alphas[i] << " e número de iterações: " << iteracoes[i] << endl;
+            randomizado = corteVerticesGulosoRandomizado(g,alphas[i],iteracoes[i]);
             
             out << "        Corte: " << randomizado.size() << ", Alpha: " << alphas[i] << ", Iterações: " << iteracoes[i] << endl;
             resultadosIteracoes[i].swap(randomizado);
@@ -244,7 +275,9 @@ vector<int> corteVerticesGulosoRandomizadoReativo(Grafo *g, string nomeArquivo){
             verticesCorte.swap(melhoresSolucoes[i]);
     }
     
-    cout << "retornando melhor valor encontrado" << endl;
+    out.close();
+    
+    // cout << "retornando melhor valor encontrado" << endl;
     return verticesCorte;
 }
 
@@ -267,7 +300,7 @@ void rodar_guloso(){
         Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g).size() << endl;
         out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
         
         delete g;
@@ -286,7 +319,7 @@ void rodar_guloso(){
         Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g).size() << endl;
         out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
         
         delete g;
@@ -305,7 +338,7 @@ void rodar_guloso(){
         Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        out << "        Corte Mínimo: " << corteVerticesGuloso(g, instancia_atual).size() << endl;
+        out << "        Corte Mínimo: " << corteVerticesGuloso(g).size() << endl;
         out << "        Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl;
         
         delete g;
@@ -313,33 +346,38 @@ void rodar_guloso(){
     
 }
 
-// Roda o algoritimo guloso randomizado para todas as intâncias 30 vezes cada uma com o alfa = 0.5 e 5 interações
-void rodar_guloso_rand(Grafo* g){
+// Roda o algoritimo guloso randomizado para todas as intâncias 30 vezes
+void rodar_guloso_rand(){
     ofstream out("Resultados/guloso_rand_out.txt");
+    
+    int iteracoes = 15;
+    int alfa = 0.25;
     
     out << "INSTANCIAS PEQUENAS:" << endl;
     cout << "RODANDO INSTANCIAS PEQUENAS:" << endl;
     
     // Roda a abordagem gulosa randomica por 30 vezes para cada instância
     for (int i = 0; i < instancias_pequenas.size(); i++){
-         string instancia_atual = instancias_pequenas[i];
+        string instancia_atual = instancias_pequenas[i];
          
-         out << endl;
-         out << "    Instância: " << instancia_atual << endl;
+        out << endl;
+        out << "    Instância: " << instancia_atual << endl;
          
-         cout << "Instância: " << instancia_atual << endl;
+        cout << "Instância: " << instancia_atual << endl;
+        
+        Grafo *g = new Grafo(digrafo);
+        g->criaLista(instancia_atual);
          
-         delete g->getLista();
-         g->criaLista(instancia_atual);
-         
-         for (int j = 0; j < 30; j++){
+        for (int j = 0; j < 30; j++){
              out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
              
              clock_t start = clock();
              
-             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, alfa, iteracoes).size() << endl;
              out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
-         }
+        }
+        
+        delete g;
      }
      
      out << endl << "INSTANCIAS MEDIAS:" << endl;
@@ -354,17 +392,19 @@ void rodar_guloso_rand(Grafo* g){
          
          cout << "Instância: " << instancia_atual << endl;
          
-         delete g->getLista();
-         g->criaLista(instancia_atual);
+        Grafo *g = new Grafo(digrafo);
+        g->criaLista(instancia_atual);
          
          for (int j = 0; j < 30; j++){
              out << endl << "        Rodando pela " << j + 1 << "a vez de 30 vezes" << endl;
              
              clock_t start = clock();
              
-             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+             out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, alfa, iteracoes).size() << endl;
              out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
          }
+        
+        delete g;
      }
     
     out << endl << "INSTANCIAS GRANDES:" << endl;
@@ -379,8 +419,7 @@ void rodar_guloso_rand(Grafo* g){
         
         cout << "Instância: " << instancia_atual << endl;
         
-        delete g;
-        Grafo *g = new Grafo(false);
+        Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
         for (int j = 0; j < 30; j++){
@@ -388,19 +427,25 @@ void rodar_guloso_rand(Grafo* g){
             
             clock_t start = clock();
             
-            out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, 0.25, 5, instancia_atual).size() << endl;
+            out << "            Corte Mínimo: " << corteVerticesGulosoRandomizado(g, alfa, iteracoes).size() << endl;
             out << "            Tempo: " << (clock() - start) / (double)(CLOCKS_PER_SEC) << " s" << endl << endl;
         }
+        
+        delete g;
     }
 }
 
-void rodar_guloso_rand_reativo(Grafo *g){
+void rodar_guloso_rand_reativo(){
     ofstream out("Resultados/guloso_rand_reativo_out.txt");
     
     out << "INSTANCIAS PEQUENAS:" << endl;
     cout << "RODANDO INSTANCIAS PEQUENAS:" << endl;
-     
+    
+    out.close();
+    
     for (int i = 0; i < instancias_pequenas.size(); i++){
+        out.open("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
+        
         string instancia_atual = instancias_pequenas[i];
         
         out << endl;
@@ -408,16 +453,27 @@ void rodar_guloso_rand_reativo(Grafo *g){
         
         cout << "Instância: " << instancia_atual << endl;
         
-        delete g->getLista();
+        Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+        out.close();
+        
+        corteVerticesGulosoRandomizadoReativo(g);
+        
+        delete g;
     }
-     
+    
+    out.close();
+    out.open("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
+    
     out << "INSTANCIAS MEDIAS:" << endl;
     cout << "RODANDO INSTANCIAS MEDIAS:" << endl;
+    
+    out.close();
      
     for (int i = 0; i < instancias_medias.size(); i++){
+        out.open("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
+        
         string instancia_atual = instancias_medias[i];
         
         out << endl;
@@ -425,16 +481,27 @@ void rodar_guloso_rand_reativo(Grafo *g){
         
         cout << "Instância: " << instancia_atual << endl;
         
-        delete g->getLista();
+        Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+        corteVerticesGulosoRandomizadoReativo(g);
+        
+        out.close();
+        
+        delete g;
     }
+    
+    out.close();
+    out.open("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
     
     out << "INSTANCIAS GRANDES:" << endl;
     cout << "RODANDO INSTANCIAS GRANDES:" << endl;
     
+    out.close();
+    
     for (int i = 0; i < instancias_grandes.size(); i++){
+        out.open("Resultados/guloso_rand_reativo_out.txt", ios_base::app);
+        
         string instancia_atual = instancias_grandes[i];
         
         out << endl;
@@ -442,9 +509,13 @@ void rodar_guloso_rand_reativo(Grafo *g){
         
         cout << "Instância: " << instancia_atual << endl;
         
-        delete g->getLista();
+        Grafo *g = new Grafo(digrafo);
         g->criaLista(instancia_atual);
         
-        corteVerticesGulosoRandomizadoReativo(g, instancia_atual);
+        out.close();
+        
+        corteVerticesGulosoRandomizadoReativo(g);
+        
+        delete g;
     }
 }

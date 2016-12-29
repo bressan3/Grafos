@@ -141,16 +141,19 @@ void Lista::print(){
     NoLista *auxVertical = start;
     NoLista *auxHorizontal = start;
     
-    while (auxVertical != NULL){
-        cout<< "[" << auxVertical->getId() << " G=" << (auxVertical->getVertice())->getGrau() << "]";
-        while (auxHorizontal->getProxHorizontal() != NULL){
-            auxHorizontal = auxHorizontal->getProxHorizontal();
-            cout<< "-(" << auxHorizontal->getPesoAresta() << ")-" << auxHorizontal->getId();
+    while (auxVertical){
+        if (!(auxVertical->getVertice()->getInvisivel())){
+            cout<< "[" << auxVertical->getId() << " G=" << (auxVertical->getVertice())->getGrau() << "]";
+            while (auxHorizontal->getProxHorizontal() != NULL){
+                auxHorizontal = auxHorizontal->getProxHorizontal();
+                if (!(auxHorizontal->getVertical()->getVertice()->getInvisivel())){
+                    cout<< "-(" << auxHorizontal->getPesoAresta() << ")-" << auxHorizontal->getId();
+                }
+            }
+            cout<<endl;
         }
-        cout<<endl;
-        
-        auxVertical = auxVertical->getProxVertical();
-        auxHorizontal = auxVertical;
+            auxVertical = auxVertical->getProxVertical();
+            auxHorizontal = auxVertical;
     }
 }
 

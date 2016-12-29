@@ -1,0 +1,45 @@
+INSTANCIAS PEQUENAS:
+
+    Instância: Instancias02/pequena01 (11,20).txt
+        Corte Mínimo: 3
+        Tempo: 0.000778 s
+
+    Instância: Instancias02/pequena02 (23,71).txt
+        Corte Mínimo: 4
+        Tempo: 0.000427 s
+
+    Instância: Instancias02/pequena03 (37,72).txt
+        Corte Mínimo: 3
+        Tempo: 0.000548 s
+
+    Instância: Instancias02/pequena04 (20,20).txt
+        Corte Mínimo: 1
+        Tempo: 0.000174 s
+
+INSTANCIAS MEDIAS:
+
+    Instância: Instancias02/media01 (100,166).txt
+        Corte Mínimo: 3
+        Tempo: 0.001762 s
+
+    Instância: Instancias02/media02 (88,146).txt
+        Corte Mínimo: 2
+        Tempo: 0.001281 s
+
+    Instância: Instancias02/media03 (79,156).txt
+        Corte Mínimo: 3
+        Tempo: 0.001367 s
+
+INSTANCIAS GRANDES:
+
+    Instância: Instancias02/grande01 (87,406).txt
+        Corte Mínimo: 1
+        Tempo: 0.005362 s
+
+    Instância: Instancias02/grande02 (138,493).txt
+        Corte Mínimo: 1
+        Tempo: 0.008521 s
+
+    Instância: Instancias02/grande03 (149,541).txt
+        Corte Mínimo: 4
+        Tempo: 0.006958 s

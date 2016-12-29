@@ -31,5 +31,5 @@
 \contentsline {subsection}{\numberline {2.5}Algor\IeC {\'\i }timo Guloso Randomizado}{9}
 \contentsline {subsection}{\numberline {2.6}Algor\IeC {\'\i }timo Guloso Randomizado Reativo}{9}
 \contentsline {section}{\numberline {3}Experimentos Computacionais}{11}
-\contentsline {section}{\numberline {4}Conclus\IeC {\~o}es}{12}
-\contentsline {section}{\numberline {5}Anexos}{12}
+\contentsline {section}{\numberline {4}Conclus\IeC {\~o}es}{13}
+\contentsline {section}{\numberline {5}Anexos}{14}

@@ -19,6 +19,7 @@ Vertice::Vertice(int id){
     this->id = id;
     this->peso = 0;
     this->grau = 0;
+    this->invisivel = false;
 }
 
 int Vertice::getId(){

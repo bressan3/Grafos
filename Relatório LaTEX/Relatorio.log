@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 DEC 2016 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 DEC 2016 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1338,7 +1338,7 @@ LaTeX Warning: Command \' invalid in math mode on input line 306.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -1346,7 +1346,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -1359,7 +1359,7 @@ LaTeX Warning: Command \' invalid in math mode on input line 306.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -1367,7 +1367,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -1380,7 +1380,7 @@ LaTeX Warning: Command \' invalid in math mode on input line 306.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -1388,7 +1388,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
 l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
-                                                   \)}
+                                                   \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -1397,10 +1397,83 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex7!
 Missing character: There is no � in font cmex7!
 Missing character: There is no � in font cmex7!
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+! Undefined control sequence.
+l.308 \ident
+             Logo após rodarmos os testes decritos acima e notarmos que nã...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 \\ \\
+            \indent Na figura 2 (na sessão 5. Anexos) apresentamos uma tabe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 \\ \\ \indent
+                    Na figura 2 (na sessão 5. Anexos) apresentamos uma tabe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+[12]
+Overfull \hbox (72.29414pt too wide) in paragraph at lines 323--324
+[]\OT1/cmr/bx/n/12 Abordagem Gu-losa Ran-do-mi-zada Re-a-tiva: \OT1/cmr/m/n/12 
+gu-loso[]rand[]reativo[]out[]original.txt 
+ []
+
 ! Undefined control sequence.
 <recently read> \ident 
                        
-l.312 \ident
+l.330 \ident
              Embora a abordagem gulosa randomizada reativa tenha apresentado...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1409,53 +1482,85 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--314
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
 
  []
 
-<TabelaResultados.png, id=58, 794.97pt x 1228.59pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
+
+ []
+
+! Undefined control sequence.
+l.333 \ident
+             Já no segundo teste, como trabalhamos com instâncias menores,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13] <TabelaResultados.png, id=67, 794.97pt x 1228.59pt>
 File: TabelaResultados.png Graphic file (type png)
 <use TabelaResultados.png>
-Package pdftex.def Info: TabelaResultados.png used on input line 319.
+Package pdftex.def Info: TabelaResultados.png used on input line 339.
 (pdftex.def)             Requested size: 398.34528pt x 569.05759pt.
 
-Overfull \hbox (8.34528pt too wide) in paragraph at lines 319--320
+Overfull \hbox (8.34528pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 3.8909pt on input line 321.
+LaTeX Warning: Float too large for page by 3.8909pt on input line 341.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13 </Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/TabelaR
-esultados.png>] (/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/
-Relatorio.aux) ) 
+<TabelaResultados2.png, id=69, 794.97pt x 1228.59pt>
+File: TabelaResultados2.png Graphic file (type png)
+<use TabelaResultados2.png>
+Package pdftex.def Info: TabelaResultados2.png used on input line 345.
+(pdftex.def)             Requested size: 398.34528pt x 569.05759pt.
+
+Overfull \hbox (8.34528pt too wide) in paragraph at lines 345--346
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 3.8909pt on input line 347.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 </Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTEX/TabelaR
+esultados.png>] [16 </Users/Lucas/Documents/Github/Grafos/Grafos/Relatório La
+TEX/TabelaResultados2.png>] (/Users/Lucas/Documents/Github/Grafos/Grafos/Relato
+́rio LaTEX/Relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 15315 strings out of 493014
- 286323 string characters out of 6133351
+ 15320 strings out of 493014
+ 286447 string characters out of 6133351
  379163 words of memory out of 5000000
- 18554 multiletter control sequences out of 15000+600000
+ 18558 multiletter control sequences out of 15000+600000
  9983 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,97p,1095b,1859s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb>
 Output written on "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTE
-X/Relatorio.pdf" (16 pages, 355660 bytes).
+X/Relatorio.pdf" (19 pages, 997425 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

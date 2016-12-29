@@ -283,7 +283,7 @@ Na heurística utilizada ordena-se o grafo pelo grau de seus vertices e escolhe-
 O ambiente de testes utilizado foi um computador com processador modelo Intel Core i5 de 2.4GHz com 8GB DDR3 de memória rodando o macOS 10.12.1. Para as instâncias médias e grandes na abordagem reativa nós também utilizamos um computador
 com processador AMD A10 7850K de 4GHz com 8GB DDR3 de memória rodando o Ubuntu 16.04.
 \\ \\ \indent Como já dito no item 2. deste documento, as instâncias escolhidas foram classificadas como pequenas, médias ou grandes
-a partir da quantidade de arestas de cada uma. Todas as instâncias utilizadas se encontram na pasta \textbf{Instancias Grafos} junto ao código entregue com este documento e são elas:
+a partir da quantidade de arestas de cada uma. Todas as instâncias utilizadas neste primeiro teste se encontram na pasta \textbf{Instancias Grafos} junto ao código entregue com este documento e são elas:
 
 \begin{itemize}
   \item \textbf{Instancias Pequenas:} grafo\_1000\_4.txt (14370 arestas), grafo\_1000\_8.txt (9983 arestas), grafo\_10000\_8.txt (10075 arestas), grafo\_10000\_4.txt (14588 arestas)
@@ -297,27 +297,53 @@ a partir da quantidade de arestas de cada uma. Todas as instâncias utilizadas s
 \\ \\ \ident Na primeira porção da imagem, vemos na primeira coluna, o nome de cada instância testada. Na segunda coluna temos o melhor valor de corte encontrado entre todas as execuções de todas as abordagens (gulosa, randomizada e reativa). Na terceira coluna nós temos o desvio da média da abordagem gulosa em relação ao melhor resultado obtido{\tiny*}, na quarta o desvio da média da abordagem randomizada e na quinta o desvio da média da abordagem reativa{\tiny*}.
 \\ \\ \indent Na tabela ``Tempo Médio'' nós vemos o tempo médio que cada uma das abordagens demorou para serem executadas.
 \\ \\ \indent Já na última tabela, nós temos a mesma tabela da primeira porção da imagem porém com a segunda coluna representando menor valor de corte possivel (não conseguimos obter o valor ótimo para todas as instâncias. Somente para aquelas que tinham como vertice de menor grau, um nó de grau 1 pois daí sabemos que o corte mínimo de um grafo com vértice de menor grau igual à 1 é 1 e um corte deste tamanho, é o menor corte possível em qualquer grafo que tenha um vértice destes).
-\\ \\ \indent Os logs de cada uma das heuristicas testadas utilizando o nosso código estão na pasta \textbf{Resultados/Resultados do Trabalho}. Foi criado um arquivo para cada uma das abordagens (gulosa, gulosa randômica e gulosa randômica reativa), e são eles:
+\\ \\ \indent Os logs de cada uma das heuristicas testadas utilizando o nosso código neste primeiro teste estão na pasta \textbf{Resultados/Resultados do Trabalho - Teste 01}. Foi criado um arquivo para cada uma das abordagens (gulosa, gulosa randômica e gulosa randômica reativa), e são eles:
 \begin{itemize}
   \item \textbf{Abordagem Gulosa:} guloso\_out\_original.txt
   \item \textbf{Abordagem Gulosa Randomizada:} guloso\_rand\_out\_original.txt
   \item \textbf{Abordagem Gulosa Randomizada Reativa:} guloso\_rand\_reativo\_out\_original.txt
 \end{itemize}
-\\ \\ {\tiny * Para obtermos a média, somamos o (melhor) resultado final de cada uma das 30 iterações e depois dividimos este valor por 30. Após, para encontrarmos o desvio fazemos  \( \frac{média - valor\_ótimo}{valor\_ótimo} \)}
+\\ \\ {\tiny * Para obtermos a média, somamos o (melhor) resultado final de cada uma das 30 iterações e depois dividimos este valor por 30. Após, para encontrarmos o desvio fazemos  \( \frac{média - valor\_ótimo}{valor\_ótimo} \)} \\ \\
+
+\ident Logo após rodarmos os testes decritos acima e notarmos que não seria possível executar o algorítimo reativo com todos os 10 alfas em um tempo hábil, decidimos testar a nossa heurística em instâncias menores. As instâncias selecionadas para este segundo teste foram todas encontradas em \\ \\ \textbf{https://turing.cs.hbg.psu.edu/txn131/graphcoloring.html} \\ \\Nós utilizamos novamente como parâmetro para definir se uma instância é pequena, média ou grande, o seu número de vértices. Como neste link, todas as instâncias foram usadas para o problema de coloração mínima de vértices, nós não temos o valor do menor corte de vértices possível para cada uma delas. 
+\\ \\ \indent Todas as instâncias utilizadas neste segundo teste se encontram na pasta \textbf{Instancias02} junto ao código entregue com este documento e são elas:
+
+\begin{itemize}
+  \item \textbf{Instancias Pequenas:} pequena01 (11,20).txt (20 arestas), pequena02 (23,71).txt (71 arestas), pequena03 (37,72).txt (72 arestas), pequena04 (20,20).txt (20 arestas)
+  \item \textbf{Instancias Medias:} media01 (100,166).txt (166 arestas), media02 (88,146).txt (146 arestas), media03 (79,156).txt (156 arestas)
+  \item \textbf{Instancias Grandes:} grande01 (87,406).txt (406 arestas), grande02 (138,493).txt (493 arestas), grande03 (149,541).txt (541 arestas)
+\end{itemize}
+
+\\ \\ \indent Na figura 2 (na sessão 5. Anexos) apresentamos uma tabela identica a tabela da figura 1 porém com os resultados obtidos a partir do segundo teste realizado sobre as novas instâncias selecionadas. \\
+
+\indent Os logs de cada uma das heuristicas testadas utilizando o nosso código neste segundo teste estão na pasta \textbf{Resultados/Resultados do Trabalho - Teste 02}. Foi criado um arquivo para cada uma das abordagens (gulosa, gulosa randômica e gulosa randômica reativa), e são eles:
+\begin{itemize}
+  \item \textbf{Abordagem Gulosa:} guloso\_out\_original.txt
+  \item \textbf{Abordagem Gulosa Randomizada:} guloso\_rand\_out\_original.txt
+  \item \textbf{Abordagem Gulosa Randomizada Reativa:} guloso\_rand\_reativo\_out\_original.txt
+\end{itemize}
 
 \section{Conclusões}
-De acordo com os testes realizados as funcionalidades se comportaram de maneira esperada, encontrando-se soluções satisfatórias que muitas das vezes, foram iguais ao menor corte possível (1). Tanto a heurística gulosa quanto a gulosa randomizada (utilizando alpha igual à 0.25 e número de iterações igual à 5) apresentaram soluções e tempo de execução satisfatórios para todas as instâncias escolhidas.
+De acordo com os testes realizados em nosso primeiro teste, as funcionalidades se comportaram de maneira esperada, encontrando-se soluções satisfatórias que muitas das vezes, foram iguais ao menor corte possível (1). Tanto a heurística gulosa quanto a gulosa randomizada (utilizando alpha igual à 0.25 e número de iterações igual à 5) apresentaram soluções e tempo de execução satisfatórios para todas as instâncias escolhidas.
 \\ 
 \\
 \ident Embora a abordagem gulosa randomizada reativa tenha apresentado resultados e tempo satisfatórios para as 
-quatro Instâncias Pequenas escolhidas, seu desempenho em relação ao tempo de execução não foi muito bom para as instâncias médias e grandes. Desta forma, a única maneira que conseguimos rodar a abordagem reativa em todas as instancias foi ou reduzindo o número de alphas que o algorítimo testa ou diminuindo o número de iterações que ele faz por teste (e mesmo assim sua execução ficou lenta para as instâncias maiores porém seus resultados foram satisfatórios muitas das vezes, encontrando-se até a solução ótima). Não foi possível executar todas as 30 iterações na instância \textbf{grafo\_1000\_6.txt} uma vez que esta possuia vértices de graus muito grandes e demorava aproximadamente 30 minutos para cada uma das 30 vezes que ele rodava (usando somente 5 alphas e 4 como o número de iterações) o algorítimo \textbf{Guloso Randômico Reativo.}
+quatro Instâncias Pequenas escolhidas, seu desempenho em relação ao tempo de execução não foi muito bom para as instâncias médias e grandes. Desta forma, a única maneira que conseguimos rodar a abordagem reativa em todas as instancias foi ou reduzindo o número de alphas que o algorítimo testa ou diminuindo o número de iterações que ele faz por teste (e mesmo assim sua execução ficou lenta para as instâncias maiores porém seus resultados foram satisfatórios muitas das vezes, encontrando-se até a solução ótima). Não foi possível executar todas as 30 iterações na instância \textbf{grafo\_1000\_6.txt} uma vez que esta possuia vértices de graus muito grandes e demorava aproximadamente 30 minutos para cada uma das 30 vezes que ele rodava (usando somente 5 alphas e 4 como o número de iterações) o algorítimo \textbf{Guloso Randômico Reativo.} \\
+
+\ident Já no segundo teste, como trabalhamos com instâncias menores, nós conseguimos obter tanto soluções quanto tempos de execução satisfatórios para todas as instâncias nas heurísticas gulosa, gulosa randômica (utilizando alpha igual à 0.25 e número de iterações igual à 15) e gulosa randomizada reativa (utilizando dez alphas diferentes e 75 iterações para cada uma das 30 vezes que nós rodamos o algorítimo ranômico para cada um dos dez alphas).
 
 \section{Anexos}
 
   \begin{figure}[h]
     \centering
     \includegraphics[width=14cm, height = 20cm]{TabelaResultados}
-    \caption{Tabela de com resultados obtidos }
+    \caption{Tabela de com resultados obtidos no primeiro teste }
+  \end{figure}
+
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm, height = 20cm]{TabelaResultados2}
+    \caption{Tabela de com resultados obtidos no segundo teste }
   \end{figure}
 
 \end{document}

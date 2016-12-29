@@ -1,0 +1,3933 @@
+INSTANCIAS PEQUENAS:
+
+    Instância: Instancias02/pequena01 (11,20).txt
+
+    Iteração 1 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.043751 s
+
+    Iteração 2 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039017 s
+
+    Iteração 3 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038542 s
+
+    Iteração 4 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039677 s
+
+    Iteração 5 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038109 s
+
+    Iteração 6 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039892 s
+
+    Iteração 7 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.041253 s
+
+    Iteração 8 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.04218 s
+
+    Iteração 9 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039779 s
+
+    Iteração 10 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.037478 s
+
+    Iteração 11 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.037295 s
+
+    Iteração 12 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.036405 s
+
+    Iteração 13 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.037811 s
+
+    Iteração 14 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.036876 s
+
+    Iteração 15 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.041734 s
+
+    Iteração 16 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.041354 s
+
+    Iteração 17 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.042071 s
+
+    Iteração 18 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038395 s
+
+    Iteração 19 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038965 s
+
+    Iteração 20 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039352 s
+
+    Iteração 21 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038076 s
+
+    Iteração 22 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.041237 s
+
+    Iteração 23 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039024 s
+
+    Iteração 24 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.040066 s
+
+    Iteração 25 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.037237 s
+
+    Iteração 26 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038197 s
+
+    Iteração 27 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.039973 s
+
+    Iteração 28 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.041022 s
+
+    Iteração 29 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038348 s
+
+    Iteração 30 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.038032 s
+
+
+    Instância: Instancias02/pequena02 (23,71).txt
+
+    Iteração 1 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.136541 s
+
+    Iteração 2 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.135586 s
+
+    Iteração 3 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.130766 s
+
+    Iteração 4 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.136484 s
+
+    Iteração 5 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.131754 s
+
+    Iteração 6 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.130042 s
+
+    Iteração 7 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.134906 s
+
+    Iteração 8 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.135241 s
+
+    Iteração 9 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.131788 s
+
+    Iteração 10 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.134733 s
+
+    Iteração 11 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.13211 s
+
+    Iteração 12 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.134631 s
+
+    Iteração 13 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.13519 s
+
+    Iteração 14 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.130393 s
+
+    Iteração 15 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.130483 s
+
+    Iteração 16 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.134459 s
+
+    Iteração 17 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.130978 s
+
+    Iteração 18 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.132599 s
+
+    Iteração 19 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.132732 s
+
+    Iteração 20 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.128981 s
+
+    Iteração 21 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.13296 s
+
+    Iteração 22 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.128807 s
+
+    Iteração 23 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.134465 s
+
+    Iteração 24 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.13602 s
+
+    Iteração 25 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.131073 s
+
+    Iteração 26 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.127579 s
+
+    Iteração 27 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.129558 s
+
+    Iteração 28 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.133795 s
+
+    Iteração 29 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.132815 s
+
+    Iteração 30 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 0.132005 s
+
+
+    Instância: Instancias02/pequena03 (37,72).txt
+
+    Iteração 1 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.160634 s
+
+    Iteração 2 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.159554 s
+
+    Iteração 3 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.15261 s
+
+    Iteração 4 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.15905 s
+
+    Iteração 5 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.160807 s
+
+    Iteração 6 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.154564 s
+
+    Iteração 7 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.152242 s
+
+    Iteração 8 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.157381 s
+
+    Iteração 9 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.166105 s
+
+    Iteração 10 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.188629 s
+
+    Iteração 11 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.159295 s
+
+    Iteração 12 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.163148 s
+
+    Iteração 13 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.16415 s
+
+    Iteração 14 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.159564 s
+
+    Iteração 15 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.162986 s
+
+    Iteração 16 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.161595 s
+
+    Iteração 17 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.157949 s
+
+    Iteração 18 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.182268 s
+
+    Iteração 19 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.170257 s
+
+    Iteração 20 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.160114 s
+
+    Iteração 21 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.159278 s
+
+    Iteração 22 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.158745 s
+
+    Iteração 23 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.154078 s
+
+    Iteração 24 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.155105 s
+
+    Iteração 25 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.161353 s
+
+    Iteração 26 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.191061 s
+
+    Iteração 27 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.184979 s
+
+    Iteração 28 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.17779 s
+
+    Iteração 29 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.169674 s
+
+    Iteração 30 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.159592 s
+
+
+    Instância: Instancias02/pequena04 (20,20).txt
+
+    Iteração 1 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 75
+        Corte: 1, Alpha: 0.1, Iterações: 75
+        Corte: 1, Alpha: 0.15, Iterações: 75
+        Corte: 1, Alpha: 0.2, Iterações: 75
+        Corte: 1, Alpha: 0.25, Iterações: 75
+        Corte: 1, Alpha: 0.3, Iterações: 75
+        Corte: 1, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.000726 s
+
+    Iteração 2 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000692 s
+
+    Iteração 3 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000748 s
+
+    Iteração 4 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000717 s
+
+    Iteração 5 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000936 s
+
+    Iteração 6 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000779 s
+
+    Iteração 7 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.00072 s
+
+    Iteração 8 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000767 s
+
+    Iteração 9 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000713 s
+
+    Iteração 10 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.001009 s
+
+    Iteração 11 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000791 s
+
+    Iteração 12 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.00076 s
+
+    Iteração 13 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.001064 s
+
+    Iteração 14 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000777 s
+
+    Iteração 15 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000687 s
+
+    Iteração 16 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000749 s
+
+    Iteração 17 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000686 s
+
+    Iteração 18 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000685 s
+
+    Iteração 19 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.001104 s
+
+    Iteração 20 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.001052 s
+
+    Iteração 21 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000904 s
+
+    Iteração 22 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.00075 s
+
+    Iteração 23 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000793 s
+
+    Iteração 24 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000852 s
+
+    Iteração 25 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000715 s
+
+    Iteração 26 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000818 s
+
+    Iteração 27 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000832 s
+
+    Iteração 28 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000781 s
+
+    Iteração 29 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.000893 s
+
+    Iteração 30 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 79
+        Corte: 1, Alpha: 0.1, Iterações: 79
+        Corte: 1, Alpha: 0.15, Iterações: 79
+        Corte: 1, Alpha: 0.2, Iterações: 79
+        Corte: 1, Alpha: 0.25, Iterações: 79
+        Corte: 1, Alpha: 0.3, Iterações: 79
+        Corte: 1, Alpha: 0.35, Iterações: 79
+        Corte: 3, Alpha: 0.4, Iterações: 68
+        Corte: 3, Alpha: 0.45, Iterações: 68
+        Corte: 3, Alpha: 0.5, Iterações: 68
+            Tempo: 0.001153 s
+
+INSTANCIAS MEDIAS:
+
+    Instância: Instancias02/media01 (100,166).txt
+
+    Iteração 1 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.571273 s
+
+    Iteração 2 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.607936 s
+
+    Iteração 3 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.583062 s
+
+    Iteração 4 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.610639 s
+
+    Iteração 5 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.605286 s
+
+    Iteração 6 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.58953 s
+
+    Iteração 7 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.592773 s
+
+    Iteração 8 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.599346 s
+
+    Iteração 9 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.573622 s
+
+    Iteração 10 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.590147 s
+
+    Iteração 11 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.582824 s
+
+    Iteração 12 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.589499 s
+
+    Iteração 13 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.584247 s
+
+    Iteração 14 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.573873 s
+
+    Iteração 15 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.574106 s
+
+    Iteração 16 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.572256 s
+
+    Iteração 17 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.574257 s
+
+    Iteração 18 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.598755 s
+
+    Iteração 19 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.592503 s
+
+    Iteração 20 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.595799 s
+
+    Iteração 21 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.607661 s
+
+    Iteração 22 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.609504 s
+
+    Iteração 23 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.608081 s
+
+    Iteração 24 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.591506 s
+
+    Iteração 25 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.603312 s
+
+    Iteração 26 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.594301 s
+
+    Iteração 27 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.610367 s
+
+    Iteração 28 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.603302 s
+
+    Iteração 29 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.600309 s
+
+    Iteração 30 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.590915 s
+
+
+    Instância: Instancias02/media02 (88,146).txt
+
+    Iteração 1 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.505164 s
+
+    Iteração 2 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.500425 s
+
+    Iteração 3 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.488362 s
+
+    Iteração 4 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496548 s
+
+    Iteração 5 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.484171 s
+
+    Iteração 6 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.546438 s
+
+    Iteração 7 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.502157 s
+
+    Iteração 8 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.50125 s
+
+    Iteração 9 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496999 s
+
+    Iteração 10 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.504876 s
+
+    Iteração 11 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.501595 s
+
+    Iteração 12 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.508603 s
+
+    Iteração 13 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.512593 s
+
+    Iteração 14 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.504632 s
+
+    Iteração 15 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.498157 s
+
+    Iteração 16 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.49985 s
+
+    Iteração 17 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.501832 s
+
+    Iteração 18 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.494728 s
+
+    Iteração 19 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496977 s
+
+    Iteração 20 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.493653 s
+
+    Iteração 21 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.48791 s
+
+    Iteração 22 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.490741 s
+
+    Iteração 23 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.49799 s
+
+    Iteração 24 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.494946 s
+
+    Iteração 25 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.490128 s
+
+    Iteração 26 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.499022 s
+
+    Iteração 27 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.488496 s
+
+    Iteração 28 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.492431 s
+
+    Iteração 29 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.484866 s
+
+    Iteração 30 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 2, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 2, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 2, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.488696 s
+
+
+    Instância: Instancias02/media03 (79,156).txt
+
+    Iteração 1 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.500505 s
+
+    Iteração 2 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.488579 s
+
+    Iteração 3 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.507134 s
+
+    Iteração 4 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496683 s
+
+    Iteração 5 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.495244 s
+
+    Iteração 6 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.490958 s
+
+    Iteração 7 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.49358 s
+
+    Iteração 8 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.495748 s
+
+    Iteração 9 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496034 s
+
+    Iteração 10 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.500739 s
+
+    Iteração 11 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.491431 s
+
+    Iteração 12 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.491734 s
+
+    Iteração 13 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.500453 s
+
+    Iteração 14 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.505201 s
+
+    Iteração 15 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.499786 s
+
+    Iteração 16 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.49601 s
+
+    Iteração 17 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.496037 s
+
+    Iteração 18 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.493304 s
+
+    Iteração 19 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.51271 s
+
+    Iteração 20 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.482316 s
+
+    Iteração 21 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.493213 s
+
+    Iteração 22 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.498158 s
+
+    Iteração 23 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.506446 s
+
+    Iteração 24 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.494712 s
+
+    Iteração 25 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.490765 s
+
+    Iteração 26 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.49119 s
+
+    Iteração 27 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.483122 s
+
+    Iteração 28 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.491648 s
+
+    Iteração 29 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.493376 s
+
+    Iteração 30 de 30
+        Corte: 3, Alpha: 0.05, Iterações: 75
+        Corte: 3, Alpha: 0.1, Iterações: 75
+        Corte: 3, Alpha: 0.15, Iterações: 75
+        Corte: 3, Alpha: 0.2, Iterações: 75
+        Corte: 3, Alpha: 0.25, Iterações: 75
+        Corte: 3, Alpha: 0.3, Iterações: 75
+        Corte: 3, Alpha: 0.35, Iterações: 75
+        Corte: 3, Alpha: 0.4, Iterações: 75
+        Corte: 3, Alpha: 0.45, Iterações: 75
+        Corte: 3, Alpha: 0.5, Iterações: 75
+            Tempo: 0.507011 s
+
+INSTANCIAS GRANDES:
+
+    Instância: Instancias02/grande01 (87,406).txt
+
+    Iteração 1 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 75
+        Corte: 2, Alpha: 0.1, Iterações: 75
+        Corte: 1, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 1, Alpha: 0.25, Iterações: 75
+        Corte: 2, Alpha: 0.3, Iterações: 75
+        Corte: 1, Alpha: 0.35, Iterações: 75
+        Corte: 2, Alpha: 0.4, Iterações: 75
+        Corte: 1, Alpha: 0.45, Iterações: 75
+        Corte: 2, Alpha: 0.5, Iterações: 75
+            Tempo: 0.798754 s
+
+    Iteração 2 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.774378 s
+
+    Iteração 3 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 73
+        Corte: 2, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.628707 s
+
+    Iteração 4 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 72
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 72
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 72
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 72
+            Tempo: 0.627698 s
+
+    Iteração 5 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 72
+        Corte: 2, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 72
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 2, Alpha: 0.45, Iterações: 72
+        Corte: 1, Alpha: 0.5, Iterações: 78
+            Tempo: 0.753895 s
+
+    Iteração 6 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 73
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 2, Alpha: 0.15, Iterações: 73
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 73
+        Corte: 2, Alpha: 0.3, Iterações: 78
+        Corte: 1, Alpha: 0.35, Iterações: 73
+        Corte: 2, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 73
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.843967 s
+
+    Iteração 7 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 2, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.812066 s
+
+    Iteração 8 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.750052 s
+
+    Iteração 9 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 73
+            Tempo: 0.525448 s
+
+    Iteração 10 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 72
+        Corte: 2, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 72
+        Corte: 2, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 72
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 78
+            Tempo: 0.781587 s
+
+    Iteração 11 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 73
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 2, Alpha: 0.15, Iterações: 73
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 73
+        Corte: 2, Alpha: 0.3, Iterações: 78
+        Corte: 1, Alpha: 0.35, Iterações: 73
+        Corte: 2, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 73
+        Corte: 1, Alpha: 0.5, Iterações: 78
+            Tempo: 0.568608 s
+
+    Iteração 12 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 72
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 2, Alpha: 0.15, Iterações: 72
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 72
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 72
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.787786 s
+
+    Iteração 13 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 2, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.799851 s
+
+    Iteração 14 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.781107 s
+
+    Iteração 15 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.781235 s
+
+    Iteração 16 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.750701 s
+
+    Iteração 17 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.775424 s
+
+    Iteração 18 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 73
+        Corte: 2, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 73
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 73
+            Tempo: 0.617044 s
+
+    Iteração 19 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 72
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 78
+        Corte: 1, Alpha: 0.35, Iterações: 72
+        Corte: 2, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 72
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.817144 s
+
+    Iteração 20 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.713259 s
+
+    Iteração 21 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 72
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 2, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 72
+        Corte: 2, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 72
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 72
+            Tempo: 0.703909 s
+
+    Iteração 22 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 72
+        Corte: 2, Alpha: 0.3, Iterações: 78
+        Corte: 1, Alpha: 0.35, Iterações: 72
+        Corte: 2, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 72
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.823927 s
+
+    Iteração 23 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 2, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 73
+            Tempo: 0.844462 s
+
+    Iteração 24 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 78
+        Corte: 2, Alpha: 0.1, Iterações: 73
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 73
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 73
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 73
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 73
+            Tempo: 0.556844 s
+
+    Iteração 25 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 72
+        Corte: 2, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 72
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 72
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.818777 s
+
+    Iteração 26 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 2, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 73
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 73
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 73
+            Tempo: 0.660751 s
+
+    Iteração 27 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 72
+        Corte: 2, Alpha: 0.25, Iterações: 78
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 72
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 72
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.777136 s
+
+    Iteração 28 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 73
+        Corte: 2, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 73
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 2, Alpha: 0.25, Iterações: 73
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 73
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 2, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 73
+            Tempo: 0.686345 s
+
+    Iteração 29 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 78
+        Corte: 1, Alpha: 0.1, Iterações: 72
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 2, Alpha: 0.25, Iterações: 72
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 72
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 2, Alpha: 0.45, Iterações: 72
+        Corte: 1, Alpha: 0.5, Iterações: 78
+            Tempo: 0.71734 s
+
+    Iteração 30 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 73
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 2, Alpha: 0.15, Iterações: 73
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 2, Alpha: 0.25, Iterações: 73
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 2, Alpha: 0.35, Iterações: 73
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 2, Alpha: 0.45, Iterações: 73
+        Corte: 1, Alpha: 0.5, Iterações: 78
+            Tempo: 0.714309 s
+
+
+    Instância: Instancias02/grande02 (138,493).txt
+
+    Iteração 1 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 75
+        Corte: 1, Alpha: 0.1, Iterações: 75
+        Corte: 1, Alpha: 0.15, Iterações: 75
+        Corte: 2, Alpha: 0.2, Iterações: 75
+        Corte: 1, Alpha: 0.25, Iterações: 75
+        Corte: 1, Alpha: 0.3, Iterações: 75
+        Corte: 1, Alpha: 0.35, Iterações: 75
+        Corte: 1, Alpha: 0.4, Iterações: 75
+        Corte: 2, Alpha: 0.45, Iterações: 75
+        Corte: 1, Alpha: 0.5, Iterações: 75
+            Tempo: 0.427241 s
+
+    Iteração 2 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 70
+        Corte: 2, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 70
+        Corte: 2, Alpha: 0.5, Iterações: 77
+            Tempo: 0.619553 s
+
+    Iteração 3 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 71
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 2, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 71
+            Tempo: 0.690985 s
+
+    Iteração 4 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 2, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 71
+        Corte: 2, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 71
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.42071 s
+
+    Iteração 5 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 70
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 70
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.407019 s
+
+    Iteração 6 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 70
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 70
+        Corte: 2, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 2, Alpha: 0.5, Iterações: 77
+            Tempo: 0.869363 s
+
+    Iteração 7 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 72
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 2, Alpha: 0.15, Iterações: 78
+        Corte: 1, Alpha: 0.2, Iterações: 78
+        Corte: 1, Alpha: 0.25, Iterações: 72
+        Corte: 1, Alpha: 0.3, Iterações: 78
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 2, Alpha: 0.4, Iterações: 72
+        Corte: 1, Alpha: 0.45, Iterações: 78
+        Corte: 1, Alpha: 0.5, Iterações: 72
+            Tempo: 0.434101 s
+
+    Iteração 8 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 70
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 70
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.595057 s
+
+    Iteração 9 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 71
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 71
+        Corte: 2, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.599182 s
+
+    Iteração 10 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 71
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 2, Alpha: 0.4, Iterações: 71
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.58105 s
+
+    Iteração 11 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 71
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 71
+        Corte: 2, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 71
+        Corte: 2, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.661663 s
+
+    Iteração 12 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 71
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 2, Alpha: 0.3, Iterações: 71
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 2, Alpha: 0.45, Iterações: 71
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.632195 s
+
+    Iteração 13 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 2, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 71
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 71
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 71
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.588331 s
+
+    Iteração 14 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 71
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 71
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.342663 s
+
+    Iteração 15 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 70
+        Corte: 2, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 70
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 2, Alpha: 0.5, Iterações: 77
+            Tempo: 0.6585 s
+
+    Iteração 16 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 71
+        Corte: 2, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 71
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 71
+            Tempo: 0.174068 s
+
+    Iteração 17 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 76
+        Corte: 1, Alpha: 0.1, Iterações: 76
+        Corte: 2, Alpha: 0.15, Iterações: 69
+        Corte: 1, Alpha: 0.2, Iterações: 76
+        Corte: 1, Alpha: 0.25, Iterações: 76
+        Corte: 1, Alpha: 0.3, Iterações: 76
+        Corte: 1, Alpha: 0.35, Iterações: 76
+        Corte: 1, Alpha: 0.4, Iterações: 76
+        Corte: 1, Alpha: 0.45, Iterações: 76
+        Corte: 1, Alpha: 0.5, Iterações: 76
+            Tempo: 0.301622 s
+
+    Iteração 18 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 70
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 70
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.293672 s
+
+    Iteração 19 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 70
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 2, Alpha: 0.15, Iterações: 70
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.296916 s
+
+    Iteração 20 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 70
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 70
+        Corte: 2, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 2, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 2, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.743151 s
+
+    Iteração 21 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 72
+        Corte: 1, Alpha: 0.1, Iterações: 78
+        Corte: 1, Alpha: 0.15, Iterações: 78
+        Corte: 2, Alpha: 0.2, Iterações: 72
+        Corte: 1, Alpha: 0.25, Iterações: 78
+        Corte: 2, Alpha: 0.3, Iterações: 72
+        Corte: 1, Alpha: 0.35, Iterações: 78
+        Corte: 1, Alpha: 0.4, Iterações: 78
+        Corte: 1, Alpha: 0.45, Iterações: 72
+        Corte: 2, Alpha: 0.5, Iterações: 78
+            Tempo: 0.631278 s
+
+    Iteração 22 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 2, Alpha: 0.2, Iterações: 71
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 71
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 2, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 71
+            Tempo: 0.4225 s
+
+    Iteração 23 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 2, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 70
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 70
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 2, Alpha: 0.5, Iterações: 77
+            Tempo: 0.699619 s
+
+    Iteração 24 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 2, Alpha: 0.1, Iterações: 71
+        Corte: 1, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 71
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 2, Alpha: 0.5, Iterações: 71
+            Tempo: 0.63876 s
+
+    Iteração 25 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 71
+        Corte: 2, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 2, Alpha: 0.35, Iterações: 71
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 71
+            Tempo: 0.384006 s
+
+    Iteração 26 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 2, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 70
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 2, Alpha: 0.25, Iterações: 77
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 70
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 2, Alpha: 0.5, Iterações: 77
+            Tempo: 0.633385 s
+
+    Iteração 27 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 77
+        Corte: 1, Alpha: 0.1, Iterações: 71
+        Corte: 2, Alpha: 0.15, Iterações: 77
+        Corte: 1, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 71
+        Corte: 1, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 1, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 71
+            Tempo: 0.16831 s
+
+    Iteração 28 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 76
+        Corte: 2, Alpha: 0.1, Iterações: 76
+        Corte: 1, Alpha: 0.15, Iterações: 69
+        Corte: 1, Alpha: 0.2, Iterações: 76
+        Corte: 1, Alpha: 0.25, Iterações: 76
+        Corte: 1, Alpha: 0.3, Iterações: 76
+        Corte: 1, Alpha: 0.35, Iterações: 76
+        Corte: 1, Alpha: 0.4, Iterações: 76
+        Corte: 1, Alpha: 0.45, Iterações: 76
+        Corte: 1, Alpha: 0.5, Iterações: 76
+            Tempo: 0.178836 s
+
+    Iteração 29 de 30
+        Corte: 2, Alpha: 0.05, Iterações: 76
+        Corte: 1, Alpha: 0.1, Iterações: 69
+        Corte: 2, Alpha: 0.15, Iterações: 76
+        Corte: 1, Alpha: 0.2, Iterações: 76
+        Corte: 1, Alpha: 0.25, Iterações: 76
+        Corte: 1, Alpha: 0.3, Iterações: 76
+        Corte: 1, Alpha: 0.35, Iterações: 76
+        Corte: 1, Alpha: 0.4, Iterações: 76
+        Corte: 1, Alpha: 0.45, Iterações: 76
+        Corte: 1, Alpha: 0.5, Iterações: 76
+            Tempo: 0.327816 s
+
+    Iteração 30 de 30
+        Corte: 1, Alpha: 0.05, Iterações: 70
+        Corte: 2, Alpha: 0.1, Iterações: 77
+        Corte: 1, Alpha: 0.15, Iterações: 70
+        Corte: 2, Alpha: 0.2, Iterações: 77
+        Corte: 1, Alpha: 0.25, Iterações: 77
+        Corte: 2, Alpha: 0.3, Iterações: 77
+        Corte: 1, Alpha: 0.35, Iterações: 77
+        Corte: 1, Alpha: 0.4, Iterações: 77
+        Corte: 2, Alpha: 0.45, Iterações: 77
+        Corte: 1, Alpha: 0.5, Iterações: 77
+            Tempo: 0.804743 s
+
+
+    Instância: Instancias02/grande03 (149,541).txt
+
+    Iteração 1 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87046 s
+
+    Iteração 2 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85947 s
+
+    Iteração 3 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.82214 s
+
+    Iteração 4 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85837 s
+
+    Iteração 5 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87789 s
+
+    Iteração 6 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87744 s
+
+    Iteração 7 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.84525 s
+
+    Iteração 8 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85835 s
+
+    Iteração 9 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.88133 s
+
+    Iteração 10 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.88634 s
+
+    Iteração 11 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87114 s
+
+    Iteração 12 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.90801 s
+
+    Iteração 13 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85424 s
+
+    Iteração 14 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.82145 s
+
+    Iteração 15 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.84706 s
+
+    Iteração 16 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.83116 s
+
+    Iteração 17 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87 s
+
+    Iteração 18 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.88564 s
+
+    Iteração 19 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87341 s
+
+    Iteração 20 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.91505 s
+
+    Iteração 21 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.88155 s
+
+    Iteração 22 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.88518 s
+
+    Iteração 23 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87547 s
+
+    Iteração 24 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.87675 s
+
+    Iteração 25 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.84745 s
+
+    Iteração 26 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85868 s
+
+    Iteração 27 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.86167 s
+
+    Iteração 28 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.83105 s
+
+    Iteração 29 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.85433 s
+
+    Iteração 30 de 30
+        Corte: 4, Alpha: 0.05, Iterações: 75
+        Corte: 4, Alpha: 0.1, Iterações: 75
+        Corte: 4, Alpha: 0.15, Iterações: 75
+        Corte: 4, Alpha: 0.2, Iterações: 75
+        Corte: 4, Alpha: 0.25, Iterações: 75
+        Corte: 4, Alpha: 0.3, Iterações: 75
+        Corte: 4, Alpha: 0.35, Iterações: 75
+        Corte: 4, Alpha: 0.4, Iterações: 75
+        Corte: 4, Alpha: 0.45, Iterações: 75
+        Corte: 4, Alpha: 0.5, Iterações: 75
+            Tempo: 2.8713 s
+
