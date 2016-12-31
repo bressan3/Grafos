@@ -351,7 +351,7 @@ void rodar_guloso_rand(){
     ofstream out("Resultados/guloso_rand_out.txt");
     
     int iteracoes = 15;
-    int alfa = 0.25;
+    float alfa = 0.25;
     
     out << "INSTANCIAS PEQUENAS:" << endl;
     cout << "RODANDO INSTANCIAS PEQUENAS:" << endl;

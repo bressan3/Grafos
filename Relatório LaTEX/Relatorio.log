@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 DEC 2016 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 DEC 2016 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,13 +869,13 @@ Overfull \hbox (6.00403pt too wide) in paragraph at lines 202--203
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 213.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 220.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 213.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 220.
 [9]
 
 ! Package inputenc Error: Unicode char �\lst@FillFixed@ (U+5A9)
@@ -885,7 +885,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247             é 
+l.259             é 
                      menor que a solucao atual*/
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -899,13 +899,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247             é 
+l.259             é 
                      menor que a solucao atual*/
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (6.00403pt too wide) in paragraph at lines 248--249
+Overfull \hbox (6.00403pt too wide) in paragraph at lines 260--261
 [][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -917,7 +917,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253             //pega o tamanho das soluções 
+l.265             //pega o tamanho das soluções 
                                                   e faz um somatório
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -931,7 +931,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253             //pega o tamanho das soluções 
+l.265             //pega o tamanho das soluções 
                                                   e faz um somatório
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -944,7 +944,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253             //pega o tamanho das soluções 
+l.265             //pega o tamanho das soluções 
                                                   e faz um somatório
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -958,7 +958,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253             //pega o tamanho das soluções 
+l.265             //pega o tamanho das soluções 
                                                   e faz um somatório
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -971,7 +971,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 ...amanho das soluções e faz um somatório
+l.265 ...amanho das soluções e faz um somatório
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -985,7 +985,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 ...amanho das soluções e faz um somatório
+l.265 ...amanho das soluções e faz um somatório
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -998,7 +998,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258             /*refaz o numero de iterações 
+l.270             /*refaz o numero de iterações 
                                                   para cada alpha
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1012,7 +1012,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258             /*refaz o numero de iterações 
+l.270             /*refaz o numero de iterações 
                                                   para cada alpha
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1025,7 +1025,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258             /*refaz o numero de iterações 
+l.270             /*refaz o numero de iterações 
                                                   para cada alpha
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1039,7 +1039,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258             /*refaz o numero de iterações 
+l.270             /*refaz o numero de iterações 
                                                   para cada alpha
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1052,7 +1052,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269         /*define a solução 
+l.281         /*define a solução 
                                    final como a menor solução
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1066,7 +1066,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269         /*define a solução 
+l.281         /*define a solução 
                                    final como a menor solução
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1079,7 +1079,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269         /*define a solução 
+l.281         /*define a solução 
                                    final como a menor solução
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1093,7 +1093,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269         /*define a solução 
+l.281         /*define a solução 
                                    final como a menor solução
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1106,7 +1106,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ... a solução final como a menor solução
+l.281 ... a solução final como a menor solução
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1120,7 +1120,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ... a solução final como a menor solução
+l.281 ... a solução final como a menor solução
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1133,7 +1133,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ... a solução final como a menor solução
+l.281 ... a solução final como a menor solução
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1147,7 +1147,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 ... a solução final como a menor solução
+l.281 ... a solução final como a menor solução
                                                   
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1160,7 +1160,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270         entre as soluções 
+l.282         entre as soluções 
                                   encontradas usando os alphas*/
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1174,7 +1174,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270         entre as soluções 
+l.282         entre as soluções 
                                   encontradas usando os alphas*/
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1187,7 +1187,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270         entre as soluções 
+l.282         entre as soluções 
                                   encontradas usando os alphas*/
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1201,39 +1201,38 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270         entre as soluções 
+l.282         entre as soluções 
                                   encontradas usando os alphas*/
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
 
  []
 
-[10]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 301.
 
-Overfull \hbox (14.37401pt too wide) in paragraph at lines 289--290
+Overfull \hbox (14.37401pt too wide) in paragraph at lines 301--302
 []\OT1/cmr/bx/n/12 Instancias Pe-que-nas: \OT1/cmr/m/n/12 grafo[]1000[]4.txt (1
 4370 ares-tas), grafo[]1000[]8.txt
  []
 
 
-Overfull \hbox (14.14355pt too wide) in paragraph at lines 289--290
+Overfull \hbox (14.14355pt too wide) in paragraph at lines 301--302
 \OT1/cmr/m/n/12 (9983 ares-tas), grafo[]10000[]8.txt (10075 ares-tas), grafo[]1
 0000[]4.txt (14588
  []
 
 
-Overfull \hbox (7.17258pt too wide) in paragraph at lines 290--291
+Overfull \hbox (7.17258pt too wide) in paragraph at lines 302--303
 []\OT1/cmr/bx/n/12 Instancias Me-dias: \OT1/cmr/m/n/12 grafo[]10000[]3.txt (582
 59 ares-tas), grafo[]1000[]3.txt
  []
 
 
-Overfull \hbox (20.11694pt too wide) in paragraph at lines 291--292
+Overfull \hbox (20.11694pt too wide) in paragraph at lines 303--304
 []\OT1/cmr/bx/n/12 Instancias Gran-des: \OT1/cmr/m/n/12 grafo[]1000[]6.txt (109
 243 ares-tas), grafo[]10000[]6.txt
  []
@@ -1245,7 +1244,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \\ \\
+l.308 \\ \\
             \indent Na figura 1 (na sessão 5. Anexos) apresentamos uma tabe...
 
 Your command was ignored.
@@ -1259,7 +1258,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \\ \\ \indent
+l.308 \\ \\ \indent
                     Na figura 1 (na sessão 5. Anexos) apresentamos uma tabe...
 
 Your command was ignored.
@@ -1269,7 +1268,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <recently read> \ident 
                        
-l.297 \\ \\ \ident
+l.309 \\ \\ \ident
                    Na primeira porção da imagem, vemos na primeira coluna,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1278,27 +1277,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
+Underfull \hbox (badness 10000) in paragraph at lines 308--313
 
  []
 
 [11]
-Overfull \hbox (72.29414pt too wide) in paragraph at lines 304--305
+Overfull \hbox (72.29414pt too wide) in paragraph at lines 316--317
 []\OT1/cmr/bx/n/12 Abordagem Gu-losa Ran-do-mi-zada Re-a-tiva: \OT1/cmr/m/n/12 
 gu-loso[]rand[]reativo[]out[]original.txt 
  []
@@ -1310,7 +1309,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 \\ \\
+l.318 \\ \\
             {\tiny * Para obtermos a média, somamos o (melhor) resultado fi...
 
 Your command was ignored.
@@ -1324,7 +1323,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 \\ \\ {
+l.318 \\ \\ {
              \tiny * Para obtermos a média, somamos o (melhor) resultado fi...
 
 Your command was ignored.
@@ -1332,12 +1331,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 306.
+LaTeX Warning: Command \' invalid in math mode on input line 318.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1345,7 +1344,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1353,12 +1352,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 306.
+LaTeX Warning: Command \' invalid in math mode on input line 318.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1366,7 +1365,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1374,12 +1373,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 306.
+LaTeX Warning: Command \' invalid in math mode on input line 318.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1387,7 +1386,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.306 ...ac{média - valor\_ótimo}{valor\_ótimo}
+l.318 ...ac{média - valor\_ótimo}{valor\_ótimo}
                                                    \)} \\ \\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1398,17 +1397,17 @@ Missing character: There is no � in font cmex7!
 Missing character: There is no � in font cmex7!
 Missing character: There is no � in font cmex7!
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 ! Undefined control sequence.
-l.308 \ident
+l.320 \ident
              Logo após rodarmos os testes decritos acima e notarmos que nã...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1417,18 +1416,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
+ []
+
+
+Overfull \hbox (6.00551pt too wide) in paragraph at lines 324--325
+[]\OT1/cmr/bx/n/12 Instancias Pe-que-nas: \OT1/cmr/m/n/12 pe-quena01 (11,20).tx
+t (20 ares-tas) [my-ciel3.col],
+ []
+
+[12]
+Overfull \hbox (15.76306pt too wide) in paragraph at lines 325--326
+[]\OT1/cmr/bx/n/12 Instancias Me-dias: \OT1/cmr/m/n/12 me-dia01 (100,166).txt (
+166 ares-tas) [mugg100[]1.col],
  []
 
 
@@ -1438,7 +1449,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 \\ \\
+l.329 \\ \\
             \indent Na figura 2 (na sessão 5. Anexos) apresentamos uma tabe...
 
 Your command was ignored.
@@ -1452,7 +1463,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 \\ \\ \indent
+l.329 \\ \\ \indent
                     Na figura 2 (na sessão 5. Anexos) apresentamos uma tabe...
 
 Your command was ignored.
@@ -1460,12 +1471,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-[12]
-Overfull \hbox (72.29414pt too wide) in paragraph at lines 323--324
+
+Overfull \hbox (72.29414pt too wide) in paragraph at lines 335--336
 []\OT1/cmr/bx/n/12 Abordagem Gu-losa Ran-do-mi-zada Re-a-tiva: \OT1/cmr/m/n/12 
 gu-loso[]rand[]reativo[]out[]original.txt 
  []
@@ -1473,7 +1484,7 @@ gu-loso[]rand[]reativo[]out[]original.txt
 ! Undefined control sequence.
 <recently read> \ident 
                        
-l.330 \ident
+l.342 \ident
              Embora a abordagem gulosa randomizada reativa tenha apresentado...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1482,17 +1493,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--332
+Underfull \hbox (badness 10000) in paragraph at lines 339--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--332
+Underfull \hbox (badness 10000) in paragraph at lines 339--344
 
  []
 
+[13]
 ! Undefined control sequence.
-l.333 \ident
+l.345 \ident
              Já no segundo teste, como trabalhamos com instâncias menores,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1500,18 +1512,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[13] <TabelaResultados.png, id=67, 794.97pt x 1228.59pt>
+<TabelaResultados.png, id=67, 794.97pt x 1228.59pt>
 File: TabelaResultados.png Graphic file (type png)
 <use TabelaResultados.png>
-Package pdftex.def Info: TabelaResultados.png used on input line 339.
+Package pdftex.def Info: TabelaResultados.png used on input line 351.
 (pdftex.def)             Requested size: 398.34528pt x 569.05759pt.
 
-Overfull \hbox (8.34528pt too wide) in paragraph at lines 339--340
+Overfull \hbox (8.34528pt too wide) in paragraph at lines 351--352
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 3.8909pt on input line 341.
+LaTeX Warning: Float too large for page by 3.8909pt on input line 353.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1519,15 +1531,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <TabelaResultados2.png, id=69, 794.97pt x 1228.59pt>
 File: TabelaResultados2.png Graphic file (type png)
 <use TabelaResultados2.png>
-Package pdftex.def Info: TabelaResultados2.png used on input line 345.
+Package pdftex.def Info: TabelaResultados2.png used on input line 357.
 (pdftex.def)             Requested size: 398.34528pt x 569.05759pt.
 
-Overfull \hbox (8.34528pt too wide) in paragraph at lines 345--346
+Overfull \hbox (8.34528pt too wide) in paragraph at lines 357--358
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 3.8909pt on input line 347.
+LaTeX Warning: Float too large for page by 3.8909pt on input line 359.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1537,10 +1549,10 @@ esultados.png>] [16 </Users/Lucas/Documents/Github/Grafos/Grafos/Relatório La
 TEX/TabelaResultados2.png>] (/Users/Lucas/Documents/Github/Grafos/Grafos/Relato
 ́rio LaTEX/Relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 15320 strings out of 493014
- 286447 string characters out of 6133351
- 379163 words of memory out of 5000000
- 18558 multiletter control sequences out of 15000+600000
+ 15329 strings out of 493014
+ 286635 string characters out of 6133351
+ 380163 words of memory out of 5000000
+ 18567 multiletter control sequences out of 15000+600000
  9983 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,97p,1095b,1859s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1557,7 +1569,7 @@ nts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 cmsy5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb>
 Output written on "/Users/Lucas/Documents/Github/Grafos/Grafos/Relatório LaTE
-X/Relatorio.pdf" (19 pages, 997425 bytes).
+X/Relatorio.pdf" (19 pages, 999773 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

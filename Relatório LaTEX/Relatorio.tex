@@ -200,20 +200,32 @@ Na heurística utilizada ordena-se o grafo pelo grau de seus vertices e escolhe-
 
 \begin{lstlisting} 
    getCorteGulosoRandomizado(Grafo g, float alfa, int iteracoes) {
+      vertices = g.getVertices();
+      ordenaDecrescente(Vertices);
+
+      numComponentesOriginal = g.getNumComponentes();
+
       while (iteracoes--) {
-          a = getVerticeMenorGrau(g); 
+          a = xrandomRange(0, vertices.size() * alfa);
           candidatos = getVizinhos(a); 
-          ordenaCandidatos(); 
+          ordenaCandidatos();
           do {
               index = xrandomRange(0, candidatos.size() * alfa);
               solucao.push_back(candidatos[index]);
-              g.deletaVertice(candidatos[index]);
-             atualizaCandidatos(index); 
+              g.setVerticeInvisivel(candidatos[index]);
+              atualizaCandidatos(index); 
+
+              numComponentesAtual = g.getNumComponenetes();
+
+              if (numComponentesAtual > numComponentesOriginal){
+                break;
+              }
           } while (candidatos.size() != 0);
           if (solucao.size() < best.size()) {
               best = solucao;
               solucao = {};
           }
+          g.resetaVerticesInvisiveis();
       }
       return best;
    }
@@ -309,9 +321,9 @@ a partir da quantidade de arestas de cada uma. Todas as instâncias utilizadas n
 \\ \\ \indent Todas as instâncias utilizadas neste segundo teste se encontram na pasta \textbf{Instancias02} junto ao código entregue com este documento e são elas:
 
 \begin{itemize}
-  \item \textbf{Instancias Pequenas:} pequena01 (11,20).txt (20 arestas), pequena02 (23,71).txt (71 arestas), pequena03 (37,72).txt (72 arestas), pequena04 (20,20).txt (20 arestas)
-  \item \textbf{Instancias Medias:} media01 (100,166).txt (166 arestas), media02 (88,146).txt (146 arestas), media03 (79,156).txt (156 arestas)
-  \item \textbf{Instancias Grandes:} grande01 (87,406).txt (406 arestas), grande02 (138,493).txt (493 arestas), grande03 (149,541).txt (541 arestas)
+  \item \textbf{Instancias Pequenas:} pequena01 (11,20).txt (20 arestas) [myciel3.col], pequena02 (23,71).txt (71 arestas) [myciel4.col], pequena03 (37,72).txt (72 arestas) [(*)2-Insertions\_3.col], pequena04 (20,20).txt (20 arestas) [qwhdec.order18.holes120.1.col (Modificada)]
+  \item \textbf{Instancias Medias:} media01 (100,166).txt (166 arestas) [mugg100\_1.col], media02 (88,146).txt (146 arestas) [mugg88\_1.col], media03 (79,156).txt (156 arestas) [(*)4-Insertions\_3.col]
+  \item \textbf{Instancias Grandes:} grande01 (87,406).txt (406 arestas) [david.col], grande02 (138,493).txt (493 arestas) [anna.col], grande03 (149,541).txt (541 arestas) [(*)2-Insertions\_4.col]
 \end{itemize}
 
 \\ \\ \indent Na figura 2 (na sessão 5. Anexos) apresentamos uma tabela identica a tabela da figura 1 porém com os resultados obtidos a partir do segundo teste realizado sobre as novas instâncias selecionadas. \\
@@ -324,7 +336,7 @@ a partir da quantidade de arestas de cada uma. Todas as instâncias utilizadas n
 \end{itemize}
 
 \section{Conclusões}
-De acordo com os testes realizados em nosso primeiro teste, as funcionalidades se comportaram de maneira esperada, encontrando-se soluções satisfatórias que muitas das vezes, foram iguais ao menor corte possível (1). Tanto a heurística gulosa quanto a gulosa randomizada (utilizando alpha igual à 0.25 e número de iterações igual à 5) apresentaram soluções e tempo de execução satisfatórios para todas as instâncias escolhidas.
+De acordo com o nosso primeiro teste, as funcionalidades se comportaram de maneira esperada, encontrando-se soluções satisfatórias que muitas das vezes, foram iguais ao menor corte possível (1). Tanto a heurística gulosa quanto a gulosa randomizada (utilizando alpha igual à 0.25 e número de iterações igual à 5) apresentaram soluções e tempo de execução satisfatórios para todas as instâncias escolhidas.
 \\ 
 \\
 \ident Embora a abordagem gulosa randomizada reativa tenha apresentado resultados e tempo satisfatórios para as 
